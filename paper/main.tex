@@ -1,0 +1,8 @@
+% main.tex — compile this to build the full paper.
+% It stitches the two source files: part1 (preamble + Method) and part2 (Results + refs).
+% Figures resolve from ./images/ (see \graphicspath in paper_part1.tex).
+%
+% Build:  pdflatex main  ->  pdflatex main   (run twice so refs/citations resolve)
+% or upload the whole paper/ folder to Overleaf and set main.tex as the main document.
+\input{paper_part1.tex}
+\input{paper_part2.tex}
