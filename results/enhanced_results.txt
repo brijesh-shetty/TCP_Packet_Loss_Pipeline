@@ -1,0 +1,397 @@
+
+  Dataset: enhanced_dataset.csv
+  Optuna: OFF
+
+  Dataset: 57808 rows
+  Features (45): ['delay_ms', 'bandwidth_mbit', 'buffer_bytes', 'duration_s', 'rtt', 'rtt_variance', 'cwnd', 'ssthresh', 'bytes_sent', 'unacked', 'notsent', 'send_rate', 'pacing_rate', 'delivery_rate', 'last_send', 'expire_time', 'timer_retrans', 'data_segs_sent', 'cwnd_roll5_mean', 'cwnd_roll5_std', 'rtt_roll5_std', 'cwnd_diff', 'rtt_diff', 'cwnd_accel', 'rtt_accel', 'cwnd_lag1', 'cwnd_lag2', 'run_min_cwnd', 'run_max_cwnd', 'run_min_rtt', 'run_min_ssthresh', 'run_max_ssthresh', 'retrans_ratio', 'ack_ratio', 'rtt_ratio', 'cwnd_util', 'cwnd_rtt_interaction', 'buffer_fill_ratio', 'retrans_burst', 'rtt_zscore', 'cwnd_volatility', 'congestion_signal', 'throughput', 'rtt_range', 'bdp_estimate']
+  Label distribution: No Loss=30018 (51.9%), Loss=27790 (48.1%)
+  Dropped: 25 features
+
+
+#################################################################
+  Training: GradientBoosting  (7-fold TimeSeriesSplit + SMOTE)
+#################################################################
+  Fold 1: acc=0.9505 f1=0.9523 thresh=0.49
+  Fold 2: acc=0.9563 f1=0.9532 thresh=0.46
+  Fold 3: acc=0.9604 f1=0.9544 thresh=0.40
+  Fold 4: acc=0.9228 f1=0.9275 thresh=0.35
+  Fold 5: acc=0.9493 f1=0.9497 thresh=0.33
+  Fold 6: acc=0.9487 f1=0.9418 thresh=0.40
+  Fold 7: acc=0.9549 f1=0.9433 thresh=0.42
+
+============================================================
+  MODEL: GradientBoosting  (threshold=0.41)
+============================================================
+  Accuracy:  0.9473
+  F1-Score:  0.9439
+  ROC-AUC:   0.9895
+  PR-AUC:    0.9885
+
+  Confusion Matrix:
+    TN= 25504  FP=  1351
+    FN=  1314  TP= 22413
+
+              precision    recall  f1-score   support
+
+     No Loss     0.9510    0.9497    0.9503     26855
+        Loss     0.9431    0.9446    0.9439     23727
+
+    accuracy                         0.9473     50582
+   macro avg     0.9471    0.9472    0.9471     50582
+weighted avg     0.9473    0.9473    0.9473     50582
+
+
+  Feature Importances (GradientBoosting):
+  Rank  Feature                        Importance
+  ------------------------------------------------
+  1     cwnd_diff                          0.3103  ####################
+  2     cwnd                               0.0710  ####
+  3     cwnd_accel                         0.0565  ###
+  4     ssthresh                           0.0481  ###
+  5     throughput                         0.0481  ###
+  6     cwnd_util                          0.0451  ##
+  7     send_rate                          0.0446  ##
+  8     cwnd_roll5_std                     0.0399  ##
+  9     retrans_burst                      0.0388  ##
+  10    cwnd_rtt_interaction               0.0346  ##
+  11    buffer_fill_ratio                  0.0339  ##
+  12    unacked                            0.0310  #
+  13    cwnd_roll5_mean                    0.0273  #
+  14    cwnd_lag2                          0.0231  #
+  15    data_segs_sent                     0.0179  #
+
+#################################################################
+  Training: RandomForest  (7-fold TimeSeriesSplit + SMOTE)
+#################################################################
+  Fold 1: acc=0.9207 f1=0.9225 thresh=0.52
+  Fold 2: acc=0.9417 f1=0.9367 thresh=0.50
+  Fold 3: acc=0.9452 f1=0.9358 thresh=0.47
+  Fold 4: acc=0.8975 f1=0.9039 thresh=0.45
+  Fold 5: acc=0.9290 f1=0.9309 thresh=0.40
+  Fold 6: acc=0.9291 f1=0.9187 thresh=0.48
+  Fold 7: acc=0.9412 f1=0.9251 thresh=0.49
+
+============================================================
+  MODEL: RandomForest  (threshold=0.45)
+============================================================
+  Accuracy:  0.9272
+  F1-Score:  0.9230
+  ROC-AUC:   0.9822
+  PR-AUC:    0.9810
+
+  Confusion Matrix:
+    TN= 24839  FP=  2016
+    FN=  1666  TP= 22061
+
+              precision    recall  f1-score   support
+
+     No Loss     0.9371    0.9249    0.9310     26855
+        Loss     0.9163    0.9298    0.9230     23727
+
+    accuracy                         0.9272     50582
+   macro avg     0.9267    0.9274    0.9270     50582
+weighted avg     0.9274    0.9272    0.9272     50582
+
+
+  Feature Importances (RandomForest):
+  Rank  Feature                        Importance
+  ------------------------------------------------
+  1     cwnd_diff                          0.2485  ####################
+  2     cwnd                               0.0868  ######
+  3     cwnd_accel                         0.0679  #####
+  4     cwnd_util                          0.0514  ####
+  5     throughput                         0.0459  ###
+  6     send_rate                          0.0440  ###
+  7     ssthresh                           0.0375  ###
+  8     cwnd_rtt_interaction               0.0375  ###
+  9     retrans_burst                      0.0364  ##
+  10    cwnd_roll5_std                     0.0363  ##
+  11    buffer_fill_ratio                  0.0348  ##
+  12    cwnd_roll5_mean                    0.0326  ##
+  13    unacked                            0.0321  ##
+  14    cwnd_lag2                          0.0238  #
+  15    cwnd_lag1                          0.0218  #
+
+#################################################################
+  Training: XGBoost  (7-fold TimeSeriesSplit + SMOTE)
+#################################################################
+  Fold 1: acc=0.9631 f1=0.9642 thresh=0.53
+  Fold 2: acc=0.9675 f1=0.9653 thresh=0.42
+  Fold 3: acc=0.9702 f1=0.9655 thresh=0.42
+  Fold 4: acc=0.9629 f1=0.9652 thresh=0.38
+  Fold 5: acc=0.9736 f1=0.9738 thresh=0.33
+  Fold 6: acc=0.9715 f1=0.9675 thresh=0.45
+  Fold 7: acc=0.9732 f1=0.9660 thresh=0.51
+
+============================================================
+  MODEL: XGBoost  (threshold=0.42)
+============================================================
+  Accuracy:  0.9679
+  F1-Score:  0.9659
+  ROC-AUC:   0.9951
+  PR-AUC:    0.9944
+
+  Confusion Matrix:
+    TN= 25985  FP=   870
+    FN=   752  TP= 22975
+
+              precision    recall  f1-score   support
+
+     No Loss     0.9719    0.9676    0.9697     26855
+        Loss     0.9635    0.9683    0.9659     23727
+
+    accuracy                         0.9679     50582
+   macro avg     0.9677    0.9680    0.9678     50582
+weighted avg     0.9680    0.9679    0.9679     50582
+
+
+  Feature Importances (XGBoost):
+  Rank  Feature                        Importance
+  ------------------------------------------------
+  1     cwnd_diff                          0.3049  ####################
+  2     cwnd                               0.0730  ####
+  3     cwnd_accel                         0.0633  ####
+  4     cwnd_util                          0.0495  ###
+  5     ssthresh                           0.0444  ##
+  6     retrans_burst                      0.0410  ##
+  7     cwnd_roll5_std                     0.0307  ##
+  8     send_rate                          0.0298  #
+  9     cwnd_volatility                    0.0293  #
+  10    buffer_fill_ratio                  0.0284  #
+  11    cwnd_roll5_mean                    0.0275  #
+  12    cwnd_rtt_interaction               0.0273  #
+  13    unacked                            0.0225  #
+  14    cwnd_lag2                          0.0200  #
+  15    cwnd_lag1                          0.0180  #
+
+#################################################################
+  Training: LightGBM  (7-fold TimeSeriesSplit + SMOTE)
+#################################################################
+  Fold 1: acc=0.9689 f1=0.9699 thresh=0.49
+  Fold 2: acc=0.9691 f1=0.9670 thresh=0.42
+  Fold 3: acc=0.9732 f1=0.9689 thresh=0.39
+  Fold 4: acc=0.9669 f1=0.9689 thresh=0.37
+  Fold 5: acc=0.9729 f1=0.9732 thresh=0.29
+  Fold 6: acc=0.9715 f1=0.9674 thresh=0.48
+  Fold 7: acc=0.9730 f1=0.9661 thresh=0.41
+
+============================================================
+  MODEL: LightGBM  (threshold=0.39)
+============================================================
+  Accuracy:  0.9698
+  F1-Score:  0.9679
+  ROC-AUC:   0.9955
+  PR-AUC:    0.9949
+
+  Confusion Matrix:
+    TN= 26014  FP=   841
+    FN=   686  TP= 23041
+
+              precision    recall  f1-score   support
+
+     No Loss     0.9743    0.9687    0.9715     26855
+        Loss     0.9648    0.9711    0.9679     23727
+
+    accuracy                         0.9698     50582
+   macro avg     0.9695    0.9699    0.9697     50582
+weighted avg     0.9698    0.9698    0.9698     50582
+
+
+  Feature Importances (LightGBM):
+  Rank  Feature                        Importance
+  ------------------------------------------------
+  1     cwnd                            2824.0000  ####################
+  2     ssthresh                        2461.0000  #################
+  3     cwnd_roll5_mean                 1594.0000  ###########
+  4     cwnd_roll5_std                  1537.0000  ##########
+  5     cwnd_diff                       1214.0000  ########
+  6     cwnd_accel                       685.0000  ####
+  7     cwnd_volatility                  673.0000  ####
+  8     cwnd_util                        625.0000  ####
+  9     cwnd_lag2                        586.0000  ####
+  10    cwnd_rtt_interaction             511.0000  ###
+  11    cwnd_lag1                        477.0000  ###
+  12    unacked                          453.0000  ###
+  13    retrans_burst                    381.0000  ##
+  14    data_segs_sent                   374.0000  ##
+  15    send_rate                        281.0000  #
+
+#################################################################
+  Training: CatBoost  (7-fold TimeSeriesSplit + SMOTE)
+#################################################################
+  Fold 1: acc=0.9624 f1=0.9637 thresh=0.47
+  Fold 2: acc=0.9691 f1=0.9669 thresh=0.42
+  Fold 3: acc=0.9720 f1=0.9676 thresh=0.38
+  Fold 4: acc=0.9644 f1=0.9664 thresh=0.41
+  Fold 5: acc=0.9737 f1=0.9738 thresh=0.36
+  Fold 6: acc=0.9738 f1=0.9701 thresh=0.45
+  Fold 7: acc=0.9758 f1=0.9695 thresh=0.45
+
+============================================================
+  MODEL: CatBoost  (threshold=0.40)
+============================================================
+  Accuracy:  0.9694
+  F1-Score:  0.9674
+  ROC-AUC:   0.9953
+  PR-AUC:    0.9947
+
+  Confusion Matrix:
+    TN= 26035  FP=   820
+    FN=   729  TP= 22998
+
+              precision    recall  f1-score   support
+
+     No Loss     0.9728    0.9695    0.9711     26855
+        Loss     0.9656    0.9693    0.9674     23727
+
+    accuracy                         0.9694     50582
+   macro avg     0.9692    0.9694    0.9693     50582
+weighted avg     0.9694    0.9694    0.9694     50582
+
+
+  Feature Importances (CatBoost):
+  Rank  Feature                        Importance
+  ------------------------------------------------
+  1     cwnd                              29.5638  ####################
+  2     ssthresh                          18.4242  ############
+  3     cwnd_diff                         12.4235  ########
+  4     cwnd_roll5_mean                    9.6912  ######
+  5     cwnd_roll5_std                     8.8153  #####
+  6     cwnd_accel                         2.7990  #
+  7     retrans_burst                      2.5616  #
+  8     cwnd_lag2                          2.3217  #
+  9     cwnd_util                          2.0314  #
+  10    unacked                            1.8668  #
+  11    cwnd_volatility                    1.5943  #
+  12    cwnd_rtt_interaction               1.5936  #
+  13    cwnd_lag1                          1.2029  
+  14    send_rate                          1.0105  
+  15    throughput                         0.5592  
+
+#################################################################
+  Training: KNN  (7-fold TimeSeriesSplit + SMOTE)
+#################################################################
+  Fold 1: acc=0.8474 f1=0.8555 thresh=0.29
+  Fold 2: acc=0.8737 f1=0.8677 thresh=0.29
+  Fold 3: acc=0.8829 f1=0.8683 thresh=0.32
+  Fold 4: acc=0.7848 f1=0.8161 thresh=0.30
+  Fold 5: acc=0.8111 f1=0.8219 thresh=0.40
+  Fold 6: acc=0.8234 f1=0.8064 thresh=0.41
+  Fold 7: acc=0.8512 f1=0.8187 thresh=0.42
+
+============================================================
+  MODEL: KNN  (threshold=0.30)
+============================================================
+  Accuracy:  0.8370
+  F1-Score:  0.8348
+  ROC-AUC:   0.9218
+  PR-AUC:    0.9172
+
+  Confusion Matrix:
+    TN= 21498  FP=  5357
+    FN=  2888  TP= 20839
+
+              precision    recall  f1-score   support
+
+     No Loss     0.8816    0.8005    0.8391     26855
+        Loss     0.7955    0.8783    0.8348     23727
+
+    accuracy                         0.8370     50582
+   macro avg     0.8385    0.8394    0.8370     50582
+weighted avg     0.8412    0.8370    0.8371     50582
+
+
+#################################################################
+  Training: DecisionTree  (7-fold TimeSeriesSplit + SMOTE)
+#################################################################
+  Fold 1: acc=0.8889 f1=0.8941 thresh=0.36
+  Fold 2: acc=0.9300 f1=0.9247 thresh=0.42
+  Fold 3: acc=0.9282 f1=0.9158 thresh=0.47
+  Fold 4: acc=0.8738 f1=0.8807 thresh=0.37
+  Fold 5: acc=0.8836 f1=0.8859 thresh=0.30
+  Fold 6: acc=0.8962 f1=0.8863 thresh=0.32
+  Fold 7: acc=0.9171 f1=0.8965 thresh=0.40
+
+============================================================
+  MODEL: DecisionTree  (threshold=0.32)
+============================================================
+  Accuracy:  0.8987
+  F1-Score:  0.8942
+  ROC-AUC:   0.9558
+  PR-AUC:    0.9545
+
+  Confusion Matrix:
+    TN= 23810  FP=  3045
+    FN=  2079  TP= 21648
+
+              precision    recall  f1-score   support
+
+     No Loss     0.9197    0.8866    0.9029     26855
+        Loss     0.8767    0.9124    0.8942     23727
+
+    accuracy                         0.8987     50582
+   macro avg     0.8982    0.8995    0.8985     50582
+weighted avg     0.8995    0.8987    0.8988     50582
+
+
+  Feature Importances (DecisionTree):
+  Rank  Feature                        Importance
+  ------------------------------------------------
+  1     cwnd_diff                          0.5214  ####################
+  2     cwnd                               0.1761  ######
+  3     ssthresh                           0.0746  ##
+  4     cwnd_accel                         0.0525  ##
+  5     cwnd_roll5_std                     0.0498  #
+  6     cwnd_roll5_mean                    0.0288  #
+  7     cwnd_volatility                    0.0218  
+  8     cwnd_util                          0.0199  
+  9     retrans_burst                      0.0107  
+  10    cwnd_rtt_interaction               0.0061  
+  11    cwnd_lag1                          0.0051  
+  12    pacing_rate                        0.0048  
+  13    ack_ratio                          0.0031  
+  14    send_rate                          0.0028  
+  15    buffer_fill_ratio                  0.0025  
+
+#################################################################
+  Training: NaiveBayes  (7-fold TimeSeriesSplit + SMOTE)
+#################################################################
+  Fold 1: acc=0.6603 f1=0.5238 thresh=0.15
+  Fold 2: acc=0.6673 f1=0.4646 thresh=0.15
+  Fold 3: acc=0.6917 f1=0.4571 thresh=0.15
+  Fold 4: acc=0.6596 f1=0.5708 thresh=0.15
+  Fold 5: acc=0.6551 f1=0.4838 thresh=0.15
+  Fold 6: acc=0.6681 f1=0.3984 thresh=0.15
+  Fold 7: acc=0.7036 f1=0.4089 thresh=0.15
+
+============================================================
+  MODEL: NaiveBayes  (threshold=0.15)
+============================================================
+  Accuracy:  0.6722
+  F1-Score:  0.4806
+  ROC-AUC:   0.8103
+  PR-AUC:    0.8145
+
+  Confusion Matrix:
+    TN= 26333  FP=   522
+    FN= 16057  TP=  7670
+
+              precision    recall  f1-score   support
+
+     No Loss     0.6212    0.9806    0.7606     26855
+        Loss     0.9363    0.3233    0.4806     23727
+
+    accuracy                         0.6722     50582
+   macro avg     0.7787    0.6519    0.6206     50582
+weighted avg     0.7690    0.6722    0.6292     50582
+
+
+#################################################################
+  Training: StackingEnsemble  (7-fold TimeSeriesSplit)
+#################################################################
+  Fold 1: acc=0.9661 f1=0.9671 thresh=0.71
+  Fold 2: acc=0.9672 f1=0.9648 thresh=0.62
+  Fold 3: acc=0.9680 f1=0.9626 thresh=0.75
+  Fold 4: acc=0.9521 f1=0.9553 thresh=0.16
+  Fold 5: acc=0.9741 f1=0.9742 thresh=0.40
+  Fold 6: acc=0.9726 f1=0.9686 thresh=0.67

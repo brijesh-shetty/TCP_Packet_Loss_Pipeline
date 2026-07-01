@@ -1,0 +1,25 @@
+{
+  "experiment": "baseline",
+  "cc_algo": "cubic",
+  "duration_s": 120,
+  "bw_mbit": 10,
+  "delay_ms": 30,
+  "n_bg_flows": 6,
+  "metrics": {
+    "avg_throughput_bps": 1389534.0888851122,
+    "max_throughput_bps": 4098522.0,
+    "total_retransmissions": 755,
+    "avg_cwnd": 5.313052345343304,
+    "cwnd_std": 2.0330109471412254,
+    "avg_rtt_ms": 45.90391740312713,
+    "rtt_std_ms": 6.468205900375802,
+    "n_samples": 5884
+  },
+  "iperf": {
+    "bits_per_second": 0,
+    "bytes": 0,
+    "retransmits": 0,
+    "seconds": 0
+  },
+  "ecn_events": []
+}

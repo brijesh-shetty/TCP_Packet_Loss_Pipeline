@@ -1,0 +1,314 @@
+[
+  {
+    "name": "GradientBoosting",
+    "accuracy": 0.9473,
+    "f1": 0.9439,
+    "roc_auc": 0.9895,
+    "pr_auc": 0.9885,
+    "threshold": 0.41,
+    "fold_metrics": [
+      {
+        "fold": 1,
+        "acc": 0.9505,
+        "f1": 0.9523,
+        "threshold": 0.49
+      },
+      {
+        "fold": 2,
+        "acc": 0.9563,
+        "f1": 0.9532,
+        "threshold": 0.46
+      },
+      {
+        "fold": 3,
+        "acc": 0.9604,
+        "f1": 0.9544,
+        "threshold": 0.4
+      },
+      {
+        "fold": 4,
+        "acc": 0.9228,
+        "f1": 0.9275,
+        "threshold": 0.35
+      },
+      {
+        "fold": 5,
+        "acc": 0.9493,
+        "f1": 0.9497,
+        "threshold": 0.33
+      },
+      {
+        "fold": 6,
+        "acc": 0.9487,
+        "f1": 0.9418,
+        "threshold": 0.4
+      },
+      {
+        "fold": 7,
+        "acc": 0.9549,
+        "f1": 0.9433,
+        "threshold": 0.42
+      }
+    ]
+  },
+  {
+    "name": "RandomForest",
+    "accuracy": 0.9272,
+    "f1": 0.923,
+    "roc_auc": 0.9822,
+    "pr_auc": 0.981,
+    "threshold": 0.45,
+    "fold_metrics": [
+      {
+        "fold": 1,
+        "acc": 0.9207,
+        "f1": 0.9225,
+        "threshold": 0.52
+      },
+      {
+        "fold": 2,
+        "acc": 0.9417,
+        "f1": 0.9367,
+        "threshold": 0.5
+      },
+      {
+        "fold": 3,
+        "acc": 0.9452,
+        "f1": 0.9358,
+        "threshold": 0.47
+      },
+      {
+        "fold": 4,
+        "acc": 0.8975,
+        "f1": 0.9039,
+        "threshold": 0.45
+      },
+      {
+        "fold": 5,
+        "acc": 0.929,
+        "f1": 0.9309,
+        "threshold": 0.4
+      },
+      {
+        "fold": 6,
+        "acc": 0.9291,
+        "f1": 0.9187,
+        "threshold": 0.48
+      },
+      {
+        "fold": 7,
+        "acc": 0.9412,
+        "f1": 0.9251,
+        "threshold": 0.49
+      }
+    ]
+  },
+  {
+    "name": "XGBoost",
+    "accuracy": 0.969,
+    "f1": 0.967,
+    "roc_auc": 0.9957,
+    "pr_auc": 0.9951,
+    "threshold": 0.38,
+    "fold_metrics": [
+      {
+        "fold": 1,
+        "acc": 0.9619,
+        "f1": 0.9631,
+        "threshold": 0.55
+      },
+      {
+        "fold": 2,
+        "acc": 0.968,
+        "f1": 0.9655,
+        "threshold": 0.51
+      },
+      {
+        "fold": 3,
+        "acc": 0.9712,
+        "f1": 0.9665,
+        "threshold": 0.45
+      },
+      {
+        "fold": 4,
+        "acc": 0.9662,
+        "f1": 0.9682,
+        "threshold": 0.35
+      },
+      {
+        "fold": 5,
+        "acc": 0.9745,
+        "f1": 0.9746,
+        "threshold": 0.38
+      },
+      {
+        "fold": 6,
+        "acc": 0.9734,
+        "f1": 0.9698,
+        "threshold": 0.44
+      },
+      {
+        "fold": 7,
+        "acc": 0.9741,
+        "f1": 0.967,
+        "threshold": 0.58
+      }
+    ]
+  },
+  {
+    "name": "LightGBM",
+    "accuracy": 0.974,
+    "f1": 0.9723,
+    "roc_auc": 0.9965,
+    "pr_auc": 0.996,
+    "threshold": 0.38,
+    "fold_metrics": [
+      {
+        "fold": 1,
+        "acc": 0.9714,
+        "f1": 0.9724,
+        "threshold": 0.42
+      },
+      {
+        "fold": 2,
+        "acc": 0.9708,
+        "f1": 0.9689,
+        "threshold": 0.28
+      },
+      {
+        "fold": 3,
+        "acc": 0.9754,
+        "f1": 0.9714,
+        "threshold": 0.38
+      },
+      {
+        "fold": 4,
+        "acc": 0.975,
+        "f1": 0.9765,
+        "threshold": 0.33
+      },
+      {
+        "fold": 5,
+        "acc": 0.9774,
+        "f1": 0.9776,
+        "threshold": 0.26
+      },
+      {
+        "fold": 6,
+        "acc": 0.978,
+        "f1": 0.9747,
+        "threshold": 0.57
+      },
+      {
+        "fold": 7,
+        "acc": 0.9761,
+        "f1": 0.9696,
+        "threshold": 0.55
+      }
+    ]
+  },
+  {
+    "name": "CatBoost",
+    "accuracy": 0.9694,
+    "f1": 0.9674,
+    "roc_auc": 0.9953,
+    "pr_auc": 0.9947,
+    "threshold": 0.4,
+    "fold_metrics": [
+      {
+        "fold": 1,
+        "acc": 0.9624,
+        "f1": 0.9637,
+        "threshold": 0.47
+      },
+      {
+        "fold": 2,
+        "acc": 0.9691,
+        "f1": 0.9669,
+        "threshold": 0.42
+      },
+      {
+        "fold": 3,
+        "acc": 0.972,
+        "f1": 0.9676,
+        "threshold": 0.38
+      },
+      {
+        "fold": 4,
+        "acc": 0.9644,
+        "f1": 0.9664,
+        "threshold": 0.41
+      },
+      {
+        "fold": 5,
+        "acc": 0.9737,
+        "f1": 0.9738,
+        "threshold": 0.36
+      },
+      {
+        "fold": 6,
+        "acc": 0.9738,
+        "f1": 0.9701,
+        "threshold": 0.45
+      },
+      {
+        "fold": 7,
+        "acc": 0.9758,
+        "f1": 0.9695,
+        "threshold": 0.45
+      }
+    ]
+  },
+  {
+    "name": "StackingEnsemble",
+    "accuracy": 0.9685,
+    "f1": 0.9664,
+    "roc_auc": 0.9903,
+    "pr_auc": 0.9889,
+    "threshold": 0.45,
+    "fold_metrics": [
+      {
+        "fold": 1,
+        "acc": 0.9697,
+        "f1": 0.9706,
+        "threshold": 0.72
+      },
+      {
+        "fold": 2,
+        "acc": 0.97,
+        "f1": 0.9677,
+        "threshold": 0.66
+      },
+      {
+        "fold": 3,
+        "acc": 0.9727,
+        "f1": 0.9683,
+        "threshold": 0.64
+      },
+      {
+        "fold": 4,
+        "acc": 0.9541,
+        "f1": 0.957,
+        "threshold": 0.17
+      },
+      {
+        "fold": 5,
+        "acc": 0.9768,
+        "f1": 0.9769,
+        "threshold": 0.25
+      },
+      {
+        "fold": 6,
+        "acc": 0.9769,
+        "f1": 0.9735,
+        "threshold": 0.73
+      },
+      {
+        "fold": 7,
+        "acc": 0.9765,
+        "f1": 0.97,
+        "threshold": 0.65
+      }
+    ]
+  }
+]

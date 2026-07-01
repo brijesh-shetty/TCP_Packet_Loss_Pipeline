@@ -1,0 +1,26 @@
+{
+  "detection_vs_prediction": {
+    "label_consensus": {
+      "kind": "congestion-state DETECTION (current claim)",
+      "horizon": "same poll (0 ms ahead)",
+      "n_features": 38,
+      "threshold": 0.59,
+      "accuracy": 0.9915,
+      "f1": 0.9731,
+      "roc_auc": 0.9989,
+      "pr_auc": 0.9958,
+      "positive_rate": 0.1574
+    },
+    "label_predictive": {
+      "kind": "loss EARLY WARNING (genuine prediction)",
+      "horizon": "<=2 polls / ~40 ms ahead",
+      "n_features": 38,
+      "threshold": 0.78,
+      "accuracy": 0.947,
+      "f1": 0.8723,
+      "roc_auc": 0.9407,
+      "pr_auc": 0.9124,
+      "positive_rate": 0.2302
+    }
+  }
+}

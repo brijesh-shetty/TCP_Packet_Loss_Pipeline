@@ -1,0 +1,58 @@
+%% ============================================================
+%% FIGURE INSERT INSTRUCTIONS FOR YOUR OVERLEAF PAPER
+%% Upload these 5 images to your Overleaf images/ folder:
+%%   reno_cwnd_panels.png
+%%   reno_throughput_cdf.png
+%%   reno_metrics_comparison.png
+%%   cubic_cwnd_panels.png
+%%   cubic_metrics_comparison.png
+%% ============================================================
+
+
+%% ============================================================
+%% INSERT #1: AFTER Table V (tab:reno) in Section IV-B
+%% (After the paragraph starting "The proportional mechanism 
+%%  proactively injects 18 ECN signals...")
+%% ============================================================
+
+\begin{figure}[!t]
+\centering
+\includegraphics[width=\columnwidth]{reno_cwnd_panels.png}
+\caption{TCP Reno CWND traces under three conditions (120\,s, 10\,Mbit/s, 30\,ms RTT). Top: Baseline---frequent deep drops to 1--2 segments. Middle: Binary ECN---similar oscillation pattern with no active signals fired. Bottom: Proportional ECN---higher sustained CWND ($\sim$6.0 segments) with 18 proactive ECN signals maintaining utilization closer to bottleneck capacity.}
+\label{fig:reno_cwnd}
+\end{figure}
+
+\begin{figure}[!t]
+\centering
+\includegraphics[width=\columnwidth]{reno_throughput_cdf.png}
+\caption{Empirical CDF of instantaneous throughput for TCP Reno. The proportional ECN curve (green) is consistently right-shifted, indicating higher throughput across all percentiles. At the median, our approach achieves $\sim$1.5\,Mbps vs.\ $\sim$1.0\,Mbps for baseline---a 15.5\% improvement in average throughput.}
+\label{fig:reno_cdf}
+\end{figure}
+
+\begin{figure}[!t]
+\centering
+\includegraphics[width=\columnwidth]{reno_metrics_comparison.png}
+\caption{TCP Reno performance metrics comparison. Left: throughput progression (1.39$\rightarrow$1.49$\rightarrow$1.60\,Mbps). Middle: retransmission counts from \texttt{ss} snapshots; note that iperf3 recorded 1,077 cumulative retransmits for baseline vs.\ 0 for both ECN conditions. Right: CWND stability ($\sigma$).}
+\label{fig:reno_metrics}
+\end{figure}
+
+
+%% ============================================================
+%% INSERT #2: AFTER Table VI (tab:cubic) in Section IV-C  
+%% (After the paragraph starting "Our proportional approach 
+%%  achieves the best CWND stability...")
+%% ============================================================
+
+\begin{figure}[!t]
+\centering
+\includegraphics[width=\columnwidth]{cubic_cwnd_panels.png}
+\caption{TCP Cubic CWND traces under three conditions. Top: Baseline---large oscillations reaching 12--13 segments with deep drops, causing 755 retransmissions. Middle: Binary ECN---narrower oscillation band with zero retransmissions. Bottom: Proportional ECN---smoothest trace ($\sigma=1.80$, an 11.3\% stability improvement over baseline) with 2 targeted ECN signals at peak-confidence prediction points.}
+\label{fig:cubic_cwnd}
+\end{figure}
+
+\begin{figure}[!t]
+\centering
+\includegraphics[width=\columnwidth]{cubic_metrics_comparison.png}
+\caption{TCP Cubic performance metrics comparison. The retransmission panel provides the strongest visual result: 755 baseline retransmissions reduced to exactly 0 by both ECN approaches. The modest throughput reduction ($-9.4\%$) represents the well-documented ECN trade-off: preventing queue overflow keeps CWND below saturation, accepting marginally lower throughput in exchange for zero packet loss and 11.3\% CWND stability improvement.}
+\label{fig:cubic_metrics}
+\end{figure}

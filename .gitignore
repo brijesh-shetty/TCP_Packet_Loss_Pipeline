@@ -1,0 +1,21 @@
+# Large data — exceeds GitHub's 100 MB/file limit; keep local only
+data/large/
+large_*.csv
+combined_congestion*.txt
+ecn_dataset.csv
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Training / tooling artifacts
+catboost_info/
+*.zip
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

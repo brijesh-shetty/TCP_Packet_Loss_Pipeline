@@ -1,0 +1,868 @@
+Netid State Recv-Q Send-Q Local Address:Port Peer Address:PortProcess
+Netid State Recv-Q Send-Q Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      673320    10.1.1.100:5001   10.2.2.100:5201 timer:(on,240ms,0)
+	 ts sack ecn reno wscale:9,9 rto:353 rtt:152.57/9.214 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:80 bytes_sent:217237 bytes_acked:101398 segs_out:153 segs_in:67 data_segs_out:151 send 6.07Mbps lastsnd:68 lastrcv:682 lastack:69 pacing_rate 12.1Mbps delivery_rate 2.87Mbps delivered:72 busy:526ms unacked:80 rcv_space:14480 rcv_ssthresh:42242 notsent:557480 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1503024    10.1.1.100:5001   10.2.2.100:5201 timer:(on,893ms,0)
+	 ts sack ecn reno wscale:9,9 rto:974 rtt:611.194/12.931 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:91 ssthresh:91 bytes_sent:579237 bytes_retrans:65160 bytes_acked:249094 segs_out:403 segs_in:223 data_segs_out:401 send 1.72Mbps lastsnd:81 lastrcv:1723 lastack:81 pacing_rate 4.16Mbps delivery_rate 1.48Mbps delivered:229 busy:1567ms unacked:183 retrans:45/45 lost:82 sacked:55 rcv_space:14480 rcv_ssthresh:42242 notsent:1238040 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1193152    10.1.1.100:5001   10.2.2.100:5201 timer:(on,373ms,0)
+	 ts sack ecn reno wscale:9,9 rto:990 rtt:626.515/8.965 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:91 ssthresh:91 bytes_sent:826845 bytes_retrans:136112 bytes_acked:558966 segs_out:574 segs_in:380 data_segs_out:572 send 1.68Mbps lastrcv:2757 pacing_rate 2.02Mbps delivery_rate 1.63Mbps delivered:388 busy:2601ms unacked:91 retrans:0/94 rcv_space:14480 rcv_ssthresh:42242 notsent:1061384 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1482752    10.1.1.100:5001   10.2.2.100:5201 timer:(on,849ms,0)
+	 ts sack ecn reno wscale:9,9 rto:849 rtt:534.471/19.566 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:77 ssthresh:46 bytes_sent:1078797 bytes_retrans:140456 bytes_acked:790646 segs_out:748 segs_in:539 data_segs_out:746 send 1.67Mbps lastrcv:3793 pacing_rate 2.65Mbps delivery_rate 1.99Mbps delivered:573 busy:3637ms unacked:102 retrans:3/97 lost:3 sacked:25 rcv_space:14480 rcv_ssthresh:42242 notsent:1335056 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1267000    10.1.1.100:5001   10.2.2.100:5201 timer:(on,573ms,0)
+	 ts sack ecn reno wscale:9,9 rto:728 rtt:463.373/11.36 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:47 ssthresh:46 bytes_sent:1214909 bytes_retrans:140456 bytes_acked:1006398 segs_out:842 segs_in:662 data_segs_out:840 send 1.17Mbps lastsnd:44 lastrcv:4826 lastack:44 pacing_rate 1.41Mbps delivery_rate 973kbps delivered:697 busy:4670ms unacked:47 retrans:0/97 rcv_space:14480 rcv_ssthresh:42242 notsent:1198944 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1129440    10.1.1.100:5001   10.2.2.100:5201 timer:(on,429ms,0)
+	 ts sack ecn reno wscale:9,9 rto:766 rtt:494.231/2.124 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:49 ssthresh:46 bytes_sent:1355365 bytes_retrans:140456 bytes_acked:1143958 segs_out:939 segs_in:757 data_segs_out:937 send 1.15Mbps lastsnd:212 lastrcv:5860 lastack:212 pacing_rate 1.38Mbps delivery_rate 1.12Mbps delivered:792 busy:5704ms unacked:49 retrans:0/97 rcv_space:14480 rcv_ssthresh:42242 notsent:1058488 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1507368    10.1.1.100:5001   10.2.2.100:5201 timer:(on,287ms,0)
+	 ts sack ecn reno wscale:9,9 rto:787 rtt:513.333/12.767 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:51 ssthresh:46 bytes_sent:1501613 bytes_retrans:140456 bytes_acked:1287310 segs_out:1040 segs_in:855 data_segs_out:1038 send 1.15Mbps lastsnd:342 lastrcv:6894 lastack:342 pacing_rate 1.38Mbps delivery_rate 1.09Mbps delivered:891 busy:6738ms unacked:51 retrans:0/97 rcv_space:14480 rcv_ssthresh:42242 notsent:1433520 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1342296    10.1.1.100:5001   10.2.2.100:5201 timer:(on,284ms,0)
+	 ts sack ecn reno wscale:9,9 rto:741 rtt:499.58/11.812 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:53 ssthresh:46 bytes_sent:1669581 bytes_retrans:140456 bytes_acked:1452382 segs_out:1156 segs_in:968 data_segs_out:1154 send 1.23Mbps lastrcv:7932 pacing_rate 1.47Mbps delivery_rate 1.12Mbps delivered:1005 busy:7776ms unacked:53 retrans:0/97 rcv_space:14480 rcv_ssthresh:42242 notsent:1265552 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1129440    10.1.1.100:5001   10.2.2.100:5201 timer:(on,295ms,0)
+	 ts sack ecn reno wscale:9,9 rto:803 rtt:544.066/6.47 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:56 ssthresh:46 bytes_sent:1886781 bytes_retrans:140456 bytes_acked:1665238 segs_out:1306 segs_in:1115 data_segs_out:1304 send 1.19Mbps lastsnd:1 lastrcv:8977 lastack:1 pacing_rate 1.43Mbps delivery_rate 1.21Mbps delivered:1152 busy:8821ms unacked:56 retrans:0/97 rcv_space:14480 rcv_ssthresh:42242 notsent:1048352 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1035320    10.1.1.100:5001   10.2.2.100:5201 timer:(on,811ms,0)
+	 ts sack ecn reno wscale:9,9 rto:820 rtt:575.469/17.453 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:57 ssthresh:46 bytes_sent:1980901 bytes_retrans:140456 bytes_acked:1759358 segs_out:1371 segs_in:1180 data_segs_out:1369 send 1.15Mbps lastsnd:9 lastrcv:10012 lastack:9 pacing_rate 1.38Mbps delivery_rate 1.1Mbps delivered:1217 busy:9856ms unacked:56 retrans:0/97 rcv_space:14480 rcv_ssthresh:42242 notsent:954232 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1462480    10.1.1.100:5001   10.2.2.100:5201 timer:(on,560ms,0)
+	 ts sack ecn reno wscale:9,9 rto:695 rtt:469.879/10.425 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:29 ssthresh:28 bytes_sent:2105429 bytes_retrans:144800 bytes_acked:1918638 segs_out:1457 segs_in:1290 data_segs_out:1455 send 715kbps lastsnd:11 lastrcv:11050 lastack:11 pacing_rate 858kbps delivery_rate 654kbps delivered:1327 busy:10894ms unacked:29 retrans:0/100 rcv_space:14480 rcv_ssthresh:42242 notsent:1420488 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1377048    10.1.1.100:5001   10.2.2.100:5201 timer:(on,563ms,0)
+	 ts sack ecn reno wscale:9,9 rto:894 rtt:484.681/11.671 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:31 ssthresh:28 bytes_sent:2193757 bytes_retrans:144800 bytes_acked:2004070 segs_out:1518 segs_in:1349 data_segs_out:1516 send 741kbps lastsnd:246 lastrcv:12086 lastack:246 pacing_rate 889kbps delivery_rate 740kbps delivered:1386 busy:11930ms unacked:31 retrans:0/100 rcv_space:14480 rcv_ssthresh:42242 notsent:1332160 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1285824    10.1.1.100:5001   10.2.2.100:5201 timer:(on,480ms,0)
+	 ts sack ecn reno wscale:9,9 rto:863 rtt:537.141/14.074 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:33 ssthresh:28 bytes_sent:2287877 bytes_retrans:144800 bytes_acked:2095294 segs_out:1583 segs_in:1412 data_segs_out:1581 send 712kbps lastsnd:250 lastrcv:13121 lastack:250 pacing_rate 854kbps delivery_rate 667kbps delivered:1449 busy:12965ms unacked:33 retrans:0/100 rcv_space:14480 rcv_ssthresh:42242 notsent:1238040 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1200392    10.1.1.100:5001   10.2.2.100:5201 timer:(on,644ms,0)
+	 ts sack ecn reno wscale:9,9 rto:961 rtt:624.229/7.895 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:17 ssthresh:17 bytes_sent:2354485 bytes_retrans:149144 bytes_acked:2180726 segs_out:1629 segs_in:1471 data_segs_out:1627 send 315kbps lastsnd:194 lastrcv:14155 lastack:194 pacing_rate 379kbps delivery_rate 535kbps delivered:1508 busy:13999ms unacked:17 retrans:0/103 rcv_space:14480 rcv_ssthresh:42242 notsent:1175776 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1149712    10.1.1.100:5001   10.2.2.100:5201 timer:(on,351ms,0)
+	 ts sack ecn reno wscale:9,9 rto:746 rtt:469.209/10.561 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:19 ssthresh:17 bytes_sent:2408061 bytes_retrans:149144 bytes_acked:2231406 segs_out:1666 segs_in:1506 data_segs_out:1664 send 469kbps lastsnd:334 lastrcv:15193 lastack:334 pacing_rate 563kbps delivery_rate 448kbps delivered:1543 busy:15037ms unacked:19 retrans:0/103 rcv_space:14480 rcv_ssthresh:42242 notsent:1122200 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1093240    10.1.1.100:5001   10.2.2.100:5201 timer:(on,366ms,0)
+	 ts sack ecn reno wscale:9,9 rto:825 rtt:533.511/4.629 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:21 ssthresh:17 bytes_sent:2467429 bytes_retrans:149144 bytes_acked:2287878 segs_out:1707 segs_in:1545 data_segs_out:1705 send 456kbps lastsnd:358 lastrcv:16228 lastack:358 pacing_rate 547kbps delivery_rate 441kbps delivered:1582 busy:16072ms unacked:21 retrans:0/103 rcv_space:14480 rcv_ssthresh:42242 notsent:1062832 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1030976    10.1.1.100:5001   10.2.2.100:5201 timer:(on,464ms,0)
+	 ts sack ecn reno wscale:9,9 rto:857 rtt:601.817/21.596 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:23 ssthresh:17 bytes_sent:2532589 bytes_retrans:149144 bytes_acked:2350142 segs_out:1752 segs_in:1588 data_segs_out:1750 send 443kbps lastsnd:269 lastrcv:17261 lastack:269 pacing_rate 531kbps delivery_rate 416kbps delivered:1625 busy:17105ms unacked:23 retrans:0/103 rcv_space:14480 rcv_ssthresh:42242 notsent:997672 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1484200    10.1.1.100:5001   10.2.2.100:5201 timer:(on,438ms,0)
+	 ts sack ecn reno wscale:9,9 rto:792 rtt:560.756/25.209 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:25 ssthresh:17 bytes_sent:2603541 bytes_retrans:149144 bytes_acked:2418198 segs_out:1801 segs_in:1635 data_segs_out:1799 send 516kbps lastsnd:219 lastrcv:18300 lastack:219 pacing_rate 620kbps delivery_rate 475kbps delivered:1672 busy:18144ms unacked:25 retrans:0/103 rcv_space:14480 rcv_ssthresh:42242 notsent:1448000 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1410352    10.1.1.100:5001   10.2.2.100:5201 timer:(on,381ms,0)
+	 ts sack ecn reno wscale:9,9 rto:890 rtt:544.294/37.192 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:27 ssthresh:17 bytes_sent:2680285 bytes_retrans:149144 bytes_acked:2492046 segs_out:1854 segs_in:1682 data_segs_out:1852 send 575kbps lastsnd:312 lastrcv:19337 lastack:312 pacing_rate 690kbps delivery_rate 510kbps delivered:1723 busy:19181ms unacked:27 retrans:0/103 rcv_space:14480 rcv_ssthresh:42242 notsent:1371256 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1350984    10.1.1.100:5001   10.2.2.100:5201 timer:(on,994ms,0)
+	 ts sack ecn reno wscale:9,9 rto:995 rtt:502.805/123.017 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:14 ssthresh:14 bytes_sent:2759925 bytes_retrans:154936 bytes_acked:2551414 segs_out:1909 segs_in:1721 data_segs_out:1907 send 323kbps lastsnd:1 lastrcv:20378 lastack:1 pacing_rate 968kbps delivery_rate 453kbps delivered:1787 busy:20222ms unacked:37 retrans:3/107 lost:3 sacked:23 rcv_space:14480 rcv_ssthresh:42242 notsent:1297408 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1269896    10.1.1.100:5001   10.2.2.100:5201 timer:(on,455ms,0)
+	 ts sack ecn reno wscale:9,9 rto:945 rtt:504.219/31.663 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:16 ssthresh:14 bytes_sent:2810605 bytes_retrans:154936 bytes_acked:2632502 segs_out:1944 segs_in:1753 data_segs_out:1942 send 368kbps lastsnd:43 lastrcv:21421 lastack:43 pacing_rate 441kbps delivery_rate 310kbps delivered:1820 busy:21265ms unacked:16 retrans:0/107 rcv_space:14480 rcv_ssthresh:42242 notsent:1246728 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1222112    10.1.1.100:5001   10.2.2.100:5201 timer:(on,446ms,0)
+	 ts sack ecn reno wscale:9,9 rto:924 rtt:560.525/17.395 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:18 ssthresh:14 bytes_sent:2861285 bytes_retrans:154936 bytes_acked:2680286 segs_out:1979 segs_in:1780 data_segs_out:1977 send 372kbps lastsnd:60 lastrcv:22458 lastack:60 pacing_rate 446kbps delivery_rate 343kbps delivered:1853 busy:22302ms unacked:18 retrans:0/107 rcv_space:14480 rcv_ssthresh:42242 notsent:1196048 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1171432    10.1.1.100:5001   10.2.2.100:5201 timer:(on,261ms,0)
+	 ts sack ecn reno wscale:9,9 rto:893 rtt:594.997/12.972 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:20 ssthresh:14 bytes_sent:2914861 bytes_retrans:154936 bytes_acked:2730966 segs_out:2016 segs_in:1806 data_segs_out:2014 send 389kbps lastsnd:84 lastrcv:23491 lastack:84 pacing_rate 467kbps delivery_rate 373kbps delivered:1888 busy:23335ms unacked:20 retrans:0/107 rcv_space:14480 rcv_ssthresh:42242 notsent:1142472 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1145368    10.1.1.100:5001   10.2.2.100:5201 timer:(on,851ms,0)
+	 ts sack ecn reno wscale:9,9 rto:852 rtt:577.848/55.406 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:12 ssthresh:10 bytes_sent:2949613 bytes_retrans:157832 bytes_acked:2757030 segs_out:2040 segs_in:1823 data_segs_out:2038 send 241kbps lastsnd:1 lastrcv:24533 lastack:1 pacing_rate 553kbps delivery_rate 330kbps delivered:1918 busy:24377ms unacked:24 retrans:2/109 lost:2 sacked:12 rcv_space:14480 rcv_ssthresh:42242 notsent:1110616 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1087448    10.1.1.100:5001   10.2.2.100:5201 timer:(on,420ms,0)
+	 ts sack ecn reno wscale:9,9 rto:752 rtt:494.286/43.467 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:12 ssthresh:10 bytes_sent:2990157 bytes_retrans:157832 bytes_acked:2814950 segs_out:2068 segs_in:1844 data_segs_out:2066 send 281kbps lastsnd:63 lastrcv:25574 lastack:63 pacing_rate 337kbps delivery_rate 241kbps delivered:1946 busy:25418ms unacked:12 retrans:0/109 rcv_space:14480 rcv_ssthresh:42242 notsent:1070072 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1051248    10.1.1.100:5001   10.2.2.100:5201 timer:(on,572ms,0)
+	 ts sack ecn reno wscale:9,9 rto:832 rtt:583.368/56.52 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:14 ssthresh:10 bytes_sent:3029253 bytes_retrans:157832 bytes_acked:2851150 segs_out:2095 segs_in:1863 data_segs_out:2093 send 278kbps lastsnd:14 lastrcv:26610 lastack:14 pacing_rate 334kbps delivery_rate 241kbps delivered:1971 busy:26454ms unacked:14 retrans:0/109 rcv_space:14480 rcv_ssthresh:42242 notsent:1030976 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1026632    10.1.1.100:5001   10.2.2.100:5201 timer:(on,369ms,0)
+	 ts sack ecn reno wscale:9,9 rto:806 rtt:557.275/27.879 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:7 ssthresh:7 bytes_sent:3045181 bytes_retrans:159280 bytes_acked:2875766 segs_out:2106 segs_in:1876 data_segs_out:2104 send 146kbps lastsnd:9 lastrcv:27637 lastack:9 pacing_rate 175kbps delivery_rate 216kbps delivered:1988 busy:27481ms unacked:7 retrans:0/110 rcv_space:14480 rcv_ssthresh:42242 notsent:1016496 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1518952    10.1.1.100:5001   10.2.2.100:5201 timer:(on,516ms,0)
+	 ts sack ecn reno wscale:9,9 rto:727 rtt:498.984/34.229 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:10 ssthresh:7 bytes_sent:3078485 bytes_retrans:159280 bytes_acked:2904726 segs_out:2129 segs_in:1896 data_segs_out:2127 send 232kbps lastsnd:64 lastrcv:28676 lastack:64 pacing_rate 279kbps delivery_rate 198kbps delivered:2008 busy:28520ms unacked:10 retrans:0/110 rcv_space:14480 rcv_ssthresh:42242 notsent:1504472 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1488544    10.1.1.100:5001   10.2.2.100:5201 timer:(on,719ms,0)
+	 ts sack ecn reno wscale:9,9 rto:842 rtt:574.631/26.487 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:12 ssthresh:7 bytes_sent:3111789 bytes_retrans:159280 bytes_acked:2935134 segs_out:2152 segs_in:1917 data_segs_out:2150 send 242kbps lastsnd:8 lastrcv:29711 lastack:8 pacing_rate 290kbps delivery_rate 218kbps delivered:2029 busy:29555ms unacked:12 retrans:0/110 rcv_space:14480 rcv_ssthresh:42242 notsent:1471168 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1463928    10.1.1.100:5001   10.2.2.100:5201 timer:(on,364ms,0)
+	 ts sack ecn reno wscale:9,9 rto:814 rtt:563.957/29.344 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:13 ssthresh:7 bytes_sent:3137853 bytes_retrans:159280 bytes_acked:2959750 segs_out:2170 segs_in:1934 data_segs_out:2168 send 267kbps lastsnd:2 lastrcv:30753 lastack:2 pacing_rate 320kbps delivery_rate 254kbps delivered:2046 busy:30597ms unacked:13 retrans:0/110 rcv_space:14480 rcv_ssthresh:42242 notsent:1445104 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1410352    10.1.1.100:5001   10.2.2.100:5201 timer:(on,656ms,0)
+	 ts sack ecn reno wscale:9,9 rto:801 rtt:545.391/23.116 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:16 ssthresh:7 bytes_sent:3195773 bytes_retrans:159280 bytes_acked:3013326 segs_out:2210 segs_in:1971 data_segs_out:2208 send 340kbps lastsnd:8 lastrcv:31784 lastack:8 pacing_rate 408kbps delivery_rate 315kbps delivered:2083 busy:31628ms unacked:16 retrans:0/110 rcv_space:14480 rcv_ssthresh:42242 notsent:1387184 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1362568    10.1.1.100:5001   10.2.2.100:5201 timer:(on,636ms,0)
+	 ts sack ecn reno wscale:9,9 rto:841 rtt:564.659/27.34 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:18 ssthresh:7 bytes_sent:3246453 bytes_retrans:159280 bytes_acked:3061110 segs_out:2245 segs_in:2004 data_segs_out:2243 send 369kbps lastsnd:28 lastrcv:32829 lastack:28 pacing_rate 443kbps delivery_rate 344kbps delivered:2116 busy:32673ms unacked:18 retrans:0/110 rcv_space:14480 rcv_ssthresh:42242 notsent:1336504 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1310440    10.1.1.100:5001   10.2.2.100:5201 timer:(on,313ms,0)
+	 ts sack ecn reno wscale:9,9 rto:870 rtt:575.886/16.871 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:19 ssthresh:7 bytes_sent:3300029 bytes_retrans:159280 bytes_acked:3113238 segs_out:2282 segs_in:2030 data_segs_out:2280 send 382kbps lastrcv:33868 pacing_rate 459kbps delivery_rate 374kbps delivered:2152 busy:33712ms unacked:19 retrans:0/110 rcv_space:14480 rcv_ssthresh:42242 notsent:1282928 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1253968    10.1.1.100:5001   10.2.2.100:5201 timer:(on,346ms,0)
+	 ts sack ecn reno wscale:9,9 rto:818 rtt:515.591/36.054 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:21 ssthresh:7 bytes_sent:3359397 bytes_retrans:159280 bytes_acked:3169710 segs_out:2323 segs_in:2058 data_segs_out:2321 send 472kbps lastsnd:42 lastrcv:34902 lastack:42 pacing_rate 566kbps delivery_rate 416kbps delivered:2191 busy:34746ms unacked:21 retrans:0/110 rcv_space:14480 rcv_ssthresh:42242 notsent:1223560 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1248176    10.1.1.100:5001   10.2.2.100:5201 timer:(on,830ms,0)
+	 ts sack ecn reno wscale:9,9 rto:840 rtt:537.417/73.295 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:11 ssthresh:11 bytes_sent:3382565 bytes_retrans:172312 bytes_acked:3175502 segs_out:2339 segs_in:2069 data_segs_out:2337 send 237kbps lastsnd:10 lastrcv:35937 lastack:10 pacing_rate 595kbps delivery_rate 220kbps delivered:2208 busy:35781ms unacked:24 retrans:8/119 lost:8 sacked:13 rcv_space:14480 rcv_ssthresh:42242 notsent:1213424 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1185912    10.1.1.100:5001   10.2.2.100:5201 timer:(on,348ms,0)
+	 ts sack ecn reno wscale:9,9 rto:784 rtt:498.085/25.16 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:13 ssthresh:11 bytes_sent:3428901 bytes_retrans:172312 bytes_acked:3237766 segs_out:2371 segs_in:2091 data_segs_out:2369 send 302kbps lastsnd:1 lastrcv:36977 lastack:1 pacing_rate 363kbps delivery_rate 255kbps delivered:2238 busy:36821ms unacked:13 retrans:0/119 rcv_space:14480 rcv_ssthresh:42242 notsent:1167088 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1152608    10.1.1.100:5001   10.2.2.100:5201 timer:(on,393ms,0)
+	 ts sack ecn reno wscale:9,9 rto:901 rtt:561.678/55.707 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:14 ssthresh:11 bytes_sent:3463653 bytes_retrans:172312 bytes_acked:3271070 segs_out:2395 segs_in:2108 data_segs_out:2393 send 289kbps lastsnd:1 lastrcv:38011 lastack:1 pacing_rate 346kbps delivery_rate 256kbps delivered:2261 busy:37855ms unacked:14 retrans:0/119 rcv_space:14480 rcv_ssthresh:42242 notsent:1132336 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1109168    10.1.1.100:5001   10.2.2.100:5201 timer:(on,401ms,0)
+	 ts sack ecn reno wscale:9,9 rto:827 rtt:522.147/25.97 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:16 ssthresh:11 bytes_sent:3509989 bytes_retrans:172312 bytes_acked:3314510 segs_out:2427 segs_in:2135 data_segs_out:2425 send 355kbps lastsnd:1 lastrcv:39038 lastack:1 pacing_rate 426kbps delivery_rate 300kbps delivered:2291 busy:38882ms unacked:16 retrans:0/119 rcv_space:14480 rcv_ssthresh:42242 notsent:1086000 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1049800    10.1.1.100:5001   10.2.2.100:5201 timer:(on,275ms,0)
+	 ts sack ecn reno wscale:9,9 rto:794 rtt:528.477/12.015 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:19 ssthresh:11 bytes_sent:3573701 bytes_retrans:172312 bytes_acked:3373878 segs_out:2471 segs_in:2164 data_segs_out:2469 send 416kbps lastsnd:8 lastrcv:40079 lastack:8 pacing_rate 500kbps delivery_rate 385kbps delivered:2332 busy:39923ms unacked:19 retrans:0/119 rcv_space:14480 rcv_ssthresh:42242 notsent:1022288 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1526192    10.1.1.100:5001   10.2.2.100:5201 timer:(on,783ms,0)
+	 ts sack ecn reno wscale:9,9 rto:838 rtt:545.002/32.73 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:17 ssthresh:10 bytes_sent:3625829 bytes_retrans:173760 bytes_acked:3418766 segs_out:2507 segs_in:2183 data_segs_out:2505 send 361kbps lastsnd:55 lastrcv:41116 lastack:55 pacing_rate 536kbps delivery_rate 403kbps delivered:2369 busy:40960ms unacked:23 retrans:1/120 lost:1 sacked:6 rcv_space:14480 rcv_ssthresh:42242 notsent:1492888 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1482752    10.1.1.100:5001   10.2.2.100:5201 timer:(on,846ms,0)
+	 ts sack ecn reno wscale:9,9 rto:846 rtt:565.439/57.213 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:11 ssthresh:10 bytes_sent:3650445 bytes_retrans:173760 bytes_acked:3462206 segs_out:2524 segs_in:2201 data_segs_out:2522 send 225kbps lastrcv:42161 pacing_rate 270kbps delivery_rate 171kbps delivered:2393 busy:42005ms unacked:10 retrans:0/120 rcv_space:14480 rcv_ssthresh:42242 notsent:1468272 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1453792    10.1.1.100:5001   10.2.2.100:5201 timer:(on,253ms,0)
+	 ts sack ecn reno wscale:9,9 rto:804 rtt:538.789/26.009 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:12 ssthresh:10 bytes_sent:3682301 bytes_retrans:173760 bytes_acked:3491166 segs_out:2546 segs_in:2221 data_segs_out:2544 send 258kbps lastsnd:1 lastrcv:43207 lastack:1 pacing_rate 310kbps delivery_rate 227kbps delivered:2413 busy:43051ms unacked:12 retrans:0/120 rcv_space:14480 rcv_ssthresh:42242 notsent:1436416 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1414696    10.1.1.100:5001   10.2.2.100:5201 timer:(on,276ms,0)
+	 ts sack ecn reno wscale:9,9 rto:796 rtt:550.286/32.829 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:14 ssthresh:10 bytes_sent:3724293 bytes_retrans:173760 bytes_acked:3530262 segs_out:2575 segs_in:2248 data_segs_out:2573 send 295kbps lastsnd:1 lastrcv:44245 lastack:1 pacing_rate 354kbps delivery_rate 289kbps delivered:2440 busy:44089ms unacked:14 retrans:0/120 rcv_space:14480 rcv_ssthresh:42242 notsent:1394424 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1372704    10.1.1.100:5001   10.2.2.100:5201 timer:(on,204ms,0)
+	 ts sack ecn reno wscale:9,9 rto:748 rtt:513.1/33.262 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:16 ssthresh:10 bytes_sent:3769181 bytes_retrans:173760 bytes_acked:3572254 segs_out:2606 segs_in:2267 data_segs_out:2604 send 361kbps lastsnd:32 lastrcv:45274 lastack:32 pacing_rate 433kbps delivery_rate 337kbps delivered:2469 busy:45118ms unacked:16 retrans:0/120 rcv_space:14480 rcv_ssthresh:42242 notsent:1349536 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1332160    10.1.1.100:5001   10.2.2.100:5201 timer:(on,302ms,0)
+	 ts sack ecn reno wscale:9,9 rto:804 rtt:583.99/22.722 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:18 ssthresh:10 bytes_sent:3812621 bytes_retrans:173760 bytes_acked:3612798 segs_out:2636 segs_in:2288 data_segs_out:2634 send 357kbps lastsnd:13 lastrcv:46304 lastack:13 pacing_rate 428kbps delivery_rate 327kbps delivered:2497 busy:46148ms unacked:18 retrans:0/120 rcv_space:14480 rcv_ssthresh:42242 notsent:1306096 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1278584    10.1.1.100:5001   10.2.2.100:5201 timer:(on,259ms,0)
+	 ts sack ecn reno wscale:9,9 rto:742 rtt:530.756/31.762 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:20 ssthresh:10 bytes_sent:3869093 bytes_retrans:173760 bytes_acked:3666374 segs_out:2675 segs_in:2315 data_segs_out:2673 send 437kbps lastsnd:105 lastrcv:47344 lastack:105 pacing_rate 524kbps delivery_rate 415kbps delivered:2534 busy:47188ms unacked:20 retrans:0/120 rcv_space:14480 rcv_ssthresh:42242 notsent:1249624 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1193152    10.1.1.100:5001   10.2.2.100:5201 timer:(on,421ms,0)
+	 ts sack ecn reno wscale:9,9 rto:879 rtt:530.847/82.774 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:23 ssthresh:10 bytes_sent:3958869 bytes_retrans:173760 bytes_acked:3751806 segs_out:2737 segs_in:2344 data_segs_out:2735 send 502kbps lastsnd:43 lastrcv:48390 lastack:43 pacing_rate 602kbps delivery_rate 430kbps delivered:2593 busy:48234ms unacked:23 retrans:0/120 rcv_space:14480 rcv_ssthresh:42242 notsent:1159848 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1125096    10.1.1.100:5001   10.2.2.100:5201 timer:(on,491ms,0)
+	 ts sack ecn reno wscale:9,9 rto:888 rtt:552.577/63.253 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:25 ssthresh:10 bytes_sent:4029821 bytes_retrans:173760 bytes_acked:3819862 segs_out:2786 segs_in:2364 data_segs_out:2784 send 524kbps lastsnd:71 lastrcv:49428 lastack:71 pacing_rate 629kbps delivery_rate 469kbps delivered:2640 busy:49272ms unacked:25 retrans:0/120 rcv_space:14480 rcv_ssthresh:42242 notsent:1088896 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1051248    10.1.1.100:5001   10.2.2.100:5201 timer:(on,575ms,0)
+	 ts sack ecn reno wscale:9,9 rto:878 rtt:568.165/22.095 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:27 ssthresh:10 bytes_sent:4106565 bytes_retrans:173760 bytes_acked:3893710 segs_out:2839 segs_in:2391 data_segs_out:2837 send 550kbps lastsnd:12 lastrcv:50466 lastack:12 pacing_rate 661kbps delivery_rate 509kbps delivered:2691 busy:50310ms unacked:27 retrans:0/120 rcv_space:14480 rcv_ssthresh:42242 notsent:1012152 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1492888    10.1.1.100:5001   10.2.2.100:5201 timer:(on,424ms,0)
+	 ts sack ecn reno wscale:9,9 rto:765 rtt:503.159/14.444 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:29 ssthresh:10 bytes_sent:4189101 bytes_retrans:173760 bytes_acked:3973350 segs_out:2896 segs_in:2426 data_segs_out:2894 send 668kbps lastsnd:42 lastrcv:51509 lastack:42 pacing_rate 801kbps delivery_rate 592kbps delivered:2746 busy:51353ms unacked:29 retrans:0/120 rcv_space:14480 rcv_ssthresh:42242 notsent:1450896 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1407456    10.1.1.100:5001   10.2.2.100:5201 timer:(on,512ms,0)
+	 ts sack ecn reno wscale:9,9 rto:799 rtt:556.018/30.928 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:31 ssthresh:10 bytes_sent:4277429 bytes_retrans:173760 bytes_acked:4058782 segs_out:2957 segs_in:2464 data_segs_out:2955 send 646kbps lastsnd:8 lastrcv:52534 lastack:8 pacing_rate 775kbps delivery_rate 656kbps delivered:2805 busy:52378ms unacked:31 retrans:0/120 rcv_space:14480 rcv_ssthresh:42242 notsent:1362568 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1333608    10.1.1.100:5001   10.2.2.100:5201 timer:(on,403ms,0)
+	 ts sack ecn reno wscale:9,9 rto:904 rtt:594.907/38.163 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:15 ssthresh:15 bytes_sent:4331005 bytes_retrans:176656 bytes_acked:4132630 segs_out:2994 segs_in:2491 data_segs_out:2992 send 292kbps lastsnd:74 lastrcv:53575 lastack:74 pacing_rate 350kbps delivery_rate 461kbps delivered:2856 busy:53419ms unacked:15 retrans:0/122 rcv_space:14480 rcv_ssthresh:42242 notsent:1311888 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1288720    10.1.1.100:5001   10.2.2.100:5201 timer:(on,217ms,0)
+	 ts sack ecn reno wscale:9,9 rto:748 rtt:470.778/20.819 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:17 ssthresh:15 bytes_sent:4378789 bytes_retrans:176656 bytes_acked:4177518 segs_out:3027 segs_in:2512 data_segs_out:3025 send 418kbps lastsnd:179 lastrcv:54611 lastack:179 pacing_rate 502kbps delivery_rate 388kbps delivered:2887 busy:54455ms unacked:17 retrans:0/122 rcv_space:14480 rcv_ssthresh:42242 notsent:1264104 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1238040    10.1.1.100:5001   10.2.2.100:5201 timer:(on,294ms,0)
+	 ts sack ecn reno wscale:9,9 rto:788 rtt:544.546/55.7 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:19 ssthresh:15 bytes_sent:4432365 bytes_retrans:176656 bytes_acked:4228198 segs_out:3064 segs_in:2539 data_segs_out:3062 send 404kbps lastsnd:42 lastrcv:55645 lastack:42 pacing_rate 485kbps delivery_rate 305kbps delivered:2922 busy:55489ms unacked:19 retrans:0/122 rcv_space:14480 rcv_ssthresh:42242 notsent:1210528 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1203288    10.1.1.100:5001   10.2.2.100:5201 timer:(on,787ms,0)
+	 ts sack ecn reno wscale:9,9 rto:894 rtt:587.201/39.37 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:14 ssthresh:10 bytes_sent:4480149 bytes_retrans:178104 bytes_acked:4262950 segs_out:3097 segs_in:2562 data_segs_out:3095 send 276kbps lastsnd:107 lastrcv:56677 lastack:107 pacing_rate 615kbps delivery_rate 358kbps delivered:2959 busy:56521ms unacked:27 retrans:1/123 lost:1 sacked:13 rcv_space:14480 rcv_ssthresh:42242 notsent:1164192 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1149712    10.1.1.100:5001   10.2.2.100:5201 timer:(on,510ms,0)
+	 ts sack ecn reno wscale:9,9 rto:788 rtt:507.741/25.26 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:11 ssthresh:10 bytes_sent:4510557 bytes_retrans:178104 bytes_acked:4316526 segs_out:3118 segs_in:2584 data_segs_out:3116 send 251kbps lastsnd:165 lastrcv:57711 lastack:165 pacing_rate 301kbps delivery_rate 211kbps delivered:2983 busy:57555ms unacked:11 retrans:0/123 rcv_space:14480 rcv_ssthresh:42242 notsent:1133784 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1116408    10.1.1.100:5001   10.2.2.100:5201 timer:(on,401ms,0)
+	 ts sack ecn reno wscale:9,9 rto:757 rtt:493.352/38.76 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:13 ssthresh:10 bytes_sent:4546757 bytes_retrans:178104 bytes_acked:4349830 segs_out:3143 segs_in:2607 data_segs_out:3141 send 305kbps lastsnd:227 lastrcv:58751 lastack:227 pacing_rate 366kbps delivery_rate 266kbps delivered:3006 busy:58595ms unacked:13 retrans:0/123 rcv_space:14480 rcv_ssthresh:42242 notsent:1097584 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1077312    10.1.1.100:5001   10.2.2.100:5201 timer:(on,474ms,0)
+	 ts sack ecn reno wscale:9,9 rto:826 rtt:582.898/28.526 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:15 ssthresh:10 bytes_sent:4588749 bytes_retrans:178104 bytes_acked:4388926 segs_out:3172 segs_in:2634 data_segs_out:3170 send 298kbps lastsnd:153 lastrcv:59793 lastack:153 pacing_rate 358kbps delivery_rate 262kbps delivered:3033 busy:59637ms unacked:15 retrans:0/123 rcv_space:14480 rcv_ssthresh:42242 notsent:1055592 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1032424    10.1.1.100:5001   10.2.2.100:5201 timer:(on,602ms,0)
+	 ts sack ecn reno wscale:9,9 rto:811 rtt:580.695/9.01 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:17 ssthresh:10 bytes_sent:4636533 bytes_retrans:178104 bytes_acked:4433814 segs_out:3205 segs_in:2665 data_segs_out:3203 send 339kbps lastsnd:80 lastrcv:60831 lastack:80 pacing_rate 407kbps delivery_rate 322kbps delivered:3064 busy:60675ms unacked:17 retrans:0/123 rcv_space:14480 rcv_ssthresh:42242 notsent:1007808 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1503024    10.1.1.100:5001   10.2.2.100:5201 timer:(on,278ms,0)
+	 ts sack ecn reno wscale:9,9 rto:704 rtt:486.384/40.277 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:19 ssthresh:10 bytes_sent:4690109 bytes_retrans:178104 bytes_acked:4484494 segs_out:3242 segs_in:2689 data_segs_out:3240 send 453kbps lastsnd:138 lastrcv:61858 lastack:138 pacing_rate 543kbps delivery_rate 374kbps delivered:3099 busy:61702ms unacked:19 retrans:0/123 rcv_space:14480 rcv_ssthresh:42242 notsent:1475512 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1455240    10.1.1.100:5001   10.2.2.100:5201 timer:(on,847ms,0)
+	 ts sack ecn reno wscale:9,9 rto:961 rtt:585.202/31.737 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:18 ssthresh:10 bytes_sent:4745133 bytes_retrans:179552 bytes_acked:4532278 segs_out:3280 segs_in:2718 data_segs_out:3278 send 356kbps lastsnd:114 lastrcv:62901 lastack:114 pacing_rate 523kbps delivery_rate 379kbps delivered:3137 busy:62745ms unacked:23 retrans:1/124 lost:1 sacked:5 rcv_space:14480 rcv_ssthresh:42242 notsent:1421936 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1408904    10.1.1.100:5001   10.2.2.100:5201 timer:(on,506ms,0)
+	 ts sack ecn reno wscale:9,9 rto:898 rtt:521.721/24.127 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:10 ssthresh:10 bytes_sent:4774093 bytes_retrans:181000 bytes_acked:4578614 segs_out:3300 segs_in:2732 data_segs_out:3298 send 222kbps lastsnd:144 lastrcv:63948 lastack:144 pacing_rate 266kbps delivery_rate 223kbps delivered:3164 busy:63792ms unacked:10 retrans:0/125 rcv_space:14480 rcv_ssthresh:42242 notsent:1394424 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1378496    10.1.1.100:5001   10.2.2.100:5201 timer:(on,263ms,0)
+	 ts sack ecn reno wscale:9,9 rto:794 rtt:491.21/53.21 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:12 ssthresh:10 bytes_sent:4807397 bytes_retrans:181000 bytes_acked:4609022 segs_out:3323 segs_in:2750 data_segs_out:3321 send 283kbps lastsnd:237 lastrcv:64982 lastack:237 pacing_rate 340kbps delivery_rate 233kbps delivered:3185 busy:64826ms unacked:12 retrans:0/125 rcv_space:14480 rcv_ssthresh:42242 notsent:1361120 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1342296    10.1.1.100:5001   10.2.2.100:5201 timer:(on,276ms,0)
+	 ts sack ecn reno wscale:9,9 rto:806 rtt:545.229/42.372 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:14 ssthresh:10 bytes_sent:4846493 bytes_retrans:181000 bytes_acked:4645222 segs_out:3350 segs_in:2775 data_segs_out:3348 send 297kbps lastsnd:217 lastrcv:66020 lastack:217 pacing_rate 357kbps delivery_rate 248kbps delivered:3210 busy:65864ms unacked:14 retrans:0/125 rcv_space:14480 rcv_ssthresh:42242 notsent:1322024 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1300304    10.1.1.100:5001   10.2.2.100:5201 timer:(on,345ms,0)
+	 ts sack ecn reno wscale:9,9 rto:818 rtt:584.2/48.447 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:16 ssthresh:10 bytes_sent:4891381 bytes_retrans:181000 bytes_acked:4687214 segs_out:3381 segs_in:2799 data_segs_out:3379 send 317kbps lastsnd:63 lastrcv:67047 lastack:63 pacing_rate 381kbps delivery_rate 270kbps delivered:3239 busy:66891ms unacked:16 retrans:0/125 rcv_space:14480 rcv_ssthresh:42242 notsent:1277136 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1252520    10.1.1.100:5001   10.2.2.100:5201 timer:(on,310ms,0)
+	 ts sack ecn reno wscale:9,9 rto:735 rtt:515.21/14.473 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:18 ssthresh:10 bytes_sent:4942061 bytes_retrans:181000 bytes_acked:4734998 segs_out:3416 segs_in:2824 data_segs_out:3414 send 405kbps lastsnd:73 lastrcv:68084 lastack:73 pacing_rate 486kbps delivery_rate 380kbps delivered:3272 busy:67928ms unacked:18 retrans:0/125 rcv_space:14480 rcv_ssthresh:42242 notsent:1226456 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1198944    10.1.1.100:5001   10.2.2.100:5201 timer:(on,270ms,0)
+	 ts sack ecn reno wscale:9,9 rto:788 rtt:554.026/34.551 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:20 ssthresh:10 bytes_sent:4998533 bytes_retrans:181000 bytes_acked:4788574 segs_out:3455 segs_in:2851 data_segs_out:3453 send 418kbps lastsnd:62 lastrcv:69123 lastack:62 pacing_rate 502kbps delivery_rate 374kbps delivered:3309 busy:68967ms unacked:20 retrans:0/125 rcv_space:14480 rcv_ssthresh:42242 notsent:1169984 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1155504    10.1.1.100:5001   10.2.2.100:5201 timer:(on,826ms,0)
+	 ts sack ecn reno wscale:9,9 rto:870 rtt:599.344/34.188 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:16 ssthresh:10 bytes_sent:5052109 bytes_retrans:182448 bytes_acked:4832014 segs_out:3492 segs_in:2889 data_segs_out:3490 send 309kbps lastsnd:311 lastrcv:70149 lastack:44 pacing_rate 603kbps delivery_rate 374kbps delivered:3349 busy:69993ms unacked:26 retrans:1/126 lost:1 sacked:10 rcv_space:14480 rcv_ssthresh:42242 notsent:1117856 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1097584    10.1.1.100:5001   10.2.2.100:5201 timer:(on,257ms,0)
+	 ts sack ecn reno wscale:9,9 rto:745 rtt:491.327/8.609 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:11 ssthresh:10 bytes_sent:5088309 bytes_retrans:182448 bytes_acked:4889934 segs_out:3517 segs_in:2912 data_segs_out:3515 send 259kbps lastrcv:71194 pacing_rate 311kbps delivery_rate 234kbps delivered:3379 busy:71038ms unacked:11 retrans:0/126 rcv_space:14480 rcv_ssthresh:42242 notsent:1081656 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1051248    10.1.1.100:5001   10.2.2.100:5201 timer:(on,562ms,0)
+	 ts sack ecn reno wscale:9,9 rto:723 rtt:500.394/38.479 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:14 ssthresh:10 bytes_sent:5138989 bytes_retrans:182448 bytes_acked:4936270 segs_out:3552 segs_in:2944 data_segs_out:3550 send 324kbps lastsnd:43 lastrcv:72241 lastack:43 pacing_rate 389kbps delivery_rate 285kbps delivered:3411 busy:72085ms unacked:14 retrans:0/126 rcv_space:14480 rcv_ssthresh:42242 notsent:1030976 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1530536    10.1.1.100:5001   10.2.2.100:5201 timer:(on,826ms,0)
+	 ts sack ecn reno wscale:9,9 rto:890 rtt:583.448/19.201 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:16 ssthresh:10 bytes_sent:5183877 bytes_retrans:182448 bytes_acked:4978262 segs_out:3583 segs_in:2973 data_segs_out:3581 send 318kbps lastsnd:2 lastrcv:73275 lastack:2 pacing_rate 381kbps delivery_rate 301kbps delivered:3440 busy:73119ms unacked:16 retrans:0/126 rcv_space:14480 rcv_ssthresh:42242 notsent:1507368 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1485648    10.1.1.100:5001   10.2.2.100:5201 timer:(on,829ms,0)
+	 ts sack ecn reno wscale:9,9 rto:830 rtt:567.963/40.709 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:18 ssthresh:10 bytes_sent:5230213 bytes_retrans:182448 bytes_acked:5023150 segs_out:3615 segs_in:3004 data_segs_out:3613 send 367kbps lastsnd:1 lastrcv:74320 lastack:1 pacing_rate 441kbps delivery_rate 325kbps delivered:3471 busy:74164ms unacked:17 retrans:0/126 rcv_space:14480 rcv_ssthresh:42242 notsent:1461032 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1456688    10.1.1.100:5001   10.2.2.100:5201 timer:(on,213ms,0)
+	 ts sack ecn reno wscale:9,9 rto:818 rtt:570.391/30.781 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:19 ssthresh:10 bytes_sent:5262069 bytes_retrans:182448 bytes_acked:5052110 segs_out:3637 segs_in:3024 data_segs_out:3635 send 386kbps lastsnd:326 lastrcv:75357 lastack:326 pacing_rate 463kbps delivery_rate 315kbps delivered:3491 busy:75201ms unacked:19 retrans:0/126 rcv_space:14480 rcv_ssthresh:42242 notsent:1429176 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1371256    10.1.1.100:5001   10.2.2.100:5201 timer:(on,462ms,0)
+	 ts sack ecn reno wscale:9,9 rto:712 rtt:491.318/5.103 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:22 ssthresh:10 bytes_sent:5351845 bytes_retrans:182448 bytes_acked:5137542 segs_out:3699 segs_in:3062 data_segs_out:3697 send 519kbps lastsnd:13 lastrcv:76390 lastack:13 pacing_rate 622kbps delivery_rate 481kbps delivered:3550 busy:76234ms unacked:22 retrans:0/126 rcv_space:14480 rcv_ssthresh:42242 notsent:1339400 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1307544    10.1.1.100:5001   10.2.2.100:5201 timer:(on,272ms,0)
+	 ts sack ecn reno wscale:9,9 rto:850 rtt:541.363/23.77 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:24 ssthresh:10 bytes_sent:5418453 bytes_retrans:182448 bytes_acked:5201254 segs_out:3745 segs_in:3092 data_segs_out:3743 send 514kbps lastsnd:11 lastrcv:77429 lastack:11 pacing_rate 616kbps delivery_rate 449kbps delivered:3594 busy:77273ms unacked:24 retrans:0/126 rcv_space:14480 rcv_ssthresh:42242 notsent:1272792 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1242384    10.1.1.100:5001   10.2.2.100:5201 timer:(on,409ms,0)
+	 ts sack ecn reno wscale:9,9 rto:949 rtt:594.148/28.247 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:25 ssthresh:10 bytes_sent:5485061 bytes_retrans:182448 bytes_acked:5266414 segs_out:3791 segs_in:3123 data_segs_out:3789 send 487kbps lastsnd:2 lastrcv:78472 lastack:2 pacing_rate 585kbps delivery_rate 472kbps delivered:3639 busy:78316ms unacked:25 retrans:0/126 rcv_space:14480 rcv_ssthresh:42242 notsent:1206184 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1159848    10.1.1.100:5001   10.2.2.100:5201 timer:(on,568ms,0)
+	 ts sack ecn reno wscale:9,9 rto:828 rtt:531.848/17.936 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:28 ssthresh:10 bytes_sent:5571941 bytes_retrans:182448 bytes_acked:5348950 segs_out:3851 segs_in:3154 data_segs_out:3849 send 610kbps lastsnd:11 lastrcv:79508 lastack:11 pacing_rate 732kbps delivery_rate 592kbps delivered:3696 busy:79352ms unacked:28 retrans:0/126 rcv_space:14480 rcv_ssthresh:42242 notsent:1119304 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1096136    10.1.1.100:5001   10.2.2.100:5201 timer:(on,283ms,0)
+	 ts sack ecn reno wscale:9,9 rto:831 rtt:561.067/20.227 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:29 ssthresh:10 bytes_sent:5637101 bytes_retrans:182448 bytes_acked:5412662 segs_out:3896 segs_in:3181 data_segs_out:3894 send 599kbps lastsnd:1 lastrcv:80538 lastack:1 pacing_rate 718kbps delivery_rate 465kbps delivered:3740 busy:80382ms unacked:29 retrans:0/126 rcv_space:14480 rcv_ssthresh:42242 notsent:1054144 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1032424    10.1.1.100:5001   10.2.2.100:5201 timer:(on,251ms,0)
+	 ts sack ecn reno wscale:9,9 rto:827 rtt:574.902/30.048 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:31 ssthresh:10 bytes_sent:5703709 bytes_retrans:182448 bytes_acked:5476374 segs_out:3942 segs_in:3207 data_segs_out:3940 send 625kbps lastsnd:72 lastrcv:81575 lastack:72 pacing_rate 750kbps delivery_rate 551kbps delivered:3784 busy:81419ms unacked:31 retrans:0/126 rcv_space:14480 rcv_ssthresh:42242 notsent:987536 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1462480    10.1.1.100:5001   10.2.2.100:5201 timer:(on,195ms,0)
+	 ts sack ecn reno wscale:9,9 rto:747 rtt:517.337/16.876 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:33 ssthresh:10 bytes_sent:5797829 bytes_retrans:182448 bytes_acked:5567598 segs_out:4007 segs_in:3255 data_segs_out:4005 send 739kbps lastsnd:100 lastrcv:82606 lastack:100 pacing_rate 887kbps delivery_rate 706kbps delivered:3847 busy:82450ms unacked:33 retrans:0/126 rcv_space:14480 rcv_ssthresh:42242 notsent:1414696 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1362568    10.1.1.100:5001   10.2.2.100:5201 timer:(on,256ms,0)
+	 ts sack ecn reno wscale:9,9 rto:774 rtt:556.701/32.812 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:35 ssthresh:10 bytes_sent:5900637 bytes_retrans:182448 bytes_acked:5667510 segs_out:4078 segs_in:3307 data_segs_out:4076 send 728kbps lastrcv:83643 pacing_rate 874kbps delivery_rate 757kbps delivered:3916 busy:83487ms unacked:35 retrans:0/126 rcv_space:14480 rcv_ssthresh:42242 notsent:1311888 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1293064    10.1.1.100:5001   10.2.2.100:5201 timer:(on,742ms,0)
+	 ts sack ecn reno wscale:9,9 rto:785 rtt:575.223/27.606 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:23 ssthresh:18 bytes_sent:5983173 bytes_retrans:188240 bytes_acked:5737014 segs_out:4135 segs_in:3346 data_segs_out:4133 send 463kbps lastsnd:43 lastrcv:84681 lastack:43 pacing_rate 942kbps delivery_rate 681kbps delivered:3981 busy:84525ms unacked:40 retrans:4/130 lost:4 sacked:17 rcv_space:14480 rcv_ssthresh:42242 notsent:1235144 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1198944    10.1.1.100:5001   10.2.2.100:5201 timer:(on,223ms,0)
+	 ts sack ecn reno wscale:9,9 rto:722 rtt:516.404/23.97 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:19 ssthresh:18 bytes_sent:6046885 bytes_retrans:188240 bytes_acked:5831134 segs_out:4179 segs_in:3384 data_segs_out:4177 send 426kbps lastrcv:85720 pacing_rate 511kbps delivery_rate 386kbps delivered:4029 busy:85564ms unacked:19 retrans:0/130 rcv_space:14480 rcv_ssthresh:42242 notsent:1171432 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1152608    10.1.1.100:5001   10.2.2.100:5201 timer:(on,244ms,0)
+	 ts sack ecn reno wscale:9,9 rto:862 rtt:549.846/77.874 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:21 ssthresh:18 bytes_sent:6096117 bytes_retrans:188240 bytes_acked:5877470 segs_out:4213 segs_in:3414 data_segs_out:4211 send 442kbps lastsnd:53 lastrcv:86758 lastack:53 pacing_rate 531kbps delivery_rate 343kbps delivered:4061 busy:86602ms unacked:21 retrans:0/130 rcv_space:14480 rcv_ssthresh:42242 notsent:1122200 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1084552    10.1.1.100:5001   10.2.2.100:5201 timer:(on,419ms,0)
+	 ts sack ecn reno wscale:9,9 rto:832 rtt:547.753/22.701 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:23 ssthresh:18 bytes_sent:6167069 bytes_retrans:188240 bytes_acked:5945526 segs_out:4262 segs_in:3444 data_segs_out:4260 send 486kbps lastsnd:8 lastrcv:87796 lastack:8 pacing_rate 584kbps delivery_rate 403kbps delivered:4108 busy:87640ms unacked:23 retrans:0/130 rcv_space:14480 rcv_ssthresh:42242 notsent:1051248 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1517504    10.1.1.100:5001   10.2.2.100:5201 timer:(on,340ms,0)
+	 ts sack ecn reno wscale:9,9 rto:878 rtt:521.238/20.997 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:25 ssthresh:18 bytes_sent:6258293 bytes_retrans:188240 bytes_acked:6033854 segs_out:4325 segs_in:3473 data_segs_out:4323 send 556kbps lastsnd:8 lastrcv:88833 lastack:8 pacing_rate 667kbps delivery_rate 480kbps delivered:4169 busy:88677ms unacked:25 retrans:0/130 rcv_space:14480 rcv_ssthresh:42242 notsent:1481304 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1458136    10.1.1.100:5001   10.2.2.100:5201 timer:(on,265ms,0)
+	 ts sack ecn reno wscale:9,9 rto:872 rtt:554.795/55.969 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:27 ssthresh:18 bytes_sent:6319109 bytes_retrans:188240 bytes_acked:6093222 segs_out:4367 segs_in:3491 data_segs_out:4365 send 564kbps lastsnd:8 lastrcv:89873 lastack:8 pacing_rate 677kbps delivery_rate 502kbps delivered:4210 busy:89717ms unacked:26 retrans:0/130 rcv_space:14480 rcv_ssthresh:42242 notsent:1420488 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1369808    10.1.1.100:5001   10.2.2.100:5201 timer:(on,281ms,0)
+	 ts sack ecn reno wscale:9,9 rto:805 rtt:547.882/31.36 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:29 ssthresh:18 bytes_sent:6411781 bytes_retrans:188240 bytes_acked:6181550 segs_out:4431 segs_in:3528 data_segs_out:4429 send 613kbps lastrcv:90920 pacing_rate 736kbps delivery_rate 618kbps delivered:4271 busy:90764ms unacked:29 retrans:0/130 rcv_space:14480 rcv_ssthresh:42242 notsent:1327816 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1265552    10.1.1.100:5001   10.2.2.100:5201 timer:(on,284ms,0)
+	 ts sack ecn reno wscale:9,9 rto:727 rtt:494.634/12.762 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:32 ssthresh:18 bytes_sent:6520381 bytes_retrans:188240 bytes_acked:6285806 segs_out:4506 segs_in:3568 data_segs_out:4504 send 749kbps lastsnd:26 lastrcv:91953 lastack:26 pacing_rate 899kbps delivery_rate 694kbps delivered:4343 busy:91797ms unacked:32 retrans:0/130 rcv_space:14480 rcv_ssthresh:42242 notsent:1219216 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1191704    10.1.1.100:5001   10.2.2.100:5201 timer:(on,522ms,0)
+	 ts sack ecn reno wscale:9,9 rto:1094 rtt:615.658/26.433 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:33 ssthresh:18 bytes_sent:6595677 bytes_retrans:188240 bytes_acked:6359654 segs_out:4558 segs_in:3599 data_segs_out:4556 send 621kbps lastsnd:2 lastrcv:92984 lastack:2 pacing_rate 745kbps delivery_rate 594kbps delivered:4394 busy:92828ms unacked:33 retrans:0/130 rcv_space:14480 rcv_ssthresh:42242 notsent:1143920 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1109168    10.1.1.100:5001   10.2.2.100:5201 timer:(on,437ms,0)
+	 ts sack ecn reno wscale:9,9 rto:998 rtt:580.795/22.045 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:35 ssthresh:18 bytes_sent:6681109 bytes_retrans:188240 bytes_acked:6442190 segs_out:4617 segs_in:3624 data_segs_out:4615 send 698kbps lastrcv:94019 pacing_rate 838kbps delivery_rate 665kbps delivered:4451 busy:93863ms unacked:35 retrans:0/130 rcv_space:14480 rcv_ssthresh:42242 notsent:1058488 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1022288    10.1.1.100:5001   10.2.2.100:5201 timer:(on,796ms,0)
+	 ts sack ecn reno wscale:9,9 rto:891 rtt:568.504/60.717 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:36 ssthresh:18 bytes_sent:6773781 bytes_retrans:189688 bytes_acked:6529070 segs_out:4681 segs_in:3653 data_segs_out:4679 send 734kbps lastsnd:95 lastrcv:95059 lastack:95 pacing_rate 929kbps delivery_rate 632kbps delivered:4512 busy:94903ms unacked:38 retrans:1/131 lost:2 sacked:1 rcv_space:14480 rcv_ssthresh:42242 notsent:967264 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1523296    10.1.1.100:5001   10.2.2.100:5201 timer:(on,353ms,0)
+	 ts sack ecn reno wscale:9,9 rto:757 rtt:480.364/20.41 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:19 ssthresh:18 bytes_sent:6838941 bytes_retrans:196928 bytes_acked:6614502 segs_out:4726 segs_in:3691 data_segs_out:4724 send 458kbps lastsnd:7 lastrcv:96094 lastack:7 pacing_rate 550kbps delivery_rate 414kbps delivered:4570 busy:95938ms unacked:19 retrans:0/136 rcv_space:14480 rcv_ssthresh:42242 notsent:1495784 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1455240    10.1.1.100:5001   10.2.2.100:5201 timer:(on,420ms,0)
+	 ts sack ecn reno wscale:9,9 rto:761 rtt:480.634/50.029 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:21 ssthresh:18 bytes_sent:6909893 bytes_retrans:196928 bytes_acked:6682558 segs_out:4775 segs_in:3714 data_segs_out:4773 send 506kbps lastsnd:105 lastrcv:97131 lastack:105 pacing_rate 607kbps delivery_rate 455kbps delivered:4617 busy:96975ms unacked:21 retrans:0/136 rcv_space:14480 rcv_ssthresh:42242 notsent:1424832 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1392976    10.1.1.100:5001   10.2.2.100:5201 timer:(on,492ms,0)
+	 ts sack ecn reno wscale:9,9 rto:869 rtt:563.82/29.831 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:23 ssthresh:18 bytes_sent:6975053 bytes_retrans:196928 bytes_acked:6744822 segs_out:4820 segs_in:3742 data_segs_out:4818 send 473kbps lastsnd:127 lastrcv:98172 lastack:127 pacing_rate 567kbps delivery_rate 462kbps delivered:4660 busy:98016ms unacked:23 retrans:0/136 rcv_space:14480 rcv_ssthresh:42242 notsent:1359672 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1324920    10.1.1.100:5001   10.2.2.100:5201 timer:(on,491ms,0)
+	 ts sack ecn reno wscale:9,9 rto:917 rtt:596.323/27.667 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:25 ssthresh:18 bytes_sent:7046005 bytes_retrans:196928 bytes_acked:6812878 segs_out:4869 segs_in:3771 data_segs_out:4867 send 486kbps lastsnd:154 lastrcv:99217 lastack:154 pacing_rate 583kbps delivery_rate 460kbps delivered:4707 busy:99061ms unacked:25 retrans:0/136 rcv_space:14480 rcv_ssthresh:42242 notsent:1288720 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1251072    10.1.1.100:5001   10.2.2.100:5201 timer:(on,390ms,0)
+	 ts sack ecn reno wscale:9,9 rto:829 rtt:550.982/27.107 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:27 ssthresh:18 bytes_sent:7122749 bytes_retrans:196928 bytes_acked:6886726 segs_out:4922 segs_in:3795 data_segs_out:4920 send 568kbps lastsnd:105 lastrcv:100244 lastack:105 pacing_rate 681kbps delivery_rate 514kbps delivered:4758 busy:100088ms unacked:27 retrans:0/136 rcv_space:14480 rcv_ssthresh:42242 notsent:1211976 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1209080    10.1.1.100:5001   10.2.2.100:5201 timer:(on,864ms,0)
+	 ts sack ecn reno wscale:9,9 rto:875 rtt:600.595/31.844 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:14 ssthresh:14 bytes_sent:7183565 bytes_retrans:199824 bytes_acked:6928718 segs_out:4964 segs_in:3823 data_segs_out:4962 send 270kbps lastsnd:11 lastrcv:101275 lastack:11 pacing_rate 856kbps delivery_rate 490kbps delivered:4811 busy:101119ms unacked:38 retrans:2/138 lost:2 sacked:24 rcv_space:14480 rcv_ssthresh:42242 notsent:1154056 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1135232    10.1.1.100:5001   10.2.2.100:5201 timer:(on,335ms,0)
+	 ts sack ecn reno wscale:9,9 rto:715 rtt:467.835/17.043 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:14 ssthresh:14 bytes_sent:7224109 bytes_retrans:201272 bytes_acked:7002566 segs_out:4992 segs_in:3850 data_segs_out:4990 send 347kbps lastsnd:121 lastrcv:102312 lastack:121 pacing_rate 416kbps delivery_rate 320kbps delivered:4838 busy:102156ms unacked:14 retrans:0/139 rcv_space:14480 rcv_ssthresh:42242 notsent:1114960 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1088896    10.1.1.100:5001   10.2.2.100:5201 timer:(on,308ms,0)
+	 ts sack ecn reno wscale:9,9 rto:730 rtt:454.014/68.946 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:17 ssthresh:14 bytes_sent:7274789 bytes_retrans:201272 bytes_acked:7048902 segs_out:5027 segs_in:3866 data_segs_out:5025 send 434kbps lastsnd:85 lastrcv:103354 lastack:85 pacing_rate 520kbps delivery_rate 320kbps delivered:4870 busy:103198ms unacked:17 retrans:0/139 rcv_space:14480 rcv_ssthresh:42242 notsent:1064280 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1051248    10.1.1.100:5001   10.2.2.100:5201 timer:(on,935ms,0)
+	 ts sack ecn reno wscale:9,9 rto:936 rtt:547.047/84.371 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:14 ssthresh:9 bytes_sent:7315333 bytes_retrans:204168 bytes_acked:7086550 segs_out:5055 segs_in:3877 data_segs_out:5053 send 296kbps lastsnd:1 lastrcv:104390 lastack:1 pacing_rate 432kbps delivery_rate 237kbps delivered:4899 busy:104234ms unacked:17 retrans:2/141 lost:2 sacked:3 rcv_space:14480 rcv_ssthresh:42242 notsent:1026632 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1016496    10.1.1.100:5001   10.2.2.100:5201 timer:(on,452ms,0)
+	 ts sack ecn reno wscale:9,9 rto:943 rtt:554.889/30.268 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:9 ssthresh:9 bytes_sent:7339949 bytes_retrans:205616 bytes_acked:7121302 segs_out:5072 segs_in:3892 data_segs_out:5070 send 188kbps lastsnd:211 lastrcv:105416 lastack:211 pacing_rate 225kbps delivery_rate 195kbps delivered:4920 busy:105260ms unacked:9 retrans:0/142 rcv_space:14480 rcv_ssthresh:42242 notsent:1003464 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1507368    10.1.1.100:5001   10.2.2.100:5201 timer:(on,176ms,0)
+	 ts sack ecn reno wscale:9,9 rto:787 rtt:492.744/64.869 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:11 ssthresh:9 bytes_sent:7373253 bytes_retrans:205616 bytes_acked:7151710 segs_out:5095 segs_in:3910 data_segs_out:5093 send 259kbps lastsnd:50 lastrcv:106451 lastack:50 pacing_rate 310kbps delivery_rate 202kbps delivered:4941 busy:106295ms unacked:11 retrans:0/142 rcv_space:14480 rcv_ssthresh:42242 notsent:1491440 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1474064    10.1.1.100:5001   10.2.2.100:5201 timer:(on,343ms,0)
+	 ts sack ecn reno wscale:9,9 rto:814 rtt:526.469/44.239 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:13 ssthresh:9 bytes_sent:7409453 bytes_retrans:205616 bytes_acked:7185014 segs_out:5120 segs_in:3923 data_segs_out:5118 send 286kbps lastsnd:45 lastrcv:107485 lastack:45 pacing_rate 343kbps delivery_rate 243kbps delivered:4964 busy:107329ms unacked:13 retrans:0/142 rcv_space:14480 rcv_ssthresh:42242 notsent:1455240 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1434968    10.1.1.100:5001   10.2.2.100:5201 timer:(on,337ms,0)
+	 ts sack ecn reno wscale:9,9 rto:775 rtt:525.757/39.309 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:15 ssthresh:9 bytes_sent:7451445 bytes_retrans:205616 bytes_acked:7224110 segs_out:5149 segs_in:3937 data_segs_out:5147 send 330kbps lastsnd:62 lastrcv:108521 lastack:62 pacing_rate 397kbps delivery_rate 282kbps delivered:4991 busy:108365ms unacked:15 retrans:0/142 rcv_space:14480 rcv_ssthresh:42242 notsent:1413248 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1390080    10.1.1.100:5001   10.2.2.100:5201 timer:(on,467ms,0)
+	 ts sack ecn reno wscale:9,9 rto:812 rtt:546.156/48.274 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:17 ssthresh:9 bytes_sent:7499229 bytes_retrans:205616 bytes_acked:7268998 segs_out:5182 segs_in:3948 data_segs_out:5180 send 361kbps lastsnd:66 lastrcv:109559 lastack:66 pacing_rate 433kbps delivery_rate 354kbps delivered:5022 busy:109403ms unacked:17 retrans:0/142 rcv_space:14480 rcv_ssthresh:42242 notsent:1365464 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1346640    10.1.1.100:5001   10.2.2.100:5201 timer:(on,735ms,0)
+	 ts sack ecn reno wscale:9,9 rto:791 rtt:542.03/50.859 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:18 ssthresh:9 bytes_sent:7545565 bytes_retrans:205616 bytes_acked:7312438 segs_out:5214 segs_in:3962 data_segs_out:5212 send 385kbps lastsnd:56 lastrcv:110596 lastack:199 pacing_rate 462kbps delivery_rate 282kbps delivered:5052 busy:110440ms unacked:19 retrans:0/142 rcv_space:14480 rcv_ssthresh:42242 notsent:1319128 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1316232    10.1.1.100:5001   10.2.2.100:5201 timer:(on,491ms,0)
+	 ts sack ecn reno wscale:9,9 rto:804 rtt:563.551/39.414 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:9 ssthresh:9 bytes_sent:7571629 bytes_retrans:215752 bytes_acked:7342846 segs_out:5232 segs_in:3980 data_segs_out:5230 send 185kbps lastsnd:22 lastrcv:111631 lastack:22 pacing_rate 222kbps delivery_rate 190kbps delivered:5073 busy:111475ms unacked:9 retrans:0/149 rcv_space:14480 rcv_ssthresh:42242 notsent:1303200 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1290168    10.1.1.100:5001   10.2.2.100:5201 timer:(on,121ms,0)
+	 ts sack ecn reno wscale:9,9 rto:711 rtt:480.342/53.771 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:11 ssthresh:9 bytes_sent:7600589 bytes_retrans:215752 bytes_acked:7368910 segs_out:5252 segs_in:3993 data_segs_out:5250 send 265kbps lastsnd:187 lastrcv:112667 lastack:187 pacing_rate 318kbps delivery_rate 207kbps delivered:5091 busy:112511ms unacked:11 retrans:0/149 rcv_space:14480 rcv_ssthresh:42242 notsent:1274240 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1256864    10.1.1.100:5001   10.2.2.100:5201 timer:(on,394ms,0)
+	 ts sack ecn reno wscale:9,9 rto:845 rtt:575.243/55.565 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:13 ssthresh:9 bytes_sent:7636789 bytes_retrans:215752 bytes_acked:7402214 segs_out:5277 segs_in:4009 data_segs_out:5275 send 262kbps lastsnd:94 lastrcv:113704 lastack:94 pacing_rate 314kbps delivery_rate 216kbps delivered:5114 busy:113548ms unacked:13 retrans:0/149 rcv_space:14480 rcv_ssthresh:42242 notsent:1238040 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1223560    10.1.1.100:5001   10.2.2.100:5201 timer:(on,411ms,0)
+	 ts sack ecn reno wscale:9,9 rto:796 rtt:550.83/35.685 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:6 ssthresh:6 bytes_sent:7661405 bytes_retrans:217200 bytes_acked:7435518 segs_out:5294 segs_in:4023 data_segs_out:5292 send 126kbps lastsnd:359 lastrcv:114744 lastack:359 pacing_rate 151kbps delivery_rate 265kbps delivered:5137 busy:114588ms unacked:6 retrans:0/150 rcv_space:14480 rcv_ssthresh:42242 notsent:1214872 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1198944    10.1.1.100:5001   10.2.2.100:5201 timer:(on,721ms,0)
+	 ts sack ecn reno wscale:9,9 rto:721 rtt:495.402/23.8 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:8 ssthresh:6 bytes_sent:7687469 bytes_retrans:217200 bytes_acked:7460134 segs_out:5312 segs_in:4040 data_segs_out:5310 send 187kbps lastsnd:1 lastrcv:115778 pacing_rate 224kbps delivery_rate 136kbps delivered:5154 busy:115622ms unacked:7 retrans:0/150 rcv_space:14480 rcv_ssthresh:42242 notsent:1188808 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1175776    10.1.1.100:5001   10.2.2.100:5201 timer:(on,726ms,0)
+	 ts sack ecn reno wscale:9,9 rto:726 rtt:511.509/6.12 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:10 ssthresh:6 bytes_sent:7713533 bytes_retrans:217200 bytes_acked:7483302 segs_out:5330 segs_in:4056 data_segs_out:5328 send 226kbps lastrcv:116803 pacing_rate 272kbps delivery_rate 181kbps delivered:5170 busy:116647ms unacked:9 retrans:0/150 rcv_space:14480 rcv_ssthresh:42242 notsent:1162744 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1149712    10.1.1.100:5001   10.2.2.100:5201 timer:(on,311ms,0)
+	 ts sack ecn reno wscale:9,9 rto:790 rtt:581.932/32.416 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:12 ssthresh:6 bytes_sent:7743941 bytes_retrans:217200 bytes_acked:7509366 segs_out:5351 segs_in:4074 data_segs_out:5349 send 239kbps lastsnd:421 lastrcv:117847 lastack:421 pacing_rate 287kbps delivery_rate 211kbps delivered:5188 busy:117691ms unacked:12 retrans:0/150 rcv_space:14480 rcv_ssthresh:42242 notsent:1132336 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1113512    10.1.1.100:5001   10.2.2.100:5201 timer:(on,328ms,0)
+	 ts sack ecn reno wscale:9,9 rto:774 rtt:568.6/21.957 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:14 ssthresh:6 bytes_sent:7783037 bytes_retrans:217200 bytes_acked:7545566 segs_out:5378 segs_in:4099 data_segs_out:5376 send 285kbps lastsnd:340 lastrcv:118881 lastack:340 pacing_rate 342kbps delivery_rate 262kbps delivered:5213 busy:118725ms unacked:14 retrans:0/150 rcv_space:14480 rcv_ssthresh:42242 notsent:1093240 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1071520    10.1.1.100:5001   10.2.2.100:5201 timer:(on,308ms,0)
+	 ts sack ecn reno wscale:9,9 rto:803 rtt:537.212/58.953 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:16 ssthresh:6 bytes_sent:7827925 bytes_retrans:217200 bytes_acked:7587558 segs_out:5409 segs_in:4128 data_segs_out:5407 send 345kbps lastsnd:395 lastrcv:119917 lastack:395 pacing_rate 414kbps delivery_rate 292kbps delivered:5242 busy:119761ms unacked:16 retrans:0/150 rcv_space:14480 rcv_ssthresh:42242 notsent:1048352 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1030976    10.1.1.100:5001   10.2.2.100:5201 timer:(on,447ms,0)
+	 ts sack ecn reno wscale:9,9 rto:849 rtt:591.766/42.309 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:8 ssthresh:8 bytes_sent:7858333 bytes_retrans:218648 bytes_acked:7628102 segs_out:5430 segs_in:4153 data_segs_out:5428 send 157kbps lastsnd:321 lastrcv:120955 lastack:321 pacing_rate 188kbps delivery_rate 264kbps delivered:5270 busy:120799ms unacked:8 retrans:0/151 rcv_space:14480 rcv_ssthresh:42242 notsent:1019392 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1578320    10.1.1.100:5001   10.2.2.100:5201 timer:(on,600ms,0)
+	 ts sack ecn reno wscale:9,9 rto:734 rtt:486.457/25.425 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:11 ssthresh:8 bytes_sent:7901773 bytes_retrans:218648 bytes_acked:7667198 segs_out:5460 segs_in:4180 data_segs_out:5458 send 262kbps lastsnd:52 lastrcv:121991 lastack:52 pacing_rate 314kbps delivery_rate 229kbps delivered:5297 busy:121835ms unacked:11 retrans:0/151 rcv_space:14480 rcv_ssthresh:42242 notsent:1562392 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1545016    10.1.1.100:5001   10.2.2.100:5201 timer:(on,726ms,0)
+	 ts sack ecn reno wscale:9,9 rto:922 rtt:548.114/77.671 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:13 ssthresh:8 bytes_sent:7937973 bytes_retrans:218648 bytes_acked:7700502 segs_out:5485 segs_in:4203 data_segs_out:5483 send 275kbps lastsnd:96 lastrcv:123017 lastack:96 pacing_rate 330kbps delivery_rate 230kbps delivered:5320 busy:122861ms unacked:13 retrans:0/151 rcv_space:14480 rcv_ssthresh:42242 notsent:1526192 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1505920    10.1.1.100:5001   10.2.2.100:5201 timer:(on,798ms,0)
+	 ts sack ecn reno wscale:9,9 rto:899 rtt:569.006/18.38 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:15 ssthresh:8 bytes_sent:7979965 bytes_retrans:218648 bytes_acked:7739598 segs_out:5514 segs_in:4230 data_segs_out:5512 send 305kbps lastsnd:21 lastrcv:124050 lastack:21 pacing_rate 366kbps delivery_rate 276kbps delivered:5347 busy:123894ms unacked:15 retrans:0/151 rcv_space:14480 rcv_ssthresh:42242 notsent:1484200 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1461032    10.1.1.100:5001   10.2.2.100:5201 timer:(on,645ms,0)
+	 ts sack ecn reno wscale:9,9 rto:775 rtt:501.867/5.588 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:17 ssthresh:8 bytes_sent:8027749 bytes_retrans:218648 bytes_acked:7784486 segs_out:5547 segs_in:4260 data_segs_out:5545 send 392kbps lastsnd:11 lastrcv:125083 lastack:11 pacing_rate 471kbps delivery_rate 344kbps delivered:5378 busy:124927ms unacked:17 retrans:0/151 rcv_space:14480 rcv_ssthresh:42242 notsent:1436416 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1410352    10.1.1.100:5001   10.2.2.100:5201 timer:(on,586ms,0)
+	 ts sack ecn reno wscale:9,9 rto:762 rtt:505.3/9.907 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:19 ssthresh:8 bytes_sent:8081325 bytes_retrans:218648 bytes_acked:7835166 segs_out:5584 segs_in:4282 data_segs_out:5582 send 436kbps lastsnd:135 lastrcv:126119 lastack:135 pacing_rate 523kbps delivery_rate 398kbps delivered:5413 busy:125963ms unacked:19 retrans:0/151 rcv_space:14480 rcv_ssthresh:42242 notsent:1382840 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1379944    10.1.1.100:5001   10.2.2.100:5201 timer:(on,591ms,0)
+	 ts sack ecn reno wscale:9,9 rto:762 rtt:519.31/2.268 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:10 ssthresh:10 bytes_sent:8124765 bytes_retrans:220096 bytes_acked:7865574 segs_out:5614 segs_in:4318 data_segs_out:5612 send 223kbps lastsnd:172 lastrcv:127153 lastack:171 pacing_rate 723kbps delivery_rate 424kbps delivered:5451 busy:126997ms unacked:27 retrans:1/152 lost:1 sacked:17 rcv_space:14480 rcv_ssthresh:42242 notsent:1340848 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1326368    10.1.1.100:5001   10.2.2.100:5201 timer:(on,344ms,0)
+	 ts sack ecn reno wscale:9,9 rto:665 rtt:441.419/37.485 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:11 ssthresh:10 bytes_sent:8155173 bytes_retrans:220096 bytes_acked:7919150 segs_out:5635 segs_in:4338 data_segs_out:5633 send 289kbps lastsnd:238 lastrcv:128187 lastack:238 pacing_rate 346kbps delivery_rate 205kbps delivered:5471 busy:128031ms unacked:11 retrans:0/152 rcv_space:14480 rcv_ssthresh:42242 notsent:1310440 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1293064    10.1.1.100:5001   10.2.2.100:5201 timer:(on,352ms,0)
+	 ts sack ecn reno wscale:9,9 rto:852 rtt:501.397/51.573 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:13 ssthresh:10 bytes_sent:8191373 bytes_retrans:220096 bytes_acked:7952454 segs_out:5660 segs_in:4359 data_segs_out:5658 send 300kbps lastsnd:322 lastrcv:129222 lastack:322 pacing_rate 360kbps delivery_rate 254kbps delivered:5494 busy:129066ms unacked:13 retrans:0/152 rcv_space:14480 rcv_ssthresh:42242 notsent:1274240 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1253968    10.1.1.100:5001   10.2.2.100:5201 timer:(on,473ms,0)
+	 ts sack ecn reno wscale:9,9 rto:930 rtt:575.429/49.467 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:15 ssthresh:10 bytes_sent:8233365 bytes_retrans:220096 bytes_acked:7991550 segs_out:5689 segs_in:4386 data_segs_out:5687 send 302kbps lastsnd:302 lastrcv:130267 lastack:302 pacing_rate 362kbps delivery_rate 260kbps delivered:5521 busy:130111ms unacked:15 retrans:0/152 rcv_space:14480 rcv_ssthresh:42242 notsent:1232248 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1235144    10.1.1.100:5001   10.2.2.100:5201 timer:(on,728ms,0)
+	 ts sack ecn reno wscale:9,9 rto:928 rtt:575.637/30.805 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:8 ssthresh:8 bytes_sent:8265221 bytes_retrans:222992 bytes_acked:8010374 segs_out:5711 segs_in:4409 data_segs_out:5709 send 161kbps lastsnd:200 lastrcv:131302 lastack:200 pacing_rate 507kbps delivery_rate 266kbps delivered:5548 busy:131146ms unacked:22 retrans:1/154 lost:1 sacked:14 rcv_space:14480 rcv_ssthresh:42242 notsent:1203288 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1190256    10.1.1.100:5001   10.2.2.100:5201 timer:(on,365ms,0)
+	 ts sack ecn reno wscale:9,9 rto:829 rtt:542.815/66.586 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:10 ssthresh:8 bytes_sent:8292733 bytes_retrans:222992 bytes_acked:8055262 segs_out:5730 segs_in:4426 data_segs_out:5728 send 213kbps lastsnd:258 lastrcv:132341 lastack:258 pacing_rate 256kbps delivery_rate 173kbps delivered:5565 busy:132185ms unacked:10 retrans:0/154 rcv_space:14480 rcv_ssthresh:42242 notsent:1175776 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1172880    10.1.1.100:5001   10.2.2.100:5201 timer:(on,534ms,0)
+	 ts sack ecn reno wscale:9,9 rto:812 rtt:538.215/24.225 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:5 ssthresh:5 bytes_sent:8315901 bytes_retrans:225888 bytes_acked:8072638 segs_out:5746 segs_in:4445 data_segs_out:5744 send 108kbps lastsnd:279 lastrcv:133395 lastack:278 pacing_rate 310kbps delivery_rate 189kbps delivered:5584 busy:133239ms unacked:12 retrans:2/156 lost:2 sacked:7 rcv_space:14480 rcv_ssthresh:42242 notsent:1155504 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1146816    10.1.1.100:5001   10.2.2.100:5201 timer:(on,307ms,0)
+	 ts sack ecn reno wscale:9,9 rto:748 rtt:498.972/27.396 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:6 ssthresh:5 bytes_sent:8333277 bytes_retrans:225888 bytes_acked:8098702 segs_out:5758 segs_in:4456 data_segs_out:5756 send 139kbps lastrcv:134429 pacing_rate 167kbps delivery_rate 117kbps delivered:5595 busy:134273ms unacked:6 retrans:0/156 rcv_space:14480 rcv_ssthresh:42242 notsent:1138128 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1119304    10.1.1.100:5001   10.2.2.100:5201 timer:(on,285ms,0)
+	 ts sack ecn reno wscale:9,9 rto:719 rtt:498.164/27.423 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:9 ssthresh:5 bytes_sent:8365133 bytes_retrans:225888 bytes_acked:8126214 segs_out:5780 segs_in:4475 data_segs_out:5778 send 209kbps lastsnd:10 lastrcv:135463 lastack:10 pacing_rate 251kbps delivery_rate 172kbps delivered:5614 busy:135307ms unacked:9 retrans:0/156 rcv_space:14480 rcv_ssthresh:42242 notsent:1106272 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1104824    10.1.1.100:5001   10.2.2.100:5201 timer:(on,156ms,0)
+	 ts sack ecn reno wscale:9,9 rto:739 rtt:523.618/40.155 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:10 ssthresh:5 bytes_sent:8381061 bytes_retrans:225888 bytes_acked:8140694 segs_out:5791 segs_in:4485 data_segs_out:5789 send 221kbps lastsnd:435 lastrcv:136496 lastack:435 pacing_rate 265kbps delivery_rate 178kbps delivered:5624 busy:136340ms unacked:10 retrans:0/156 rcv_space:14480 rcv_ssthresh:42242 notsent:1090344 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1074416    10.1.1.100:5001   10.2.2.100:5201 timer:(on,656ms,0)
+	 ts sack ecn reno wscale:9,9 rto:720 rtt:510.162/11.42 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:6 ssthresh:5 bytes_sent:8407125 bytes_retrans:227336 bytes_acked:8171102 segs_out:5809 segs_in:4506 data_segs_out:5807 send 136kbps lastsnd:1 lastrcv:137531 lastack:1 pacing_rate 163kbps delivery_rate 113kbps delivered:5645 busy:137375ms unacked:6 retrans:0/157 rcv_space:14480 rcv_ssthresh:42242 notsent:1065728 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1055592    10.1.1.100:5001   10.2.2.100:5201 timer:(on,542ms,0)
+	 ts sack ecn reno wscale:9,9 rto:692 rtt:486.376/39.112 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:8 ssthresh:5 bytes_sent:8428845 bytes_retrans:227336 bytes_acked:8189926 segs_out:5824 segs_in:4519 data_segs_out:5822 send 191kbps lastsnd:111 lastrcv:138560 lastack:111 pacing_rate 229kbps delivery_rate 152kbps delivered:5658 busy:138404ms unacked:8 retrans:0/157 rcv_space:14480 rcv_ssthresh:42242 notsent:1044008 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1030976    10.1.1.100:5001   10.2.2.100:5201 timer:(on,615ms,0)
+	 ts sack ecn reno wscale:9,9 rto:784 rtt:563.269/54.232 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:10 ssthresh:5 bytes_sent:8456357 bytes_retrans:227336 bytes_acked:8214542 segs_out:5843 segs_in:4536 data_segs_out:5841 send 206kbps lastsnd:52 lastrcv:139596 lastack:52 pacing_rate 247kbps delivery_rate 171kbps delivered:5675 busy:139440ms unacked:10 retrans:0/157 rcv_space:14480 rcv_ssthresh:42242 notsent:1016496 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1521848    10.1.1.100:5001   10.2.2.100:5201 timer:(on,657ms,0)
+	 ts sack ecn reno wscale:9,9 rto:801 rtt:544.009/15.081 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:12 ssthresh:5 bytes_sent:8489661 bytes_retrans:227336 bytes_acked:8244950 segs_out:5866 segs_in:4557 data_segs_out:5864 send 256kbps lastsnd:52 lastrcv:140628 lastack:52 pacing_rate 307kbps delivery_rate 237kbps delivered:5696 busy:140472ms unacked:12 retrans:0/157 rcv_space:14480 rcv_ssthresh:42242 notsent:1504472 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1485648    10.1.1.100:5001   10.2.2.100:5201 timer:(on,608ms,0)
+	 ts sack ecn reno wscale:9,9 rto:831 rtt:523.673/16.339 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:14 ssthresh:5 bytes_sent:8528757 bytes_retrans:227336 bytes_acked:8281150 segs_out:5893 segs_in:4582 data_segs_out:5891 send 310kbps lastsnd:93 lastrcv:141653 lastack:93 pacing_rate 372kbps delivery_rate 296kbps delivered:5721 busy:141497ms unacked:14 retrans:0/157 rcv_space:14480 rcv_ssthresh:42242 notsent:1465376 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1443656    10.1.1.100:5001   10.2.2.100:5201 timer:(on,696ms,0)
+	 ts sack ecn reno wscale:9,9 rto:854 rtt:590.714/40.44 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:16 ssthresh:5 bytes_sent:8573645 bytes_retrans:227336 bytes_acked:8323142 segs_out:5924 segs_in:4611 data_segs_out:5922 send 314kbps lastsnd:12 lastrcv:142691 lastack:12 pacing_rate 377kbps delivery_rate 280kbps delivered:5750 busy:142535ms unacked:16 retrans:0/157 rcv_space:14480 rcv_ssthresh:42242 notsent:1420488 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1397320    10.1.1.100:5001   10.2.2.100:5201 timer:(on,212ms,0)
+	 ts sack ecn reno wscale:9,9 rto:792 rtt:554.621/12.351 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:18 ssthresh:5 bytes_sent:8622877 bytes_retrans:227336 bytes_acked:8369478 segs_out:5958 segs_in:4643 data_segs_out:5956 send 376kbps lastsnd:27 lastrcv:143733 lastack:27 pacing_rate 451kbps delivery_rate 356kbps delivered:5782 busy:143577ms unacked:18 retrans:0/157 rcv_space:14480 rcv_ssthresh:42242 notsent:1371256 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1343744    10.1.1.100:5001   10.2.2.100:5201 timer:(on,406ms,0)
+	 ts sack ecn reno wscale:9,9 rto:801 rtt:538.748/38.976 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:20 ssthresh:5 bytes_sent:8679349 bytes_retrans:227336 bytes_acked:8423054 segs_out:5997 segs_in:4660 data_segs_out:5995 send 430kbps lastsnd:47 lastrcv:144771 lastack:47 pacing_rate 516kbps delivery_rate 402kbps delivered:5819 busy:144615ms unacked:20 retrans:0/157 rcv_space:14480 rcv_ssthresh:42242 notsent:1314784 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1298856    10.1.1.100:5001   10.2.2.100:5201 timer:(on,231ms,0)
+	 ts sack ecn reno wscale:9,9 rto:821 rtt:555.361/49.764 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:21 ssthresh:5 bytes_sent:8725685 bytes_retrans:227336 bytes_acked:8467942 segs_out:6029 segs_in:4685 data_segs_out:6027 send 438kbps lastsnd:11 lastrcv:145805 lastack:11 pacing_rate 526kbps delivery_rate 395kbps delivered:5850 busy:145649ms unacked:21 retrans:0/157 rcv_space:14480 rcv_ssthresh:42242 notsent:1268448 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1226456    10.1.1.100:5001   10.2.2.100:5201 timer:(on,850ms,0)
+	 ts sack ecn reno wscale:9,9 rto:861 rtt:557.183/53.77 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:23 ssthresh:5 bytes_sent:8799533 bytes_retrans:227336 bytes_acked:8540342 segs_out:6080 segs_in:4709 data_segs_out:6078 send 478kbps lastsnd:13 lastrcv:146841 lastack:11 pacing_rate 574kbps delivery_rate 431kbps delivered:5900 busy:146685ms unacked:22 retrans:0/157 rcv_space:14480 rcv_ssthresh:42242 notsent:1194600 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1154056    10.1.1.100:5001   10.2.2.100:5201 timer:(on,356ms,0)
+	 ts sack ecn reno wscale:9,9 rto:861 rtt:540.282/27.621 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:25 ssthresh:5 bytes_sent:8876277 bytes_retrans:227336 bytes_acked:8612742 segs_out:6133 segs_in:4741 data_segs_out:6131 send 536kbps lastsnd:9 lastrcv:147874 lastack:9 pacing_rate 643kbps delivery_rate 462kbps delivered:5950 busy:147718ms unacked:25 retrans:0/157 rcv_space:14480 rcv_ssthresh:42242 notsent:1117856 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1125096    10.1.1.100:5001   10.2.2.100:5201 timer:(on,854ms,0)
+	 ts sack ecn reno wscale:9,9 rto:854 rtt:563.692/58.839 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:16 ssthresh:13 bytes_sent:8916821 bytes_retrans:233128 bytes_acked:8641702 segs_out:6161 segs_in:4767 data_segs_out:6159 send 329kbps lastrcv:148909 pacing_rate 690kbps delivery_rate 417kbps delivered:5983 busy:148753ms unacked:29 retrans:4/161 lost:4 sacked:13 rcv_space:14480 rcv_ssthresh:42242 notsent:1083104 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1051248    10.1.1.100:5001   10.2.2.100:5201 timer:(on,427ms,0)
+	 ts sack ecn reno wscale:9,9 rto:696 rtt:438.202/17.65 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:14 ssthresh:13 bytes_sent:8968949 bytes_retrans:233128 bytes_acked:8715550 segs_out:6197 segs_in:4798 data_segs_out:6195 send 370kbps lastsnd:70 lastrcv:149946 lastack:70 pacing_rate 444kbps delivery_rate 313kbps delivered:6021 busy:149790ms unacked:14 retrans:0/161 rcv_space:14480 rcv_ssthresh:42242 notsent:1030976 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1530536    10.1.1.100:5001   10.2.2.100:5201 timer:(on,510ms,0)
+	 ts sack ecn reno wscale:9,9 rto:864 rtt:524.339/39.567 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:16 ssthresh:13 bytes_sent:9013837 bytes_retrans:233128 bytes_acked:8757542 segs_out:6228 segs_in:4822 data_segs_out:6226 send 353kbps lastsnd:95 lastrcv:150983 lastack:95 pacing_rate 424kbps delivery_rate 316kbps delivered:6050 busy:150827ms unacked:16 retrans:0/161 rcv_space:14480 rcv_ssthresh:42242 notsent:1507368 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1482752    10.1.1.100:5001   10.2.2.100:5201 timer:(on,475ms,0)
+	 ts sack ecn reno wscale:9,9 rto:866 rtt:565.381/36.73 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:18 ssthresh:13 bytes_sent:9064517 bytes_retrans:233128 bytes_acked:8805326 segs_out:6263 segs_in:4848 data_segs_out:6261 send 369kbps lastsnd:43 lastrcv:152024 lastack:43 pacing_rate 443kbps delivery_rate 313kbps delivered:6083 busy:151868ms unacked:18 retrans:0/161 rcv_space:14480 rcv_ssthresh:42242 notsent:1456688 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1430624    10.1.1.100:5001   10.2.2.100:5201 timer:(on,391ms,0)
+	 ts sack ecn reno wscale:9,9 rto:876 rtt:619.023/25.809 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:20 ssthresh:13 bytes_sent:9119541 bytes_retrans:233128 bytes_acked:8857454 segs_out:6301 segs_in:4872 data_segs_out:6299 send 374kbps lastsnd:31 lastrcv:153058 lastack:31 pacing_rate 449kbps delivery_rate 343kbps delivered:6119 busy:152902ms unacked:20 retrans:0/161 rcv_space:14480 rcv_ssthresh:42242 notsent:1401664 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1371256    10.1.1.100:5001   10.2.2.100:5201 timer:(on,457ms,0)
+	 ts sack ecn reno wscale:9,9 rto:828 rtt:554.719/25.517 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:22 ssthresh:13 bytes_sent:9181805 bytes_retrans:233128 bytes_acked:8916822 segs_out:6344 segs_in:4901 data_segs_out:6342 send 459kbps lastsnd:11 lastrcv:154094 lastack:11 pacing_rate 551kbps delivery_rate 399kbps delivered:6160 busy:153938ms unacked:22 retrans:0/161 rcv_space:14480 rcv_ssthresh:42242 notsent:1339400 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1316232    10.1.1.100:5001   10.2.2.100:5201 timer:(on,812ms,0)
+	 ts sack ecn reno wscale:9,9 rto:824 rtt:569.411/52.364 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:11 ssthresh:11 bytes_sent:9228141 bytes_retrans:238920 bytes_acked:8971846 segs_out:6376 segs_in:4922 data_segs_out:6374 send 224kbps lastsnd:12 lastrcv:155133 lastack:12 pacing_rate 269kbps delivery_rate 369kbps delivered:6199 busy:154977ms unacked:12 retrans:2/165 lost:2 sacked:1 rcv_space:14480 rcv_ssthresh:42242 notsent:1298856 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1282928    10.1.1.100:5001   10.2.2.100:5201 timer:(on,382ms,0)
+	 ts sack ecn reno wscale:9,9 rto:763 rtt:512.547/58.31 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:12 ssthresh:11 bytes_sent:9261445 bytes_retrans:238920 bytes_acked:9005150 segs_out:6399 segs_in:4941 data_segs_out:6397 send 271kbps lastsnd:74 lastrcv:156167 lastack:74 pacing_rate 325kbps delivery_rate 226kbps delivered:6221 busy:156011ms unacked:12 retrans:0/165 rcv_space:14480 rcv_ssthresh:42242 notsent:1265552 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1248176    10.1.1.100:5001   10.2.2.100:5201 timer:(on,166ms,0)
+	 ts sack ecn reno wscale:9,9 rto:759 rtt:509.186/57.952 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:14 ssthresh:11 bytes_sent:9299093 bytes_retrans:238920 bytes_acked:9039902 segs_out:6425 segs_in:4953 data_segs_out:6423 send 319kbps lastsnd:261 lastrcv:157206 lastack:261 pacing_rate 382kbps delivery_rate 246kbps delivered:6245 busy:157050ms unacked:14 retrans:0/165 rcv_space:14480 rcv_ssthresh:42242 notsent:1227904 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1206184    10.1.1.100:5001   10.2.2.100:5201 timer:(on,371ms,0)
+	 ts sack ecn reno wscale:9,9 rto:846 rtt:595.718/33.756 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:16 ssthresh:11 bytes_sent:9343981 bytes_retrans:238920 bytes_acked:9081894 segs_out:6456 segs_in:4974 data_segs_out:6454 send 311kbps lastsnd:199 lastrcv:158250 lastack:199 pacing_rate 373kbps delivery_rate 290kbps delivered:6274 busy:158094ms unacked:16 retrans:0/165 rcv_space:14480 rcv_ssthresh:42242 notsent:1183016 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1158400    10.1.1.100:5001   10.2.2.100:5201 timer:(on,432ms,0)
+	 ts sack ecn reno wscale:9,9 rto:809 rtt:575.646/25.972 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:18 ssthresh:11 bytes_sent:9394661 bytes_retrans:238920 bytes_acked:9129678 segs_out:6491 segs_in:4991 data_segs_out:6489 send 362kbps lastsnd:21 lastrcv:159280 lastack:21 pacing_rate 435kbps delivery_rate 303kbps delivered:6307 busy:159124ms unacked:18 retrans:0/165 rcv_space:14480 rcv_ssthresh:42242 notsent:1132336 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1106272    10.1.1.100:5001   10.2.2.100:5201 timer:(on,201ms,0)
+	 ts sack ecn reno wscale:9,9 rto:823 rtt:518.001/76.215 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:20 ssthresh:11 bytes_sent:9449685 bytes_retrans:238920 bytes_acked:9181806 segs_out:6529 segs_in:5006 data_segs_out:6527 send 447kbps lastsnd:250 lastrcv:160318 lastack:250 pacing_rate 537kbps delivery_rate 366kbps delivered:6343 busy:160162ms unacked:20 retrans:0/165 rcv_space:14480 rcv_ssthresh:42242 notsent:1077312 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1046904    10.1.1.100:5001   10.2.2.100:5201 timer:(on,634ms,0)
+	 ts sack ecn reno wscale:9,9 rto:975 rtt:625.391/23.254 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:22 ssthresh:11 bytes_sent:9511949 bytes_retrans:238920 bytes_acked:9241174 segs_out:6572 segs_in:5032 data_segs_out:6570 send 408kbps lastsnd:88 lastrcv:161353 lastack:88 pacing_rate 489kbps delivery_rate 383kbps delivered:6384 busy:161197ms unacked:22 retrans:0/165 rcv_space:14480 rcv_ssthresh:42242 notsent:1015048 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1503024    10.1.1.100:5001   10.2.2.100:5201 timer:(on,471ms,0)
+	 ts sack ecn reno wscale:9,9 rto:837 rtt:525.189/14.001 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:24 ssthresh:11 bytes_sent:9580005 bytes_retrans:238920 bytes_acked:9306334 segs_out:6619 segs_in:5063 data_segs_out:6617 send 529kbps lastsnd:123 lastrcv:162388 lastack:123 pacing_rate 635kbps delivery_rate 496kbps delivered:6429 busy:162232ms unacked:24 retrans:0/165 rcv_space:14480 rcv_ssthresh:42242 notsent:1468272 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1432072    10.1.1.100:5001   10.2.2.100:5201 timer:(on,483ms,0)
+	 ts sack ecn reno wscale:9,9 rto:858 rtt:595.279/26.634 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:26 ssthresh:11 bytes_sent:9653853 bytes_retrans:238920 bytes_acked:9377286 segs_out:6670 segs_in:5095 data_segs_out:6668 send 506kbps lastsnd:41 lastrcv:163435 lastack:41 pacing_rate 607kbps delivery_rate 467kbps delivered:6478 busy:163279ms unacked:26 retrans:0/165 rcv_space:14480 rcv_ssthresh:42242 notsent:1394424 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1355328    10.1.1.100:5001   10.2.2.100:5201 timer:(on,375ms,0)
+	 ts sack ecn reno wscale:9,9 rto:709 rtt:473.058/17.057 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:28 ssthresh:11 bytes_sent:9733493 bytes_retrans:238920 bytes_acked:9454030 segs_out:6725 segs_in:5122 data_segs_out:6723 send 686kbps lastsnd:116 lastrcv:164470 lastack:116 pacing_rate 823kbps delivery_rate 647kbps delivered:6531 busy:164314ms unacked:28 retrans:0/165 rcv_space:14480 rcv_ssthresh:42242 notsent:1314784 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1272792    10.1.1.100:5001   10.2.2.100:5201 timer:(on,437ms,0)
+	 ts sack ecn reno wscale:9,9 rto:923 rtt:526.25/41.695 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:30 ssthresh:11 bytes_sent:9818925 bytes_retrans:238920 bytes_acked:9536566 segs_out:6784 segs_in:5149 data_segs_out:6782 send 660kbps lastsnd:235 lastrcv:165518 lastack:235 pacing_rate 792kbps delivery_rate 655kbps delivered:6588 busy:165362ms unacked:30 retrans:0/165 rcv_space:14480 rcv_ssthresh:42242 notsent:1229352 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1184464    10.1.1.100:5001   10.2.2.100:5201 timer:(on,553ms,0)
+	 ts sack ecn reno wscale:9,9 rto:977 rtt:628.791/34.475 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:32 ssthresh:11 bytes_sent:9910149 bytes_retrans:238920 bytes_acked:9624894 segs_out:6847 segs_in:5188 data_segs_out:6845 send 590kbps lastsnd:33 lastrcv:166568 lastack:33 pacing_rate 707kbps delivery_rate 513kbps delivered:6649 busy:166412ms unacked:32 retrans:0/165 rcv_space:14480 rcv_ssthresh:42242 notsent:1138128 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1090344    10.1.1.100:5001   10.2.2.100:5201 timer:(on,367ms,0)
+	 ts sack ecn reno wscale:9,9 rto:820 rtt:525.41/58.173 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:34 ssthresh:11 bytes_sent:10007165 bytes_retrans:238920 bytes_acked:9719014 segs_out:6914 segs_in:5222 data_segs_out:6912 send 750kbps lastsnd:44 lastrcv:167603 lastack:44 pacing_rate 900kbps delivery_rate 607kbps delivered:6714 busy:167447ms unacked:34 retrans:0/165 rcv_space:14480 rcv_ssthresh:42242 notsent:1041112 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1511712    10.1.1.100:5001   10.2.2.100:5201 timer:(on,331ms,0)
+	 ts sack ecn reno wscale:9,9 rto:816 rtt:551.759/43.018 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:36 ssthresh:11 bytes_sent:10109973 bytes_retrans:238920 bytes_acked:9818926 segs_out:6985 segs_in:5255 data_segs_out:6983 send 756kbps lastsnd:32 lastrcv:168639 lastack:32 pacing_rate 907kbps delivery_rate 701kbps delivered:6783 busy:168483ms unacked:36 retrans:0/165 rcv_space:14480 rcv_ssthresh:42242 notsent:1459584 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1407456    10.1.1.100:5001   10.2.2.100:5201 timer:(on,240ms,0)
+	 ts sack ecn reno wscale:9,9 rto:822 rtt:577.308/20.583 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:37 ssthresh:11 bytes_sent:10215677 bytes_retrans:238920 bytes_acked:9923182 segs_out:7058 segs_in:5291 data_segs_out:7056 send 742kbps lastsnd:13 lastrcv:169684 lastack:13 pacing_rate 891kbps delivery_rate 732kbps delivered:6855 busy:169528ms unacked:37 retrans:0/165 rcv_space:14480 rcv_ssthresh:42242 notsent:1353880 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1298856    10.1.1.100:5001   10.2.2.100:5201 timer:(on,259ms,0)
+	 ts sack ecn reno wscale:9,9 rto:768 rtt:529.67/19.035 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:39 ssthresh:11 bytes_sent:10327173 bytes_retrans:238920 bytes_acked:10031782 segs_out:7135 segs_in:5327 data_segs_out:7133 send 853kbps lastsnd:80 lastrcv:170726 lastack:80 pacing_rate 1.02Mbps delivery_rate 827kbps delivered:6930 busy:170570ms unacked:39 retrans:0/165 rcv_space:14480 rcv_ssthresh:42242 notsent:1242384 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1217768    10.1.1.100:5001   10.2.2.100:5201 timer:(on,850ms,0)
+	 ts sack ecn reno wscale:9,9 rto:859 rtt:582.323/30.182 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:28 ssthresh:20 bytes_sent:10422741 bytes_retrans:246160 bytes_acked:10112870 segs_out:7201 segs_in:5360 data_segs_out:7199 send 557kbps lastsnd:9 lastrcv:171761 lastack:9 pacing_rate 1.05Mbps delivery_rate 644kbps delivered:7001 busy:171605ms unacked:44 retrans:5/170 lost:6 sacked:15 rcv_space:14480 rcv_ssthresh:42242 notsent:1154056 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1125096    10.1.1.100:5001   10.2.2.100:5201 timer:(on,362ms,0)
+	 ts sack ecn reno wscale:9,9 rto:778 rtt:520.024/18.355 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:21 ssthresh:20 bytes_sent:10483557 bytes_retrans:247608 bytes_acked:10205542 segs_out:7243 segs_in:5393 data_segs_out:7241 send 468kbps lastsnd:55 lastrcv:172799 lastack:55 pacing_rate 561kbps delivery_rate 442kbps delivered:7050 busy:172643ms unacked:21 retrans:0/171 rcv_space:14480 rcv_ssthresh:42242 notsent:1094688 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1046904    10.1.1.100:5001   10.2.2.100:5201 timer:(on,288ms,0)
+	 ts sack ecn reno wscale:9,9 rto:735 rtt:502.316/16.081 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:23 ssthresh:20 bytes_sent:10564645 bytes_retrans:247608 bytes_acked:10283734 segs_out:7299 segs_in:5418 data_segs_out:7297 send 530kbps lastsnd:9 lastrcv:173844 lastack:9 pacing_rate 636kbps delivery_rate 499kbps delivered:7104 busy:173688ms unacked:23 retrans:0/171 rcv_space:14480 rcv_ssthresh:42242 notsent:1013600 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1501576    10.1.1.100:5001   10.2.2.100:5201 timer:(on,312ms,0)
+	 ts sack ecn reno wscale:9,9 rto:886 rtt:533.32/39.8 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:25 ssthresh:20 bytes_sent:10634149 bytes_retrans:247608 bytes_acked:10350342 segs_out:7347 segs_in:5440 data_segs_out:7345 send 543kbps lastsnd:31 lastrcv:174879 lastack:31 pacing_rate 652kbps delivery_rate 507kbps delivered:7150 busy:174723ms unacked:25 retrans:0/171 rcv_space:14480 rcv_ssthresh:42242 notsent:1465376 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1440760    10.1.1.100:5001   10.2.2.100:5201 timer:(on,340ms,0)
+	 ts sack ecn reno wscale:9,9 rto:934 rtt:595.161/55.118 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:27 ssthresh:20 bytes_sent:10697861 bytes_retrans:247608 bytes_acked:10411158 segs_out:7391 segs_in:5462 data_segs_out:7389 send 526kbps lastsnd:10 lastrcv:175919 lastack:10 pacing_rate 631kbps delivery_rate 491kbps delivered:7192 busy:175763ms unacked:27 retrans:0/171 rcv_space:14480 rcv_ssthresh:42242 notsent:1401664 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1349536    10.1.1.100:5001   10.2.2.100:5201 timer:(on,327ms,0)
+	 ts sack ecn reno wscale:9,9 rto:837 rtt:522.716/21.428 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:29 ssthresh:20 bytes_sent:10791981 bytes_retrans:247608 bytes_acked:10502382 segs_out:7456 segs_in:5487 data_segs_out:7454 send 643kbps lastsnd:25 lastrcv:176965 lastack:25 pacing_rate 771kbps delivery_rate 610kbps delivered:7255 busy:176809ms unacked:29 retrans:0/171 rcv_space:14480 rcv_ssthresh:42242 notsent:1307544 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1274240    10.1.1.100:5001   10.2.2.100:5201 timer:(on,873ms,0)
+	 ts sack ecn reno wscale:9,9 rto:904 rtt:553.42/25.642 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:27 ssthresh:15 bytes_sent:10874517 bytes_retrans:249056 bytes_acked:10577678 segs_out:7513 segs_in:5516 data_segs_out:7511 send 565kbps lastsnd:31 lastrcv:177998 lastack:31 pacing_rate 804kbps delivery_rate 601kbps delivered:7313 busy:177842ms unacked:33 retrans:1/172 lost:1 sacked:6 rcv_space:14480 rcv_ssthresh:42242 notsent:1226456 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1206184    10.1.1.100:5001   10.2.2.100:5201 timer:(on,369ms,0)
+	 ts sack ecn reno wscale:9,9 rto:896 rtt:564.2/25.917 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:16 ssthresh:15 bytes_sent:10917957 bytes_retrans:249056 bytes_acked:10645734 segs_out:7543 segs_in:5543 data_segs_out:7541 send 329kbps lastsnd:9 lastrcv:179035 lastack:9 pacing_rate 394kbps delivery_rate 316kbps delivered:7354 busy:178879ms unacked:16 retrans:0/172 rcv_space:14480 rcv_ssthresh:42242 notsent:1183016 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1155504    10.1.1.100:5001   10.2.2.100:5201 timer:(on,336ms,0)
+	 ts sack ecn reno wscale:9,9 rto:792 rtt:514.923/43.683 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:18 ssthresh:15 bytes_sent:10971533 bytes_retrans:249056 bytes_acked:10696414 segs_out:7580 segs_in:5561 data_segs_out:7578 send 405kbps lastsnd:63 lastrcv:180080 lastack:63 pacing_rate 486kbps delivery_rate 339kbps delivered:7389 busy:179924ms unacked:18 retrans:0/172 rcv_space:14480 rcv_ssthresh:42242 notsent:1129440 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1113512    10.1.1.100:5001   10.2.2.100:5201 timer:(on,913ms,0)
+	 ts sack ecn reno wscale:9,9 rto:942 rtt:580.795/50.561 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:15 ssthresh:9 bytes_sent:11020765 bytes_retrans:250504 bytes_acked:10738406 segs_out:7614 segs_in:5584 data_segs_out:7612 send 299kbps lastsnd:39 lastrcv:181113 lastack:29 pacing_rate 527kbps delivery_rate 380kbps delivered:7425 busy:180957ms unacked:22 retrans:1/173 lost:1 sacked:7 rcv_space:14480 rcv_ssthresh:42242 notsent:1081656 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1062832    10.1.1.100:5001   10.2.2.100:5201 timer:(on,386ms,0)
+	 ts sack ecn reno wscale:9,9 rto:807 rtt:465.766/29.645 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:10 ssthresh:9 bytes_sent:11054069 bytes_retrans:250504 bytes_acked:10789086 segs_out:7637 segs_in:5607 data_segs_out:7635 send 249kbps lastrcv:182161 pacing_rate 298kbps delivery_rate 205kbps delivered:7453 busy:182005ms unacked:10 retrans:0/173 rcv_space:14480 rcv_ssthresh:42242 notsent:1048352 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1028080    10.1.1.100:5001   10.2.2.100:5201 timer:(on,339ms,0)
+	 ts sack ecn reno wscale:9,9 rto:838 rtt:493.828/66.845 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:13 ssthresh:9 bytes_sent:11093165 bytes_retrans:250504 bytes_acked:10823838 segs_out:7664 segs_in:5620 data_segs_out:7662 send 305kbps lastsnd:76 lastrcv:183206 lastack:76 pacing_rate 366kbps delivery_rate 264kbps delivered:7477 busy:183050ms unacked:13 retrans:0/173 rcv_space:14480 rcv_ssthresh:42242 notsent:1009256 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1520400    10.1.1.100:5001   10.2.2.100:5201 timer:(on,254ms,0)
+	 ts sack ecn reno wscale:9,9 rto:847 rtt:538.378/51.659 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:14 ssthresh:9 bytes_sent:11123573 bytes_retrans:250504 bytes_acked:10852798 segs_out:7685 segs_in:5630 data_segs_out:7683 send 301kbps lastsnd:99 lastrcv:184241 lastack:99 pacing_rate 361kbps delivery_rate 267kbps delivered:7497 busy:184085ms unacked:14 retrans:0/173 rcv_space:14480 rcv_ssthresh:42242 notsent:1500128 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1475512    10.1.1.100:5001   10.2.2.100:5201 timer:(on,581ms,0)
+	 ts sack ecn reno wscale:9,9 rto:716 rtt:463.015/52.63 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:8 ssthresh:7 bytes_sent:11161221 bytes_retrans:251952 bytes_acked:10897686 segs_out:7711 segs_in:5648 data_segs_out:7709 send 200kbps lastsnd:1 lastrcv:185277 lastack:1 pacing_rate 240kbps delivery_rate 136kbps delivered:7528 busy:185121ms unacked:8 retrans:0/174 rcv_space:14480 rcv_ssthresh:42242 notsent:1463928 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1450896    10.1.1.100:5001   10.2.2.100:5201 timer:(on,498ms,0)
+	 ts sack ecn reno wscale:9,9 rto:729 rtt:496.875/14.691 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:10 ssthresh:7 bytes_sent:11188733 bytes_retrans:251952 bytes_acked:10922302 segs_out:7730 segs_in:5665 data_segs_out:7728 send 233kbps lastsnd:40 lastrcv:186313 lastack:40 pacing_rate 280kbps delivery_rate 209kbps delivered:7545 busy:186157ms unacked:10 retrans:0/174 rcv_space:14480 rcv_ssthresh:42242 notsent:1436416 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1423384    10.1.1.100:5001   10.2.2.100:5201 timer:(on,201ms,0)
+	 ts sack ecn reno wscale:9,9 rto:740 rtt:521.603/27.421 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:12 ssthresh:7 bytes_sent:11219141 bytes_retrans:251952 bytes_acked:10949814 segs_out:7751 segs_in:5683 data_segs_out:7749 send 267kbps lastsnd:53 lastrcv:187347 lastack:53 pacing_rate 320kbps delivery_rate 215kbps delivered:7564 busy:187191ms unacked:12 retrans:0/174 rcv_space:14480 rcv_ssthresh:42242 notsent:1406008 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1387184    10.1.1.100:5001   10.2.2.100:5201 timer:(on,204ms,0)
+	 ts sack ecn reno wscale:9,9 rto:797 rtt:519.232/67.952 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:14 ssthresh:7 bytes_sent:11258237 bytes_retrans:251952 bytes_acked:10986014 segs_out:7778 segs_in:5699 data_segs_out:7776 send 312kbps lastsnd:89 lastrcv:188383 lastack:89 pacing_rate 375kbps delivery_rate 262kbps delivered:7589 busy:188227ms unacked:14 retrans:0/174 rcv_space:14480 rcv_ssthresh:42242 notsent:1366912 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1342296    10.1.1.100:5001   10.2.2.100:5201 timer:(on,579ms,0)
+	 ts sack ecn reno wscale:9,9 rto:836 rtt:562.637/23.689 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:16 ssthresh:7 bytes_sent:11306021 bytes_retrans:251952 bytes_acked:11030902 segs_out:7811 segs_in:5722 data_segs_out:7809 send 329kbps lastsnd:2 lastrcv:189417 lastack:2 pacing_rate 395kbps delivery_rate 305kbps delivered:7620 busy:189261ms unacked:16 retrans:0/174 rcv_space:14480 rcv_ssthresh:42242 notsent:1319128 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1324920    10.1.1.100:5001   10.2.2.100:5201 timer:(on,787ms,0)
+	 ts sack ecn reno wscale:9,9 rto:851 rtt:584.717/64.091 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:12 ssthresh:8 bytes_sent:11327741 bytes_retrans:254848 bytes_acked:11048278 segs_out:7826 segs_in:5734 data_segs_out:7824 send 238kbps lastsnd:64 lastrcv:190451 lastack:64 pacing_rate 380kbps delivery_rate 245kbps delivered:7637 busy:190295ms unacked:17 retrans:2/176 lost:2 sacked:5 rcv_space:14480 rcv_ssthresh:42242 notsent:1300304 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1281480    10.1.1.100:5001   10.2.2.100:5201 timer:(on,298ms,0)
+	 ts sack ecn reno wscale:9,9 rto:757 rtt:500.681/11.136 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:9 ssthresh:8 bytes_sent:11359597 bytes_retrans:254848 bytes_acked:11091718 segs_out:7848 segs_in:5753 data_segs_out:7846 send 208kbps lastsnd:78 lastrcv:191489 lastack:78 pacing_rate 250kbps delivery_rate 187kbps delivered:7662 busy:191333ms unacked:9 retrans:0/176 rcv_space:14480 rcv_ssthresh:42242 notsent:1268448 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1248176    10.1.1.100:5001   10.2.2.100:5201 timer:(on,521ms,0)
+	 ts sack ecn reno wscale:9,9 rto:768 rtt:535.005/58.214 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:12 ssthresh:8 bytes_sent:11397245 bytes_retrans:254848 bytes_acked:11125022 segs_out:7874 segs_in:5775 data_segs_out:7872 send 260kbps lastsnd:1 lastrcv:192522 lastack:1 pacing_rate 312kbps delivery_rate 216kbps delivered:7685 busy:192366ms unacked:12 retrans:0/176 rcv_space:14480 rcv_ssthresh:42242 notsent:1230800 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1213424    10.1.1.100:5001   10.2.2.100:5201 timer:(on,274ms,0)
+	 ts sack ecn reno wscale:9,9 rto:792 rtt:554.544/45.558 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:13 ssthresh:8 bytes_sent:11433445 bytes_retrans:254848 bytes_acked:11159774 segs_out:7899 segs_in:5799 data_segs_out:7897 send 272kbps lastrcv:193558 pacing_rate 326kbps delivery_rate 268kbps delivered:7709 busy:193402ms unacked:13 retrans:0/176 rcv_space:14480 rcv_ssthresh:42242 notsent:1194600 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1169984    10.1.1.100:5001   10.2.2.100:5201 timer:(on,449ms,0)
+	 ts sack ecn reno wscale:9,9 rto:720 rtt:487.652/23.155 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:16 ssthresh:8 bytes_sent:11481229 bytes_retrans:254848 bytes_acked:11203214 segs_out:7932 segs_in:5816 data_segs_out:7930 send 380kbps lastsnd:52 lastrcv:194593 lastack:52 pacing_rate 456kbps delivery_rate 343kbps delivered:7739 busy:194437ms unacked:16 retrans:0/176 rcv_space:14480 rcv_ssthresh:42242 notsent:1146816 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1122200    10.1.1.100:5001   10.2.2.100:5201 timer:(on,593ms,0)
+	 ts sack ecn reno wscale:9,9 rto:916 rtt:593.729/46.608 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:18 ssthresh:8 bytes_sent:11531909 bytes_retrans:254848 bytes_acked:11250998 segs_out:7967 segs_in:5840 data_segs_out:7965 send 351kbps lastsnd:22 lastrcv:195628 lastack:22 pacing_rate 421kbps delivery_rate 302kbps delivered:7772 busy:195472ms unacked:18 retrans:0/176 rcv_space:14480 rcv_ssthresh:42242 notsent:1096136 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1081656    10.1.1.100:5001   10.2.2.100:5201 timer:(on,331ms,0)
+	 ts sack ecn reno wscale:9,9 rto:851 rtt:559.077/15.148 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:19 ssthresh:8 bytes_sent:11573901 bytes_retrans:254848 bytes_acked:11291542 segs_out:7996 segs_in:5863 data_segs_out:7994 send 394kbps lastsnd:11 lastrcv:196655 lastack:11 pacing_rate 472kbps delivery_rate 368kbps delivered:7800 busy:196499ms unacked:19 retrans:0/176 rcv_space:14480 rcv_ssthresh:42242 notsent:1054144 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1530536    10.1.1.100:5001   10.2.2.100:5201 timer:(on,485ms,0)
+	 ts sack ecn reno wscale:9,9 rto:752 rtt:500.388/13.34 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:22 ssthresh:8 bytes_sent:11650645 bytes_retrans:254848 bytes_acked:11363942 segs_out:8049 segs_in:5883 data_segs_out:8047 send 509kbps lastsnd:9 lastrcv:197692 lastack:9 pacing_rate 611kbps delivery_rate 478kbps delivered:7850 busy:197536ms unacked:22 retrans:0/176 rcv_space:14480 rcv_ssthresh:42242 notsent:1498680 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1474064    10.1.1.100:5001   10.2.2.100:5201 timer:(on,302ms,0)
+	 ts sack ecn reno wscale:9,9 rto:863 rtt:571.656/66.124 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:23 ssthresh:8 bytes_sent:11708565 bytes_retrans:254848 bytes_acked:11420414 segs_out:8089 segs_in:5902 data_segs_out:8087 send 466kbps lastsnd:13 lastrcv:198732 lastack:13 pacing_rate 559kbps delivery_rate 431kbps delivered:7889 busy:198576ms unacked:23 retrans:0/176 rcv_space:14480 rcv_ssthresh:42242 notsent:1440760 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1413248    10.1.1.100:5001   10.2.2.100:5201 timer:(on,258ms,0)
+	 ts sack ecn reno wscale:9,9 rto:839 rtt:565.939/62.168 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:25 ssthresh:8 bytes_sent:11772277 bytes_retrans:254848 bytes_acked:11481230 segs_out:8133 segs_in:5921 data_segs_out:8131 send 512kbps lastrcv:199772 pacing_rate 614kbps delivery_rate 469kbps delivered:7931 busy:199616ms unacked:25 retrans:0/176 rcv_space:14480 rcv_ssthresh:42242 notsent:1377048 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1327816    10.1.1.100:5001   10.2.2.100:5201 timer:(on,263ms,0)
+	 ts sack ecn reno wscale:9,9 rto:768 rtt:516.098/32.456 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:27 ssthresh:8 bytes_sent:11860605 bytes_retrans:254848 bytes_acked:11566662 segs_out:8194 segs_in:5949 data_segs_out:8192 send 606kbps lastsnd:1 lastrcv:200809 lastack:1 pacing_rate 727kbps delivery_rate 582kbps delivered:7990 busy:200653ms unacked:27 retrans:0/176 rcv_space:14480 rcv_ssthresh:42242 notsent:1288720 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1274240    10.1.1.100:5001   10.2.2.100:5201 timer:(on,853ms,0)
+	 ts sack ecn reno wscale:9,9 rto:854 rtt:601.287/59.687 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:22 ssthresh:14 bytes_sent:11924317 bytes_retrans:259192 bytes_acked:11620238 segs_out:8238 segs_in:5973 data_segs_out:8236 send 424kbps lastsnd:1 lastrcv:201857 lastack:1 pacing_rate 694kbps delivery_rate 464kbps delivered:8036 busy:201701ms unacked:31 retrans:3/179 lost:3 sacked:9 rcv_space:14480 rcv_ssthresh:42242 notsent:1229352 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1200392    10.1.1.100:5001   10.2.2.100:5201 timer:(on,289ms,0)
+	 ts sack ecn reno wscale:9,9 rto:698 rtt:458.144/26.242 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:15 ssthresh:14 bytes_sent:11974997 bytes_retrans:259192 bytes_acked:11694086 segs_out:8273 segs_in:6003 data_segs_out:8271 send 379kbps lastsnd:12 lastrcv:202895 lastack:12 pacing_rate 455kbps delivery_rate 328kbps delivered:8078 busy:202739ms unacked:15 retrans:0/179 rcv_space:14480 rcv_ssthresh:42242 notsent:1178672 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1155504    10.1.1.100:5001   10.2.2.100:5201 timer:(on,332ms,0)
+	 ts sack ecn reno wscale:9,9 rto:757 rtt:488.64/40.998 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:17 ssthresh:14 bytes_sent:12022781 bytes_retrans:259192 bytes_acked:11738974 segs_out:8306 segs_in:6019 data_segs_out:8304 send 403kbps lastsnd:92 lastrcv:203930 lastack:92 pacing_rate 484kbps delivery_rate 365kbps delivered:8109 busy:203774ms unacked:17 retrans:0/179 rcv_space:14480 rcv_ssthresh:42242 notsent:1130888 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1104824    10.1.1.100:5001   10.2.2.100:5201 timer:(on,477ms,0)
+	 ts sack ecn reno wscale:9,9 rto:866 rtt:570.846/69.586 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:19 ssthresh:14 bytes_sent:12076357 bytes_retrans:259192 bytes_acked:11789654 segs_out:8343 segs_in:6035 data_segs_out:8341 send 386kbps lastsnd:8 lastrcv:204964 lastack:8 pacing_rate 463kbps delivery_rate 332kbps delivered:8144 busy:204808ms unacked:19 retrans:0/179 rcv_space:14480 rcv_ssthresh:42242 notsent:1077312 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1061384    10.1.1.100:5001   10.2.2.100:5201 timer:(on,659ms,0)
+	 ts sack ecn reno wscale:9,9 rto:815 rtt:532.786/18.863 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:9 ssthresh:9 bytes_sent:12106765 bytes_retrans:260640 bytes_acked:11833094 segs_out:8364 segs_in:6055 data_segs_out:8362 send 196kbps lastsnd:31 lastrcv:206005 lastack:31 pacing_rate 235kbps delivery_rate 268kbps delivered:8174 busy:205849ms unacked:9 retrans:0/180 rcv_space:14480 rcv_ssthresh:42242 notsent:1048352 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1033872    10.1.1.100:5001   10.2.2.100:5201 timer:(on,572ms,0)
+	 ts sack ecn reno wscale:9,9 rto:768 rtt:521.209/15.44 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:11 ssthresh:9 bytes_sent:12137173 bytes_retrans:260640 bytes_acked:11860606 segs_out:8385 segs_in:6074 data_segs_out:8383 send 244kbps lastsnd:72 lastrcv:207042 lastack:72 pacing_rate 293kbps delivery_rate 223kbps delivered:8193 busy:206886ms unacked:11 retrans:0/180 rcv_space:14480 rcv_ssthresh:42242 notsent:1017944 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1521848    10.1.1.100:5001   10.2.2.100:5201 timer:(on,567ms,0)
+	 ts sack ecn reno wscale:9,9 rto:779 rtt:552.713/35.964 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:13 ssthresh:9 bytes_sent:12173373 bytes_retrans:260640 bytes_acked:11893910 segs_out:8410 segs_in:6097 data_segs_out:8408 send 272kbps lastsnd:43 lastrcv:208078 lastack:43 pacing_rate 327kbps delivery_rate 240kbps delivered:8216 busy:207922ms unacked:13 retrans:0/180 rcv_space:14480 rcv_ssthresh:42242 notsent:1503024 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1482752    10.1.1.100:5001   10.2.2.100:5201 timer:(on,462ms,0)
+	 ts sack ecn reno wscale:9,9 rto:691 rtt:476.001/16.048 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:15 ssthresh:9 bytes_sent:12215365 bytes_retrans:260640 bytes_acked:11933006 segs_out:8439 segs_in:6124 data_segs_out:8437 send 365kbps lastsnd:94 lastrcv:209113 lastack:94 pacing_rate 438kbps delivery_rate 284kbps delivered:8243 busy:208957ms unacked:15 retrans:0/180 rcv_space:14480 rcv_ssthresh:42242 notsent:1461032 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1437864    10.1.1.100:5001   10.2.2.100:5201 timer:(on,522ms,0)
+	 ts sack ecn reno wscale:9,9 rto:782 rtt:523.413/19.436 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:17 ssthresh:9 bytes_sent:12263149 bytes_retrans:260640 bytes_acked:11977894 segs_out:8472 segs_in:6155 data_segs_out:8470 send 376kbps lastsnd:123 lastrcv:210163 lastack:123 pacing_rate 451kbps delivery_rate 347kbps delivered:8274 busy:210007ms unacked:17 retrans:0/180 rcv_space:14480 rcv_ssthresh:42242 notsent:1413248 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1417592    10.1.1.100:5001   10.2.2.100:5201 timer:(on,695ms,0)
+	 ts sack ecn reno wscale:9,9 rto:820 rtt:563.784/42.743 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:9 ssthresh:9 bytes_sent:12297901 bytes_retrans:263536 bytes_acked:11998166 segs_out:8496 segs_in:6180 data_segs_out:8494 send 185kbps lastsnd:125 lastrcv:211206 lastack:125 pacing_rate 592kbps delivery_rate 337kbps delivered:8304 busy:211050ms unacked:25 retrans:1/182 lost:1 sacked:16 rcv_space:14480 rcv_ssthresh:42242 notsent:1381392 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1366912    10.1.1.100:5001   10.2.2.100:5201 timer:(on,379ms,0)
+	 ts sack ecn reno wscale:9,9 rto:703 rtt:469.214/19.791 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:11 ssthresh:9 bytes_sent:12328309 bytes_retrans:263536 bytes_acked:12048846 segs_out:8517 segs_in:6199 data_segs_out:8515 send 272kbps lastsnd:211 lastrcv:212244 lastack:211 pacing_rate 326kbps delivery_rate 240kbps delivered:8323 busy:212088ms unacked:11 retrans:0/182 rcv_space:14480 rcv_ssthresh:42242 notsent:1350984 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1330712    10.1.1.100:5001   10.2.2.100:5201 timer:(on,274ms,0)
+	 ts sack ecn reno wscale:9,9 rto:752 rtt:485.01/27.64 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:13 ssthresh:9 bytes_sent:12367405 bytes_retrans:263536 bytes_acked:12085046 segs_out:8544 segs_in:6222 data_segs_out:8542 send 310kbps lastrcv:213283 pacing_rate 373kbps delivery_rate 279kbps delivered:8348 busy:213127ms unacked:13 retrans:0/182 rcv_space:14480 rcv_ssthresh:42242 notsent:1311888 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1285824    10.1.1.100:5001   10.2.2.100:5201 timer:(on,264ms,0)
+	 ts sack ecn reno wscale:9,9 rto:784 rtt:536.391/32.149 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:15 ssthresh:9 bytes_sent:12415189 bytes_retrans:263536 bytes_acked:12129934 segs_out:8577 segs_in:6253 data_segs_out:8575 send 324kbps lastrcv:214327 pacing_rate 389kbps delivery_rate 310kbps delivered:8379 busy:214171ms unacked:15 retrans:0/182 rcv_space:14480 rcv_ssthresh:42242 notsent:1264104 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1249624    10.1.1.100:5001   10.2.2.100:5201 timer:(on,236ms,0)
+	 ts sack ecn reno wscale:9,9 rto:790 rtt:543.958/15.415 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:17 ssthresh:9 bytes_sent:12454285 bytes_retrans:263536 bytes_acked:12166134 segs_out:8604 segs_in:6278 data_segs_out:8602 send 362kbps lastsnd:405 lastrcv:215361 lastack:405 pacing_rate 434kbps delivery_rate 338kbps delivered:8404 busy:215205ms unacked:17 retrans:0/182 rcv_space:14480 rcv_ssthresh:42242 notsent:1225008 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1226456    10.1.1.100:5001   10.2.2.100:5201 timer:(on,695ms,0)
+	 ts sack ecn reno wscale:9,9 rto:796 rtt:561.746/22.874 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:8 ssthresh:8 bytes_sent:12490485 bytes_retrans:264984 bytes_acked:12189302 segs_out:8629 segs_in:6307 data_segs_out:8627 send 165kbps lastsnd:101 lastrcv:216398 lastack:101 pacing_rate 594kbps delivery_rate 250kbps delivered:8437 busy:216242ms unacked:25 retrans:1/183 lost:1 sacked:17 rcv_space:14480 rcv_ssthresh:42242 notsent:1190256 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1177224    10.1.1.100:5001   10.2.2.100:5201 timer:(on,264ms,0)
+	 ts sack ecn reno wscale:9,9 rto:785 rtt:533.329/43.788 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:10 ssthresh:8 bytes_sent:12517997 bytes_retrans:264984 bytes_acked:12238534 segs_out:8648 segs_in:6324 data_segs_out:8646 send 217kbps lastsnd:139 lastrcv:217437 lastack:139 pacing_rate 261kbps delivery_rate 186kbps delivered:8454 busy:217281ms unacked:10 retrans:0/183 rcv_space:14480 rcv_ssthresh:42242 notsent:1162744 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1151160    10.1.1.100:5001   10.2.2.100:5201 timer:(on,346ms,0)
+	 ts sack ecn reno wscale:9,9 rto:777 rtt:538.133/28.599 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:5 ssthresh:5 bytes_sent:12538269 bytes_retrans:266432 bytes_acked:12264598 segs_out:8662 segs_in:6337 data_segs_out:8660 send 108kbps lastsnd:84 lastrcv:218474 lastack:84 pacing_rate 129kbps delivery_rate 171kbps delivered:8472 busy:218318ms unacked:5 retrans:0/184 rcv_space:14480 rcv_ssthresh:42242 notsent:1143920 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1133784    10.1.1.100:5001   10.2.2.100:5201 timer:(on,257ms,0)
+	 ts sack ecn reno wscale:9,9 rto:724 rtt:501.518/35.521 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:7 ssthresh:5 bytes_sent:12558541 bytes_retrans:266432 bytes_acked:12281974 segs_out:8676 segs_in:6349 data_segs_out:8674 send 162kbps lastsnd:11 lastrcv:219510 lastack:11 pacing_rate 194kbps delivery_rate 124kbps delivered:8484 busy:219354ms unacked:7 retrans:0/184 rcv_space:14480 rcv_ssthresh:42242 notsent:1123648 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1113512    10.1.1.100:5001   10.2.2.100:5201 timer:(on,367ms,0)
+	 ts sack ecn reno wscale:9,9 rto:853 rtt:570.594/67.406 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:9 ssthresh:5 bytes_sent:12581709 bytes_retrans:266432 bytes_acked:12302246 segs_out:8692 segs_in:6361 data_segs_out:8690 send 183kbps lastsnd:129 lastrcv:220546 lastack:129 pacing_rate 219kbps delivery_rate 149kbps delivered:8498 busy:220390ms unacked:9 retrans:0/184 rcv_space:14480 rcv_ssthresh:42242 notsent:1100480 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1086000    10.1.1.100:5001   10.2.2.100:5201 timer:(on,364ms,0)
+	 ts sack ecn reno wscale:9,9 rto:787 rtt:527.563/17.83 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:11 ssthresh:5 bytes_sent:12612117 bytes_retrans:266432 bytes_acked:12329758 segs_out:8713 segs_in:6376 data_segs_out:8711 send 242kbps lastsnd:139 lastrcv:221587 lastack:139 pacing_rate 290kbps delivery_rate 220kbps delivered:8517 busy:221431ms unacked:11 retrans:0/184 rcv_space:14480 rcv_ssthresh:42242 notsent:1070072 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1052696    10.1.1.100:5001   10.2.2.100:5201 timer:(on,302ms,0)
+	 ts sack ecn reno wscale:9,9 rto:775 rtt:512.387/43.27 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:13 ssthresh:5 bytes_sent:12648317 bytes_retrans:266432 bytes_acked:12363062 segs_out:8738 segs_in:6388 data_segs_out:8736 send 294kbps lastsnd:224 lastrcv:222629 lastack:224 pacing_rate 353kbps delivery_rate 274kbps delivered:8540 busy:222473ms unacked:13 retrans:0/184 rcv_space:14480 rcv_ssthresh:42242 notsent:1033872 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1013600    10.1.1.100:5001   10.2.2.100:5201 timer:(on,438ms,0)
+	 ts sack ecn reno wscale:9,9 rto:957 rtt:571.696/33.48 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:15 ssthresh:5 bytes_sent:12690309 bytes_retrans:266432 bytes_acked:12402158 segs_out:8767 segs_in:6409 data_segs_out:8765 send 304kbps lastsnd:210 lastrcv:223668 lastack:210 pacing_rate 365kbps delivery_rate 274kbps delivered:8567 busy:223512ms unacked:15 retrans:0/184 rcv_space:14480 rcv_ssthresh:42242 notsent:991880 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1489992    10.1.1.100:5001   10.2.2.100:5201 timer:(on,455ms,0)
+	 ts sack ecn reno wscale:9,9 rto:879 rtt:574.225/23.991 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:17 ssthresh:5 bytes_sent:12738093 bytes_retrans:266432 bytes_acked:12447046 segs_out:8800 segs_in:6424 data_segs_out:8798 send 343kbps lastsnd:126 lastrcv:224704 lastack:126 pacing_rate 412kbps delivery_rate 328kbps delivered:8598 busy:224548ms unacked:17 retrans:0/184 rcv_space:14480 rcv_ssthresh:42242 notsent:1465376 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1436416    10.1.1.100:5001   10.2.2.100:5201 timer:(on,302ms,0)
+	 ts sack ecn reno wscale:9,9 rto:729 rtt:469.946/45.649 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:19 ssthresh:5 bytes_sent:12794565 bytes_retrans:266432 bytes_acked:12500622 segs_out:8839 segs_in:6442 data_segs_out:8837 send 468kbps lastsnd:62 lastrcv:225739 lastack:62 pacing_rate 562kbps delivery_rate 411kbps delivered:8635 busy:225583ms unacked:19 retrans:0/184 rcv_space:14480 rcv_ssthresh:42242 notsent:1408904 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1379944    10.1.1.100:5001   10.2.2.100:5201 timer:(on,591ms,0)
+	 ts sack ecn reno wscale:9,9 rto:975 rtt:577.933/27.563 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:21 ssthresh:5 bytes_sent:12853933 bytes_retrans:266432 bytes_acked:12557094 segs_out:8880 segs_in:6469 data_segs_out:8878 send 421kbps lastsnd:83 lastrcv:226776 lastack:83 pacing_rate 505kbps delivery_rate 438kbps delivered:8674 busy:226620ms unacked:21 retrans:0/184 rcv_space:14480 rcv_ssthresh:42242 notsent:1349536 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1350984    10.1.1.100:5001   10.2.2.100:5201 timer:(on,915ms,0)
+	 ts sack ecn reno wscale:9,9 rto:927 rtt:577.99/33.612 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:11 ssthresh:11 bytes_sent:12900269 bytes_retrans:267880 bytes_acked:12586054 segs_out:8912 segs_in:6486 data_segs_out:8910 send 220kbps lastsnd:12 lastrcv:227814 lastack:12 pacing_rate 746kbps delivery_rate 420kbps delivered:8715 busy:227658ms unacked:32 retrans:1/185 lost:1 sacked:21 rcv_space:14480 rcv_ssthresh:42242 notsent:1304648 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1287272    10.1.1.100:5001   10.2.2.100:5201 timer:(on,308ms,0)
+	 ts sack ecn reno wscale:9,9 rto:763 rtt:478.702/26.915 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:13 ssthresh:11 bytes_sent:12936469 bytes_retrans:267880 bytes_acked:12649766 segs_out:8937 segs_in:6506 data_segs_out:8935 send 315kbps lastsnd:162 lastrcv:228850 lastack:163 pacing_rate 377kbps delivery_rate 272kbps delivered:8738 busy:228694ms unacked:13 retrans:0/185 rcv_space:14480 rcv_ssthresh:42242 notsent:1268448 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1242384    10.1.1.100:5001   10.2.2.100:5201 timer:(on,294ms,0)
+	 ts sack ecn reno wscale:9,9 rto:803 rtt:521.204/55.116 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:15 ssthresh:11 bytes_sent:12984253 bytes_retrans:267880 bytes_acked:12694654 segs_out:8970 segs_in:6521 data_segs_out:8968 send 333kbps lastsnd:11 lastrcv:229887 lastack:11 pacing_rate 400kbps delivery_rate 272kbps delivered:8769 busy:229731ms unacked:15 retrans:0/185 rcv_space:14480 rcv_ssthresh:42242 notsent:1220664 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1203288    10.1.1.100:5001   10.2.2.100:5201 timer:(on,378ms,0)
+	 ts sack ecn reno wscale:9,9 rto:900 rtt:603.592/59.641 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:17 ssthresh:11 bytes_sent:13026245 bytes_retrans:267880 bytes_acked:12733750 segs_out:8999 segs_in:6540 data_segs_out:8997 send 326kbps lastsnd:2 lastrcv:230924 lastack:2 pacing_rate 392kbps delivery_rate 283kbps delivered:8796 busy:230768ms unacked:17 retrans:0/185 rcv_space:14480 rcv_ssthresh:42242 notsent:1178672 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1152608    10.1.1.100:5001   10.2.2.100:5201 timer:(on,319ms,0)
+	 ts sack ecn reno wscale:9,9 rto:815 rtt:535.094/29.403 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:19 ssthresh:11 bytes_sent:13079821 bytes_retrans:267880 bytes_acked:12784430 segs_out:9036 segs_in:6563 data_segs_out:9034 send 411kbps lastsnd:42 lastrcv:231959 lastack:42 pacing_rate 494kbps delivery_rate 357kbps delivered:8831 busy:231803ms unacked:19 retrans:0/185 rcv_space:14480 rcv_ssthresh:42242 notsent:1125096 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1112064    10.1.1.100:5001   10.2.2.100:5201 timer:(on,846ms,0)
+	 ts sack ecn reno wscale:9,9 rto:846 rtt:590.982/43.869 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:17 ssthresh:10 bytes_sent:13124709 bytes_retrans:270776 bytes_acked:12824974 segs_out:9067 segs_in:6580 data_segs_out:9065 send 333kbps lastrcv:232994 pacing_rate 470kbps delivery_rate 299kbps delivered:8862 busy:232838ms unacked:20 retrans:2/187 lost:2 sacked:3 rcv_space:14480 rcv_ssthresh:42242 notsent:1083104 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1067176    10.1.1.100:5001   10.2.2.100:5201 timer:(on,348ms,0)
+	 ts sack ecn reno wscale:9,9 rto:753 rtt:511.784/13.145 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:11 ssthresh:10 bytes_sent:13158013 bytes_retrans:272224 bytes_acked:12869862 segs_out:9090 segs_in:6602 data_segs_out:9088 send 249kbps lastsnd:22 lastrcv:234029 lastack:22 pacing_rate 299kbps delivery_rate 220kbps delivered:8890 busy:233873ms unacked:11 retrans:0/188 rcv_space:14480 rcv_ssthresh:42242 notsent:1051248 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1033872    10.1.1.100:5001   10.2.2.100:5201 timer:(on,226ms,0)
+	 ts sack ecn reno wscale:9,9 rto:764 rtt:500.1/65.809 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:13 ssthresh:10 bytes_sent:13194213 bytes_retrans:272224 bytes_acked:12903166 segs_out:9115 segs_in:6616 data_segs_out:9113 send 301kbps lastsnd:94 lastrcv:235073 lastack:94 pacing_rate 361kbps delivery_rate 240kbps delivered:8913 busy:234917ms unacked:13 retrans:0/188 rcv_space:14480 rcv_ssthresh:42242 notsent:1015048 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1516056    10.1.1.100:5001   10.2.2.100:5201 timer:(on,294ms,0)
+	 ts sack ecn reno wscale:9,9 rto:875 rtt:568.868/71.346 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:15 ssthresh:10 bytes_sent:13236205 bytes_retrans:272224 bytes_acked:12942262 segs_out:9144 segs_in:6632 data_segs_out:9142 send 305kbps lastsnd:102 lastrcv:236112 lastack:102 pacing_rate 367kbps delivery_rate 261kbps delivered:8940 busy:235956ms unacked:15 retrans:0/188 rcv_space:14480 rcv_ssthresh:42242 notsent:1494336 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1482752    10.1.1.100:5001   10.2.2.100:5201 timer:(on,403ms,0)
+	 ts sack ecn reno wscale:9,9 rto:862 rtt:555.687/33.536 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:7 ssthresh:7 bytes_sent:13259373 bytes_retrans:273672 bytes_acked:12975566 segs_out:9160 segs_in:6653 data_segs_out:9158 send 146kbps lastsnd:35 lastrcv:237149 lastack:35 pacing_rate 175kbps delivery_rate 180kbps delivered:8963 busy:236993ms unacked:7 retrans:0/189 rcv_space:14480 rcv_ssthresh:42242 notsent:1472616 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1456688    10.1.1.100:5001   10.2.2.100:5201 timer:(on,315ms,0)
+	 ts sack ecn reno wscale:9,9 rto:749 rtt:488.896/35.781 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:10 ssthresh:7 bytes_sent:13289781 bytes_retrans:273672 bytes_acked:13001630 segs_out:9181 segs_in:6667 data_segs_out:9179 send 237kbps lastsnd:48 lastrcv:238184 lastack:48 pacing_rate 284kbps delivery_rate 204kbps delivered:8981 busy:238028ms unacked:10 retrans:0/189 rcv_space:14480 rcv_ssthresh:42242 notsent:1442208 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1426280    10.1.1.100:5001   10.2.2.100:5201 timer:(on,455ms,0)
+	 ts sack ecn reno wscale:9,9 rto:860 rtt:510.348/87.216 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:12 ssthresh:7 bytes_sent:13323085 bytes_retrans:273672 bytes_acked:13032038 segs_out:9204 segs_in:6676 data_segs_out:9202 send 272kbps lastsnd:81 lastrcv:239219 lastack:81 pacing_rate 327kbps delivery_rate 215kbps delivered:9002 busy:239063ms unacked:12 retrans:0/189 rcv_space:14480 rcv_ssthresh:42242 notsent:1408904 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1400216    10.1.1.100:5001   10.2.2.100:5201 timer:(on,251ms,0)
+	 ts sack ecn reno wscale:9,9 rto:863 rtt:535.62/67.608 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:13 ssthresh:7 bytes_sent:13350597 bytes_retrans:273672 bytes_acked:13058102 segs_out:9223 segs_in:6683 data_segs_out:9221 send 281kbps lastsnd:211 lastrcv:240257 lastack:211 pacing_rate 337kbps delivery_rate 240kbps delivered:9020 busy:240101ms unacked:13 retrans:0/189 rcv_space:14480 rcv_ssthresh:42242 notsent:1381392 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1361120    10.1.1.100:5001   10.2.2.100:5201 timer:(on,536ms,0)
+	 ts sack ecn reno wscale:9,9 rto:800 rtt:480.476/26.433 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:8 ssthresh:7 bytes_sent:13383901 bytes_retrans:275120 bytes_acked:13097198 segs_out:9246 segs_in:6700 data_segs_out:9244 send 193kbps lastsnd:94 lastrcv:241303 lastack:94 pacing_rate 231kbps delivery_rate 157kbps delivered:9047 busy:241147ms unacked:8 retrans:0/190 rcv_space:14480 rcv_ssthresh:42242 notsent:1349536 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1335056    10.1.1.100:5001   10.2.2.100:5201 timer:(on,231ms,0)
+	 ts sack ecn reno wscale:9,9 rto:698 rtt:425.535/68.078 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:10 ssthresh:7 bytes_sent:13412861 bytes_retrans:275120 bytes_acked:13123262 segs_out:9266 segs_in:6712 data_segs_out:9264 send 272kbps lastsnd:12 lastrcv:242341 lastack:12 pacing_rate 327kbps delivery_rate 197kbps delivered:9065 busy:242185ms unacked:10 retrans:0/190 rcv_space:14480 rcv_ssthresh:42242 notsent:1320576 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1304648    10.1.1.100:5001   10.2.2.100:5201 timer:(on,344ms,0)
+	 ts sack ecn reno wscale:9,9 rto:892 rtt:538.659/56.215 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:12 ssthresh:7 bytes_sent:13446165 bytes_retrans:275120 bytes_acked:13153670 segs_out:9289 segs_in:6733 data_segs_out:9287 send 258kbps lastsnd:22 lastrcv:243376 lastack:22 pacing_rate 310kbps delivery_rate 226kbps delivered:9086 busy:243220ms unacked:12 retrans:0/190 rcv_space:14480 rcv_ssthresh:42242 notsent:1287272 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1265552    10.1.1.100:5001   10.2.2.100:5201 timer:(on,457ms,0)
+	 ts sack ecn reno wscale:9,9 rto:839 rtt:540.858/28.179 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:14 ssthresh:7 bytes_sent:13488157 bytes_retrans:275120 bytes_acked:13192766 segs_out:9318 segs_in:6760 data_segs_out:9316 send 300kbps lastsnd:2 lastrcv:244412 lastack:2 pacing_rate 360kbps delivery_rate 270kbps delivered:9113 busy:244256ms unacked:14 retrans:0/190 rcv_space:14480 rcv_ssthresh:42242 notsent:1245280 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1223560    10.1.1.100:5001   10.2.2.100:5201 timer:(on,401ms,0)
+	 ts sack ecn reno wscale:9,9 rto:801 rtt:545.837/36.963 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:16 ssthresh:7 bytes_sent:13533045 bytes_retrans:275120 bytes_acked:13234758 segs_out:9349 segs_in:6789 data_segs_out:9347 send 340kbps lastsnd:9 lastrcv:245449 lastack:9 pacing_rate 407kbps delivery_rate 334kbps delivered:9142 busy:245293ms unacked:16 retrans:0/190 rcv_space:14480 rcv_ssthresh:42242 notsent:1200392 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1178672    10.1.1.100:5001   10.2.2.100:5201 timer:(on,356ms,0)
+	 ts sack ecn reno wscale:9,9 rto:901 rtt:584.367/36.711 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:18 ssthresh:7 bytes_sent:13580829 bytes_retrans:275120 bytes_acked:13279646 segs_out:9382 segs_in:6820 data_segs_out:9380 send 357kbps lastsnd:5 lastrcv:246479 lastack:5 pacing_rate 428kbps delivery_rate 352kbps delivered:9173 busy:246323ms unacked:18 retrans:0/190 rcv_space:14480 rcv_ssthresh:42242 notsent:1152608 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1126544    10.1.1.100:5001   10.2.2.100:5201 timer:(on,265ms,0)
+	 ts sack ecn reno wscale:9,9 rto:806 rtt:517.97/21.801 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:20 ssthresh:7 bytes_sent:13635853 bytes_retrans:275120 bytes_acked:13331774 segs_out:9420 segs_in:6844 data_segs_out:9418 send 447kbps lastsnd:302 lastrcv:247512 lastack:302 pacing_rate 537kbps delivery_rate 402kbps delivered:9209 busy:247356ms unacked:20 retrans:0/190 rcv_space:14480 rcv_ssthresh:42242 notsent:1097584 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1101928    10.1.1.100:5001   10.2.2.100:5201 timer:(on,833ms,0)
+	 ts sack ecn reno wscale:9,9 rto:979 rtt:633.209/74.696 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:10 ssthresh:10 bytes_sent:13673501 bytes_retrans:278016 bytes_acked:13356390 segs_out:9446 segs_in:6871 data_segs_out:9444 send 183kbps lastsnd:146 lastrcv:248550 lastack:146 pacing_rate 527kbps delivery_rate 311kbps delivered:9243 busy:248394ms unacked:27 retrans:1/192 lost:1 sacked:17 rcv_space:14480 rcv_ssthresh:42242 notsent:1062832 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1045456    10.1.1.100:5001   10.2.2.100:5201 timer:(on,357ms,0)
+	 ts sack ecn reno wscale:9,9 rto:814 rtt:486.354/34.585 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:12 ssthresh:10 bytes_sent:13708253 bytes_retrans:278016 bytes_acked:13412862 segs_out:9470 segs_in:6889 data_segs_out:9468 send 286kbps lastsnd:13 lastrcv:249587 lastack:13 pacing_rate 343kbps delivery_rate 241kbps delivered:9265 busy:249431ms unacked:12 retrans:0/192 rcv_space:14480 rcv_ssthresh:42242 notsent:1028080 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1530536    10.1.1.100:5001   10.2.2.100:5201 timer:(on,499ms,0)
+	 ts sack ecn reno wscale:9,9 rto:914 rtt:556.31/42.027 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:14 ssthresh:10 bytes_sent:13747349 bytes_retrans:278016 bytes_acked:13449062 segs_out:9497 segs_in:6909 data_segs_out:9495 send 292kbps lastsnd:1 lastrcv:250622 lastack:1 pacing_rate 350kbps delivery_rate 252kbps delivered:9290 busy:250466ms unacked:14 retrans:0/192 rcv_space:14480 rcv_ssthresh:42242 notsent:1510264 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1488544    10.1.1.100:5001   10.2.2.100:5201 timer:(on,519ms,0)
+	 ts sack ecn reno wscale:9,9 rto:900 rtt:600.587/35.61 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:16 ssthresh:10 bytes_sent:13792237 bytes_retrans:278016 bytes_acked:13491054 segs_out:9528 segs_in:6938 data_segs_out:9526 send 309kbps lastsnd:2 lastrcv:251673 lastack:2 pacing_rate 370kbps delivery_rate 308kbps delivered:9319 busy:251517ms unacked:16 retrans:0/192 rcv_space:14480 rcv_ssthresh:42242 notsent:1465376 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1440760    10.1.1.100:5001   10.2.2.100:5201 timer:(on,347ms,0)
+	 ts sack ecn reno wscale:9,9 rto:762 rtt:503.682/18.69 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:18 ssthresh:10 bytes_sent:13842917 bytes_retrans:278016 bytes_acked:13538838 segs_out:9563 segs_in:6953 data_segs_out:9561 send 414kbps lastsnd:73 lastrcv:252716 lastack:73 pacing_rate 497kbps delivery_rate 380kbps delivered:9352 busy:252560ms unacked:18 retrans:0/192 rcv_space:14480 rcv_ssthresh:42242 notsent:1414696 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1385736    10.1.1.100:5001   10.2.2.100:5201 timer:(on,279ms,0)
+	 ts sack ecn reno wscale:9,9 rto:763 rtt:530.206/21.227 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:20 ssthresh:10 bytes_sent:13900837 bytes_retrans:278016 bytes_acked:13593862 segs_out:9603 segs_in:6989 data_segs_out:9601 send 437kbps lastsnd:10 lastrcv:253751 lastack:10 pacing_rate 524kbps delivery_rate 428kbps delivered:9390 busy:253595ms unacked:20 retrans:0/192 rcv_space:14480 rcv_ssthresh:42242 notsent:1356776 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1327816    10.1.1.100:5001   10.2.2.100:5201 timer:(on,214ms,0)
+	 ts sack ecn reno wscale:9,9 rto:774 rtt:547.82/53.231 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:22 ssthresh:10 bytes_sent:13961653 bytes_retrans:278016 bytes_acked:13651782 segs_out:9645 segs_in:7024 data_segs_out:9643 send 465kbps lastsnd:95 lastrcv:254791 lastack:95 pacing_rate 558kbps delivery_rate 411kbps delivered:9430 busy:254635ms unacked:22 retrans:0/192 rcv_space:14480 rcv_ssthresh:42242 notsent:1295960 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1258312    10.1.1.100:5001   10.2.2.100:5201 timer:(on,207ms,0)
+	 ts sack ecn reno wscale:9,9 rto:737 rtt:522.286/23.616 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:24 ssthresh:10 bytes_sent:14034053 bytes_retrans:278016 bytes_acked:13721286 segs_out:9695 segs_in:7055 data_segs_out:9693 send 532kbps lastrcv:255827 pacing_rate 639kbps delivery_rate 480kbps delivered:9478 busy:255671ms unacked:24 retrans:0/192 rcv_space:14480 rcv_ssthresh:42242 notsent:1223560 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1191704    10.1.1.100:5001   10.2.2.100:5201 timer:(on,350ms,0)
+	 ts sack ecn reno wscale:9,9 rto:864 rtt:589.685/56.585 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:26 ssthresh:10 bytes_sent:14103557 bytes_retrans:278016 bytes_acked:13787894 segs_out:9743 segs_in:7092 data_segs_out:9741 send 511kbps lastsnd:41 lastrcv:256870 lastack:41 pacing_rate 613kbps delivery_rate 476kbps delivered:9524 busy:256714ms unacked:26 retrans:0/192 rcv_space:14480 rcv_ssthresh:42242 notsent:1154056 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1120752    10.1.1.100:5001   10.2.2.100:5201 timer:(on,323ms,0)
+	 ts sack ecn reno wscale:9,9 rto:747 rtt:484.226/27.811 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:13 ssthresh:13 bytes_sent:14157133 bytes_retrans:279464 bytes_acked:13858846 segs_out:9780 segs_in:7132 data_segs_out:9778 send 311kbps lastrcv:257910 pacing_rate 373kbps delivery_rate 321kbps delivered:9573 busy:257754ms unacked:13 retrans:0/193 rcv_space:14480 rcv_ssthresh:42242 notsent:1101928 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1068624    10.1.1.100:5001   10.2.2.100:5201 timer:(on,308ms,0)
+	 ts sack ecn reno wscale:9,9 rto:724 rtt:490.035/44.688 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:16 ssthresh:13 bytes_sent:14213605 bytes_retrans:279464 bytes_acked:13910974 segs_out:9819 segs_in:7153 data_segs_out:9817 send 378kbps lastsnd:53 lastrcv:258948 lastack:53 pacing_rate 454kbps delivery_rate 334kbps delivered:9609 busy:258792ms unacked:16 retrans:0/193 rcv_space:14480 rcv_ssthresh:42242 notsent:1045456 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1020840    10.1.1.100:5001   10.2.2.100:5201 timer:(on,491ms,0)
+	 ts sack ecn reno wscale:9,9 rto:812 rtt:536.784/40.696 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:18 ssthresh:13 bytes_sent:14264285 bytes_retrans:279464 bytes_acked:13958758 segs_out:9854 segs_in:7170 data_segs_out:9852 send 388kbps lastsnd:42 lastrcv:259983 lastack:42 pacing_rate 466kbps delivery_rate 342kbps delivered:9642 busy:259827ms unacked:18 retrans:0/193 rcv_space:14480 rcv_ssthresh:42242 notsent:994776 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1488544    10.1.1.100:5001   10.2.2.100:5201 timer:(on,565ms,0)
+	 ts sack ecn reno wscale:9,9 rto:841 rtt:599.061/30.663 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:20 ssthresh:13 bytes_sent:14320757 bytes_retrans:279464 bytes_acked:14012334 segs_out:9893 segs_in:7196 data_segs_out:9891 send 387kbps lastsnd:2 lastrcv:261014 lastack:2 pacing_rate 464kbps delivery_rate 384kbps delivered:9679 busy:260858ms unacked:20 retrans:0/193 rcv_space:14480 rcv_ssthresh:42242 notsent:1459584 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1433520    10.1.1.100:5001   10.2.2.100:5201 timer:(on,221ms,0)
+	 ts sack ecn reno wscale:9,9 rto:788 rtt:562.047/9.94 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:22 ssthresh:13 bytes_sent:14377229 bytes_retrans:279464 bytes_acked:14067358 segs_out:9932 segs_in:7223 data_segs_out:9930 send 453kbps lastsnd:1 lastrcv:262053 lastack:1 pacing_rate 544kbps delivery_rate 429kbps delivered:9717 busy:261897ms unacked:21 retrans:0/193 rcv_space:14480 rcv_ssthresh:42242 notsent:1403112 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1364016    10.1.1.100:5001   10.2.2.100:5201 timer:(on,461ms,0)
+	 ts sack ecn reno wscale:9,9 rto:722 rtt:506.846/9.813 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:24 ssthresh:13 bytes_sent:14451077 bytes_retrans:279464 bytes_acked:14136862 segs_out:9983 segs_in:7255 data_segs_out:9981 send 549kbps lastsnd:121 lastrcv:263098 lastack:121 pacing_rate 658kbps delivery_rate 532kbps delivered:9765 busy:262942ms unacked:24 retrans:0/193 rcv_space:14480 rcv_ssthresh:42242 notsent:1329264 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1311888    10.1.1.100:5001   10.2.2.100:5201 timer:(on,793ms,0)
+	 ts sack ecn reno wscale:9,9 rto:845 rtt:572.285/25.218 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:18 ssthresh:12 bytes_sent:14513341 bytes_retrans:280912 bytes_acked:14188990 segs_out:10026 segs_in:7291 data_segs_out:10024 send 364kbps lastsnd:52 lastrcv:264142 lastack:52 pacing_rate 704kbps delivery_rate 457kbps delivered:9813 busy:263986ms unacked:30 retrans:1/194 lost:1 sacked:12 rcv_space:14480 rcv_ssthresh:42242 notsent:1268448 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1256864    10.1.1.100:5001   10.2.2.100:5201 timer:(on,540ms,0)
+	 ts sack ecn reno wscale:9,9 rto:760 rtt:518.213/16.215 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:6 ssthresh:6 bytes_sent:14535061 bytes_retrans:282360 bytes_acked:14244014 segs_out:10041 segs_in:7312 data_segs_out:10039 send 134kbps lastsnd:65 lastrcv:265171 lastack:65 pacing_rate 161kbps delivery_rate 210kbps delivered:9839 busy:265015ms unacked:6 retrans:0/195 rcv_space:14480 rcv_ssthresh:42242 notsent:1248176 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1238040    10.1.1.100:5001   10.2.2.100:5201 timer:(on,223ms,0)
+	 ts sack ecn reno wscale:9,9 rto:685 rtt:452.458/36.912 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:8 ssthresh:6 bytes_sent:14556781 bytes_retrans:282360 bytes_acked:14262838 segs_out:10056 segs_in:7325 data_segs_out:10054 send 205kbps lastsnd:332 lastrcv:266206 lastack:332 pacing_rate 246kbps delivery_rate 178kbps delivered:9852 busy:266050ms unacked:8 retrans:0/195 rcv_space:14480 rcv_ssthresh:42242 notsent:1226456 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1213424    10.1.1.100:5001   10.2.2.100:5201 timer:(on,234ms,0)
+	 ts sack ecn reno wscale:9,9 rto:731 rtt:508.984/31.026 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:10 ssthresh:6 bytes_sent:14584293 bytes_retrans:282360 bytes_acked:14287454 segs_out:10075 segs_in:7342 data_segs_out:10073 send 228kbps lastsnd:372 lastrcv:267244 lastack:372 pacing_rate 273kbps delivery_rate 200kbps delivered:9869 busy:267088ms unacked:10 retrans:0/195 rcv_space:14480 rcv_ssthresh:42242 notsent:1198944 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1181568    10.1.1.100:5001   10.2.2.100:5201 timer:(on,385ms,0)
+	 ts sack ecn reno wscale:9,9 rto:886 rtt:557.478/48.148 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:12 ssthresh:6 bytes_sent:14619045 bytes_retrans:282360 bytes_acked:14319310 segs_out:10099 segs_in:7364 data_segs_out:10097 send 249kbps lastsnd:2 lastrcv:268281 lastack:2 pacing_rate 299kbps delivery_rate 220kbps delivered:9891 busy:268125ms unacked:12 retrans:0/195 rcv_space:14480 rcv_ssthresh:42242 notsent:1164192 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1146816    10.1.1.100:5001   10.2.2.100:5201 timer:(on,381ms,0)
+	 ts sack ecn reno wscale:9,9 rto:887 rtt:589.989/49.248 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:14 ssthresh:6 bytes_sent:14656693 bytes_retrans:282360 bytes_acked:14354062 segs_out:10125 segs_in:7388 data_segs_out:10123 send 275kbps lastsnd:278 lastrcv:269306 lastack:278 pacing_rate 330kbps delivery_rate 240kbps delivered:9915 busy:269150ms unacked:14 retrans:0/195 rcv_space:14480 rcv_ssthresh:42242 notsent:1126544 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1104824    10.1.1.100:5001   10.2.2.100:5201 timer:(on,432ms,0)
+	 ts sack ecn reno wscale:9,9 rto:823 rtt:567.899/20.04 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:16 ssthresh:6 bytes_sent:14701581 bytes_retrans:282360 bytes_acked:14396054 segs_out:10156 segs_in:7417 data_segs_out:10154 send 326kbps lastsnd:206 lastrcv:270344 lastack:206 pacing_rate 392kbps delivery_rate 297kbps delivered:9944 busy:270188ms unacked:16 retrans:0/195 rcv_space:14480 rcv_ssthresh:42242 notsent:1081656 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1057040    10.1.1.100:5001   10.2.2.100:5201 timer:(on,316ms,0)
+	 ts sack ecn reno wscale:9,9 rto:784 rtt:529.276/20.543 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:18 ssthresh:6 bytes_sent:14752261 bytes_retrans:282360 bytes_acked:14443838 segs_out:10191 segs_in:7441 data_segs_out:10189 send 394kbps lastsnd:262 lastrcv:271383 lastack:262 pacing_rate 473kbps delivery_rate 341kbps delivered:9977 busy:271227ms unacked:18 retrans:0/195 rcv_space:14480 rcv_ssthresh:42242 notsent:1030976 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1524744    10.1.1.100:5001   10.2.2.100:5201 timer:(on,395ms,0)
+	 ts sack ecn reno wscale:9,9 rto:841 rtt:600.422/15.658 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:20 ssthresh:6 bytes_sent:14808733 bytes_retrans:282360 bytes_acked:14497414 segs_out:10230 segs_in:7476 data_segs_out:10228 send 386kbps lastsnd:157 lastrcv:272416 lastack:157 pacing_rate 463kbps delivery_rate 356kbps delivered:10014 busy:272260ms unacked:20 retrans:0/195 rcv_space:14480 rcv_ssthresh:42242 notsent:1495784 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1463928    10.1.1.100:5001   10.2.2.100:5201 timer:(on,367ms,0)
+	 ts sack ecn reno wscale:9,9 rto:732 rtt:502.365/13.56 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:22 ssthresh:6 bytes_sent:14872445 bytes_retrans:282360 bytes_acked:14558230 segs_out:10274 segs_in:7504 data_segs_out:10272 send 507kbps lastrcv:273456 pacing_rate 609kbps delivery_rate 475kbps delivered:10056 busy:273300ms unacked:22 retrans:0/195 rcv_space:14480 rcv_ssthresh:42242 notsent:1432072 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1400216    10.1.1.100:5001   10.2.2.100:5201 timer:(on,377ms,0)
+	 ts sack ecn reno wscale:9,9 rto:927 rtt:566.279/29.393 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:24 ssthresh:6 bytes_sent:14939053 bytes_retrans:282360 bytes_acked:14621942 segs_out:10320 segs_in:7541 data_segs_out:10318 send 491kbps lastsnd:156 lastrcv:274493 lastack:156 pacing_rate 589kbps delivery_rate 421kbps delivered:10100 busy:274337ms unacked:24 retrans:0/195 rcv_space:14480 rcv_ssthresh:42242 notsent:1365464 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1342296    10.1.1.100:5001   10.2.2.100:5201 timer:(on,923ms,0)
+	 ts sack ecn reno wscale:9,9 rto:932 rtt:611.489/17.318 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:21 ssthresh:12 bytes_sent:15005661 bytes_retrans:283808 bytes_acked:14679862 segs_out:10366 segs_in:7577 data_segs_out:10364 send 398kbps lastsnd:9 lastrcv:275533 lastack:9 pacing_rate 637kbps delivery_rate 452kbps delivered:10148 busy:275377ms unacked:29 retrans:1/196 lost:1 sacked:8 rcv_space:14480 rcv_ssthresh:42242 notsent:1300304 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1282928    10.1.1.100:5001   10.2.2.100:5201 timer:(on,465ms,0)
+	 ts sack ecn reno wscale:9,9 rto:756 rtt:487.591/17.474 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:13 ssthresh:12 bytes_sent:15041861 bytes_retrans:283808 bytes_acked:14739230 segs_out:10391 segs_in:7600 data_segs_out:10389 send 309kbps lastsnd:126 lastrcv:276578 lastack:126 pacing_rate 371kbps delivery_rate 280kbps delivered:10181 busy:276422ms unacked:13 retrans:0/196 rcv_space:14480 rcv_ssthresh:42242 notsent:1264104 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1243832    10.1.1.100:5001   10.2.2.100:5201 timer:(on,388ms,0)
+	 ts sack ecn reno wscale:9,9 rto:773 rtt:516.032/64.058 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:15 ssthresh:12 bytes_sent:15083853 bytes_retrans:283808 bytes_acked:14778326 segs_out:10420 segs_in:7615 data_segs_out:10418 send 337kbps lastsnd:32 lastrcv:277614 lastack:32 pacing_rate 404kbps delivery_rate 261kbps delivered:10208 busy:277458ms unacked:15 retrans:0/196 rcv_space:14480 rcv_ssthresh:42242 notsent:1222112 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1198944    10.1.1.100:5001   10.2.2.100:5201 timer:(on,588ms,0)
+	 ts sack ecn reno wscale:9,9 rto:964 rtt:579.824/18.754 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:17 ssthresh:12 bytes_sent:15131637 bytes_retrans:283808 bytes_acked:14823214 segs_out:10453 segs_in:7639 data_segs_out:10451 send 340kbps lastsnd:22 lastrcv:278654 lastack:22 pacing_rate 408kbps delivery_rate 322kbps delivered:10239 busy:278498ms unacked:17 retrans:0/196 rcv_space:14480 rcv_ssthresh:42242 notsent:1174328 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1149712    10.1.1.100:5001   10.2.2.100:5201 timer:(on,395ms,0)
+	 ts sack ecn reno wscale:9,9 rto:925 rtt:598.901/35.89 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:19 ssthresh:12 bytes_sent:15183765 bytes_retrans:283808 bytes_acked:14872446 segs_out:10489 segs_in:7671 data_segs_out:10487 send 367kbps lastsnd:248 lastrcv:279691 lastack:248 pacing_rate 441kbps delivery_rate 334kbps delivered:10273 busy:279535ms unacked:19 retrans:0/196 rcv_space:14480 rcv_ssthresh:42242 notsent:1122200 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1093240    10.1.1.100:5001   10.2.2.100:5201 timer:(on,397ms,0)
+	 ts sack ecn reno wscale:9,9 rto:833 rtt:550.758/31.958 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:21 ssthresh:12 bytes_sent:15243133 bytes_retrans:283808 bytes_acked:14928918 segs_out:10530 segs_in:7699 data_segs_out:10528 send 442kbps lastsnd:312 lastrcv:280737 lastack:312 pacing_rate 530kbps delivery_rate 400kbps delivered:10312 busy:280581ms unacked:21 retrans:0/196 rcv_space:14480 rcv_ssthresh:42242 notsent:1062832 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1042560    10.1.1.100:5001   10.2.2.100:5201 timer:(on,736ms,0)
+	 ts sack ecn reno wscale:9,9 rto:976 rtt:624.819/32.184 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:19 ssthresh:11 bytes_sent:15299605 bytes_retrans:285256 bytes_acked:14979598 segs_out:10569 segs_in:7737 data_segs_out:10567 send 352kbps lastsnd:240 lastrcv:281777 lastack:240 pacing_rate 534kbps delivery_rate 359kbps delivered:10352 busy:281621ms unacked:24 retrans:1/197 lost:1 sacked:5 rcv_space:14480 rcv_ssthresh:42242 notsent:1007808 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1516056    10.1.1.100:5001   10.2.2.100:5201 timer:(on,576ms,0)
+	 ts sack ecn reno wscale:9,9 rto:877 rtt:527.838/26.556 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:11 ssthresh:11 bytes_sent:15331461 bytes_retrans:288152 bytes_acked:15027382 segs_out:10591 segs_in:7758 data_segs_out:10589 send 241kbps lastsnd:231 lastrcv:282809 lastack:231 pacing_rate 290kbps delivery_rate 236kbps delivered:10380 busy:282653ms unacked:11 retrans:0/199 rcv_space:14480 rcv_ssthresh:42242 notsent:1500128 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1482752    10.1.1.100:5001   10.2.2.100:5201 timer:(on,285ms,0)
+	 ts sack ecn reno wscale:9,9 rto:781 rtt:489.691/38.178 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:13 ssthresh:11 bytes_sent:15367661 bytes_retrans:288152 bytes_acked:15060686 segs_out:10616 segs_in:7781 data_segs_out:10614 send 308kbps lastsnd:381 lastrcv:283855 lastack:381 pacing_rate 369kbps delivery_rate 270kbps delivered:10403 busy:283699ms unacked:13 retrans:0/199 rcv_space:14480 rcv_ssthresh:42242 notsent:1463928 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1443656    10.1.1.100:5001   10.2.2.100:5201 timer:(on,359ms,0)
+	 ts sack ecn reno wscale:9,9 rto:826 rtt:553.133/22.544 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:15 ssthresh:11 bytes_sent:15409653 bytes_retrans:288152 bytes_acked:15099782 segs_out:10645 segs_in:7808 data_segs_out:10643 send 314kbps lastsnd:353 lastrcv:284892 lastack:353 pacing_rate 377kbps delivery_rate 285kbps delivered:10430 busy:284736ms unacked:15 retrans:0/199 rcv_space:14480 rcv_ssthresh:42242 notsent:1421936 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1398768    10.1.1.100:5001   10.2.2.100:5201 timer:(on,361ms,0)
+	 ts sack ecn reno wscale:9,9 rto:787 rtt:536.44/18.515 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:17 ssthresh:11 bytes_sent:15457437 bytes_retrans:288152 bytes_acked:15144670 segs_out:10678 segs_in:7838 data_segs_out:10676 send 367kbps lastsnd:319 lastrcv:285919 lastack:319 pacing_rate 441kbps delivery_rate 338kbps delivered:10461 busy:285763ms unacked:17 retrans:0/199 rcv_space:14480 rcv_ssthresh:42242 notsent:1374152 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1348088    10.1.1.100:5001   10.2.2.100:5201 timer:(on,187ms,0)
+	 ts sack ecn reno wscale:9,9 rto:755 rtt:517.512/54.748 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:19 ssthresh:11 bytes_sent:15511013 bytes_retrans:288152 bytes_acked:15195350 segs_out:10715 segs_in:7873 data_segs_out:10713 send 425kbps lastsnd:300 lastrcv:286952 lastack:300 pacing_rate 510kbps delivery_rate 335kbps delivered:10496 busy:286796ms unacked:19 retrans:0/199 rcv_space:14480 rcv_ssthresh:42242 notsent:1320576 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1291616    10.1.1.100:5001   10.2.2.100:5201 timer:(on,357ms,0)
+	 ts sack ecn reno wscale:9,9 rto:855 rtt:598.196/59.362 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:21 ssthresh:11 bytes_sent:15570381 bytes_retrans:288152 bytes_acked:15251822 segs_out:10756 segs_in:7910 data_segs_out:10754 send 407kbps lastsnd:116 lastrcv:287986 lastack:116 pacing_rate 488kbps delivery_rate 363kbps delivered:10535 busy:287830ms unacked:21 retrans:0/199 rcv_space:14480 rcv_ssthresh:42242 notsent:1261208 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1201840    10.1.1.100:5001   10.2.2.100:5201 timer:(on,329ms,0)
+	 ts sack ecn reno wscale:9,9 rto:723 rtt:490.671/7.044 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:24 ssthresh:11 bytes_sent:15664501 bytes_retrans:288152 bytes_acked:15341598 segs_out:10821 segs_in:7938 data_segs_out:10819 send 567kbps lastsnd:6 lastrcv:289024 lastack:6 pacing_rate 680kbps delivery_rate 574kbps delivered:10597 busy:288868ms unacked:24 retrans:0/199 rcv_space:14480 rcv_ssthresh:42242 notsent:1167088 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1130888    10.1.1.100:5001   10.2.2.100:5201 timer:(on,314ms,0)
+	 ts sack ecn reno wscale:9,9 rto:848 rtt:541.391/55.43 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:26 ssthresh:11 bytes_sent:15738349 bytes_retrans:288152 bytes_acked:15412550 segs_out:10872 segs_in:7961 data_segs_out:10870 send 556kbps lastsnd:22 lastrcv:290068 lastack:22 pacing_rate 668kbps delivery_rate 529kbps delivered:10646 busy:289912ms unacked:26 retrans:0/199 rcv_space:14480 rcv_ssthresh:42242 notsent:1093240 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1070072    10.1.1.100:5001   10.2.2.100:5201 timer:(on,314ms,0)
+	 ts sack ecn reno wscale:9,9 rto:880 rtt:574.972/26.549 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:13 ssthresh:13 bytes_sent:15781789 bytes_retrans:289600 bytes_acked:15473366 segs_out:10902 segs_in:7990 data_segs_out:10900 send 262kbps lastrcv:291110 pacing_rate 314kbps delivery_rate 387kbps delivered:10688 busy:290954ms unacked:13 retrans:0/200 rcv_space:14480 rcv_ssthresh:42242 notsent:1051248 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1028080    10.1.1.100:5001   10.2.2.100:5201 timer:(on,572ms,0)
+	 ts sack ecn reno wscale:9,9 rto:749 rtt:473.206/20.088 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:15 ssthresh:13 bytes_sent:15826677 bytes_retrans:289600 bytes_acked:15515358 segs_out:10933 segs_in:8019 data_segs_out:10931 send 367kbps lastsnd:64 lastrcv:292152 lastack:64 pacing_rate 441kbps delivery_rate 308kbps delivered:10717 busy:291996ms unacked:15 retrans:0/200 rcv_space:14480 rcv_ssthresh:42242 notsent:1006360 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1504472    10.1.1.100:5001   10.2.2.100:5201 timer:(on,493ms,0)
+	 ts sack ecn reno wscale:9,9 rto:757 rtt:501.538/20.247 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:17 ssthresh:13 bytes_sent:15874461 bytes_retrans:289600 bytes_acked:15560246 segs_out:10966 segs_in:8050 data_segs_out:10964 send 393kbps lastsnd:153 lastrcv:293193 lastack:153 pacing_rate 471kbps delivery_rate 358kbps delivered:10748 busy:293037ms unacked:17 retrans:0/200 rcv_space:14480 rcv_ssthresh:42242 notsent:1479856 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1453792    10.1.1.100:5001   10.2.2.100:5201 timer:(on,607ms,0)
+	 ts sack ecn reno wscale:9,9 rto:959 rtt:596.133/51.489 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:19 ssthresh:13 bytes_sent:15928037 bytes_retrans:289600 bytes_acked:15610926 segs_out:11003 segs_in:8085 data_segs_out:11001 send 369kbps lastsnd:74 lastrcv:294243 lastack:74 pacing_rate 443kbps delivery_rate 315kbps delivered:10783 busy:294087ms unacked:19 retrans:0/200 rcv_space:14480 rcv_ssthresh:42242 notsent:1426280 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1398768    10.1.1.100:5001   10.2.2.100:5201 timer:(on,318ms,0)
+	 ts sack ecn reno wscale:9,9 rto:887 rtt:555.934/30.442 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:21 ssthresh:13 bytes_sent:15985957 bytes_retrans:289600 bytes_acked:15665950 segs_out:11043 segs_in:8113 data_segs_out:11041 send 438kbps lastsnd:148 lastrcv:295281 lastack:148 pacing_rate 525kbps delivery_rate 366kbps delivered:10821 busy:295125ms unacked:21 retrans:0/200 rcv_space:14480 rcv_ssthresh:42242 notsent:1368360 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1337952    10.1.1.100:5001   10.2.2.100:5201 timer:(on,350ms,0)
+	 ts sack ecn reno wscale:9,9 rto:897 rtt:615.321/16.318 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:23 ssthresh:13 bytes_sent:16049669 bytes_retrans:289600 bytes_acked:15726766 segs_out:11087 segs_in:8140 data_segs_out:11085 send 433kbps lastsnd:166 lastrcv:296323 lastack:166 pacing_rate 520kbps delivery_rate 433kbps delivered:10863 busy:296167ms unacked:23 retrans:0/200 rcv_space:14480 rcv_ssthresh:42242 notsent:1304648 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1269896    10.1.1.100:5001   10.2.2.100:5201 timer:(on,272ms,0)
+	 ts sack ecn reno wscale:9,9 rto:760 rtt:511.686/18.082 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:25 ssthresh:13 bytes_sent:16120621 bytes_retrans:289600 bytes_acked:15794822 segs_out:11136 segs_in:8170 data_segs_out:11134 send 566kbps lastsnd:259 lastrcv:297360 lastack:259 pacing_rate 679kbps delivery_rate 527kbps delivered:10910 busy:297204ms unacked:25 retrans:0/200 rcv_space:14480 rcv_ssthresh:42242 notsent:1233696 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1116408    10.1.1.100:5001   10.2.2.100:5201 timer:(on,315ms,0)
+	 ts sack ecn reno wscale:9,9 rto:421 rtt:199.283/39.555 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:29 ssthresh:13 bytes_sent:16279901 bytes_retrans:289600 bytes_acked:15948310 segs_out:11246 segs_in:8236 data_segs_out:11244 send 1.69Mbps lastsnd:2 lastrcv:298389 lastack:2 pacing_rate 2.02Mbps delivery_rate 785kbps delivered:11016 busy:298233ms unacked:29 retrans:0/200 rcv_space:14480 rcv_ssthresh:42242 notsent:1074416 minrtt:61.354
+Netid State Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+tcp   ESTAB 0      1366912    10.1.1.100:5001   10.2.2.100:5201 timer:(on,301ms,0)
+	 ts sack ecn reno wscale:9,9 rto:440 rtt:235.559/23.963 mss:1448 pmtu:1500 rcvmss:536 advmss:1448 cwnd:35 ssthresh:13 bytes_sent:16559365 bytes_retrans:289600 bytes_acked:16219086 segs_out:11439 segs_in:8312 data_segs_out:11437 send 1.72Mbps lastrcv:299434 pacing_rate 2.07Mbps delivery_rate 1.42Mbps delivered:11203 busy:299278ms unacked:35 retrans:0/200 rcv_space:14480 rcv_ssthresh:42242 notsent:1316232 minrtt:61.354
