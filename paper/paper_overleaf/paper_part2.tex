@@ -43,7 +43,7 @@ baseline conditions. Both ECN approaches recorded 0 iperf3 retransmits.}
 % Fig. 2 — Reno CWND trace
 \begin{figure}[!t]
 \centering
-\includegraphics[width=\columnwidth]{cwnd_trace_reno.png}
+\includegraphics[width=\columnwidth]{cwnd_trace(Reno).png}
 \caption{TCP Reno CWND traces under three conditions (120\,s, 10\,Mbit/s, 30\,ms RTT). The proportional ECN approach maintains a higher sustained CWND ($\sim$6.0 segments) through 18 proactive ECN signals, while baseline shows frequent deep drops.}
 \label{fig:cwnd_reno}
 \end{figure}
@@ -51,7 +51,7 @@ baseline conditions. Both ECN approaches recorded 0 iperf3 retransmits.}
 % Fig. 3 — Reno throughput comparison
 \begin{figure}[!t]
 \centering
-\includegraphics[width=\columnwidth]{throughput_reno.png}
+\includegraphics[width=\columnwidth]{through(Reno).png}
 \caption{Throughput comparison for TCP Reno across Baseline, Binary ECN, and Proportional ECN conditions (120\,s, 10\,Mbit/s, 30\,ms RTT). The proportional approach achieves a 15.5\% improvement over baseline.}
 \label{fig:throughput_reno}
 \end{figure}
@@ -86,7 +86,7 @@ In the Cubic case, even the passive RED+ECN queue marking at the bottleneck is s
 % Fig. 4 — Cubic CWND trace
 \begin{figure}[!t]
 \centering
-\includegraphics[width=\columnwidth]{cwnd_trace_cubic.png}
+\includegraphics[width=\columnwidth]{cwnd_trace(cubic).png}
 \caption{TCP Cubic CWND traces under three conditions. Baseline shows large oscillations (12--13 segments with deep drops) causing 755 retransmissions. The proportional ECN approach achieves the smoothest trace ($\sigma=1.80$, 11.3\% stability improvement) with 2 targeted ECN signals.}
 \label{fig:cwnd_cubic}
 \end{figure}
