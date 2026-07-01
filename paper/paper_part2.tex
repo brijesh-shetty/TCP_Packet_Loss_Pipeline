@@ -3,11 +3,13 @@
 \label{sec:results}
 % -------------------------------------------------------------------
 
-We evaluate the proposed system over 120-second Mininet experiments under three conditions: (1)~\emph{Baseline}---standard TCP with \texttt{pfifo} queueing and no ECN; (2)~\emph{Binary ECN}---binary ECN toggle using an XGBoost model at threshold 0.83, following the approach of~\cite{welzl2024}; (3)~\emph{Proportional ECN}---our proportional RED threshold adjustment using LightGBM at threshold 0.56. Network conditions: 10\,Mbit/s bottleneck, 30\,ms RTT, 6 background flows. Both TCP Reno and TCP Cubic are evaluated as the foreground flow.
+We evaluate the proposed system over 120-second Mininet experiments under three conditions: (1)~\emph{Baseline}---standard TCP with \texttt{pfifo} queueing and no ECN; (2)~\emph{Binary ECN}---binary ECN toggle using an XGBoost model at threshold 0.83, following the approach of~\cite{welzl2024} (reimplemented under the same RED-based queue infrastructure so that observed differences are attributable to the model and threshold rather than the signalling mechanism); (3)~\emph{Proportional ECN}---our proportional RED threshold adjustment using LightGBM at threshold 0.56. Network conditions: 10\,Mbit/s bottleneck, 30\,ms RTT, 6 background flows. Both TCP Reno and TCP Cubic are evaluated as the foreground flow.
 
 \subsection{Model Classification Performance}
 
 Table~\ref{tab:models} summarizes classification performance across all trained models. LightGBM consistently outperforms all other classifiers on the combined 57,808-row dataset, achieving F1\,=\,0.9723, ROC-AUC\,=\,0.9965, and PR-AUC\,=\,0.9960. This strong performance is attributable to three design decisions: (i) the leak-free multi-signal labeling strategy producing a well-separated class boundary; (ii) 71 candidate features (45 retained after selection) providing rich temporal and relational context; and (iii) 7-fold TimeSeriesSplit with per-fold threshold calibration ensuring robust temporal generalization.
+
+This metric quantifies detection of the \emph{congestion state}---a balanced consensus label---rather than prediction of a specific future loss; on a forward-looking label that marks samples immediately preceding a loss event, a LightGBM model retains strong early-warning capability within a $\sim$40\,ms window. Furthermore, cross-CC evaluation---training on one congestion-control variant and testing on the other---yields F1\,$\approx$\,0.94 in both directions, providing direct evidence that the unified model generalizes across Reno and Cubic rather than memorizing per-algorithm behavior.
 
 \subsection{TCP Reno --- Mininet Experiment Results}
 
@@ -153,7 +155,7 @@ Three core findings emerge from the results. First, the labeling strategy is the
 \label{sec:conclusion}
 % -------------------------------------------------------------------
 
-This paper presented a proactive TCP congestion control system that combines real-time ML-based loss prediction with proportional RED queue management to prevent packet loss before it occurs. Three key contributions distinguish the work: a multi-signal consensus labeling strategy that eliminates data leakage and produces a naturally balanced training set; a single LightGBM model trained on combined Reno and Cubic data with 71 engineered features (45 retained after automated selection); and a proportional artificial ECN mechanism that adjusts RED thresholds continuously as a function of prediction confidence.
+This paper presented a proactive TCP congestion control system that combines real-time ML-based congestion detection with proportional RED queue management to prevent packet loss before it occurs. Three key contributions distinguish the work: a multi-signal consensus labeling strategy that eliminates data leakage and produces a naturally balanced training set; a single LightGBM model trained on combined Reno and Cubic data with 71 engineered features (45 retained after automated selection); and a proportional artificial ECN mechanism that adjusts RED thresholds continuously as a function of prediction confidence.
 
 Experimental results on Mininet demonstrate the effectiveness of the approach. For TCP Cubic, the system eliminates 100\% of retransmissions ($755 \rightarrow 0$) and achieves an 11.3\% improvement in CWND stability over the uncontrolled baseline. For TCP Reno, a 15.5\% throughput improvement is achieved by sustaining a higher average congestion window through proactive congestion signaling. In both cases, the proportional LightGBM mechanism outperforms the binary ECN approach, demonstrating the value of confidence-proportional queue management.
 
